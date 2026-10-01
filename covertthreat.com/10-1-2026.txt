@@ -1,0 +1,46 @@
+As per comment #11,
+
+For the dev site: https://covertthreat.smartwebsitedesign.com/
+
+We've updated the images as Design Team provided to all 12 pages on the dev site, from the drive link below:
+https://drive.google.com/drive/folders/1QOfxZIf-AGLmzvYUh8_uVJEacmhLO94D?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/ai-penetration-testing/
+Screenshot: https://drive.google.com/file/d/11_ON2LavOEjn4fIJzW5CiCaUIL_YxbGw/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/attack-path-simulation/
+Screenshot: https://drive.google.com/file/d/1IDCakWwf6hg9n5z5PW11zGwxClYXHSWx/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/compliance-mapping/
+Screenshot: https://drive.google.com/file/d/1R3ucAaSt0CePw_5OpRWn2X3-eBmngwEF/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/dark-web-breach-monitor/
+Screenshot: https://drive.google.com/file/d/1cPRmpkI1GoFMS4U2EyIJ5bXnLUvs6gdP/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/digital-forensics/
+Screenshot: https://drive.google.com/file/d/1LPeERSARBmWEVcIBb_2CB0rdH1jy609H/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/firewall-audits/
+Screenshot: https://drive.google.com/file/d/1blHCk6pyAjnmZ8igDmSUwhUklbSq9jMX/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/ransomware-simulation/
+Screenshot: https://drive.google.com/file/d/1pSpj5_65zihLP4KqUYc5YEanOcqwsp8P/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/remediation-planning/
+Screenshot: https://drive.google.com/file/d/1Xu_V39VrjMzPQ0EhnCgruDpOHEBvjhIC/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/table-top-exercise/
+Screenshot: https://drive.google.com/file/d/1g4WL6NiGhI4m3i78bzvWxJTu0IgTOmDO/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/typosquat/
+Screenshot: https://drive.google.com/file/d/15RPnnnOkPP77mE-rb5VhvkXsWMiBe2uH/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/vulnerability-management/
+Screenshot: https://drive.google.com/file/d/1izQSYE0AuKrNIox2KLNTmuDLW1cGIUQt/view?usp=sharing
+
+URL: https://covertthreat.smartwebsitedesign.com/vulnerability-scanning/
+Screenshot: https://drive.google.com/file/d/1R7eBmRI7F7Ra6dkf3eGm33aRkZUxGA8I/view?usp=sharing
+
+Please review and let us know if everything looks good, or if any changes are needed. Once approved, we'll push the pages live.
+
+Thanks!

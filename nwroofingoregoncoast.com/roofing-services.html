@@ -1,0 +1,1564 @@
+<style>
+  *#dm div.dmContent{
+  /* ---- colour ---- */
+  --ink: #1e2d3b;
+  --ink-deep: #212b3d;
+  --blue: #5772a3;
+  --white: #ffffff;
+  --text-muted: rgba(30, 45, 59, 0.8);
+  --text-muted-inverse: rgba(255, 255, 255, 0.8);
+  --line: rgba(30, 45, 59, 0.2);
+  --line-inverse: rgba(255, 255, 255, 0.2);
+  --chip-bg: rgba(30, 45, 59, 0.1);
+  --chip-bg-inverse: rgba(255, 255, 255, 0.1);
+  --surface-tint: rgba(87, 114, 163, 0.1);
+  --image-placeholder: #d9d9d9;
+  /* ---- radii ---- */
+  --radius-card: 16px;
+  --radius-chip: 34px;
+  --radius-pill: 56px;
+  --radius-badge: 78px;
+  /* ---- spacing ---- */
+  --container-max: 1312px;
+  --section-y: 100px;
+  --space-10: 10px;
+  --space-16: 16px;
+  --space-17: 17px;
+  --space-21: 21px;
+  --space-24: 24px;
+  --space-25: 25px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-60: 60px;
+  --space-80: 80px;
+  /* ---- type ---- */
+  --font-heading: "Garet", "Outfit", "Trebuchet MS", sans-serif;
+  --font-body: "Spartan", "League Spartan", "Helvetica Neue", Arial, sans-serif;
+  --fs-h2: clamp(28px, 2.5vw, 36px);        /* = 36px at 1440 */
+  --fs-h3: clamp(20px, 1.667vw, 24px);      /* = 24px at 1440 */
+  --fs-lead: clamp(19px, 1.667vw, 24px);    /* = 24px at 1440 */
+  --fs-display: clamp(26px, 2.44vw, 35px);  /* = 35px at 1440 */
+  --fs-body: 16px;
+  --fs-eyebrow: 14px;
+  --lh: 1.3;
+  --tracking-eyebrow: 2.1px;
+  /* ---- gradients ---- */
+  --grad-section-light: linear-gradient(180deg, rgba(30, 45, 59, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  --grad-section-deep: linear-gradient(153.9794deg, #212b3d 28.357%, #5772a3 124.65%);
+  --grad-section-deep-alt: linear-gradient(161.1004deg, #212b3d 28.357%, #5772a3 124.65%);
+  --grad-section-band: linear-gradient(180deg, #1e2d3b 0%, #5772a3 100%);
+  --grad-card-solid: linear-gradient(163.5351deg, #212b3d 28.357%, #5772a3 124.65%);
+  --grad-badge: linear-gradient(142.737deg, #5772a3 10.755%, rgba(87, 114, 163, 0.24) 101.15%);
+  --grad-button: linear-gradient(90deg, #5772a3 0%, #1e2d3b 100%);
+  --grad-panel-scrim: linear-gradient(180deg, rgba(30, 45, 59, 0) 32.125%, #1e2d3b 100%);
+  --grad-cta-scrim: linear-gradient(to left, rgba(30, 45, 59, 0) 0%, #1e2d3b 100%);
+  /* ---- elevation ---- */
+  --shadow-badge: 0 4px 16px rgba(30, 45, 59, 0.16);
+}
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent *,
+*#dm div.dmContent *::before,
+*#dm div.dmContent *::after{ box-sizing: border-box; }
+*#dm div.dmContent { -webkit-text-size-adjust: 100%; }
+*#dm div.dmContent {
+  margin: 0;
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh);
+  -webkit-font-smoothing: antialiased;
+}
+*#dm div.dmContent img { display: block; max-width: 100%; }
+*#dm div.dmContent a { color: inherit; text-decoration: none; }
+*#dm div.dmContent p { margin: 0; }
+*#dm div.dmContent h1,
+*#dm div.dmContent h2,
+*#dm div.dmContent h3,
+*#dm div.dmContent h4 { margin: 0; font-family: var(--font-heading); font-weight: 900; line-height: var(--lh); }
+*#dm div.dmContent ul { margin: 0; padding: 0; list-style: none; }
+*#dm div.dmContent button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+/* --------------------------------------------------------------------------
+   Section shells
+   -------------------------------------------------------------------------- */
+/* Duda centres the HTML widget's contents by default; our layout is
+   left-aligned, and individual blocks opt back into centre where the
+   design calls for it (see the --center modifiers below). */
+*#dm div.dmContent .section{
+  padding: var(--section-y) 0;
+  text-align: left;
+}
+/* Centers a section's content within the page's max content width instead of
+   relying on section padding to fake the inset — section backgrounds stay
+   full-bleed,
+*#dm div.dmContent the container handles horizontal centering. */
+*#dm div.dmContent .container{
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding-left: var(--space-16);
+  padding-right: var(--space-16);
+}
+*#dm div.dmContent .section--white,
+*#dm div.dmContent .section--light { background: var(--white); }
+*#dm div.dmContent .section--tinted {
+  background-color: var(--white);
+  background-image: var(--grad-section-light);
+}
+*#dm div.dmContent .section--deep { background-image: var(--grad-section-deep); }
+*#dm div.dmContent .section--deep-alt { background-image: var(--grad-section-deep-alt); }
+*#dm div.dmContent .section--gradient-band {
+  background-image: var(--grad-section-band);
+  border: 1px solid rgba(87, 114, 163, 0.1);
+}
+/* The lead paragraph sits 80px below the hero and 100px above the next block. */
+*#dm div.dmContent .section--intro{ padding-top: var(--space-80); }
+/* The CTA band butts straight against the section above it. */
+*#dm div.dmContent .section--flush{ padding: 0 0 var(--section-y); }
+/* Sections that stack a centred header above a grid. */
+*#dm div.dmContent .section--deep .container,
+*#dm div.dmContent .section--deep-alt .container,
+*#dm div.dmContent .section--white .container,
+*#dm div.dmContent .section--gradient-band .container{
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-40);
+}
+*#dm div.dmContent .section--gradient-band .container { gap: var(--space-24); }
+*#dm div.dmContent .section--gap-25 .container { gap: var(--space-25); }
+/* --------------------------------------------------------------------------
+   Shared building blocks
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .chip{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 12px var(--space-16);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-chip);
+  background: var(--chip-bg);
+  color: var(--ink);
+  font-size: var(--fs-eyebrow);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+}
+*#dm div.dmContent .chip--inverse {
+  background: var(--chip-bg-inverse);
+  border-color: var(--line-inverse);
+  color: var(--white);
+}
+/* Metal-roofing and Getting-started chips keep the dark border in the design. */
+*#dm div.dmContent .section--deep-alt .chip--inverse,
+*#dm div.dmContent .section--gradient-band .chip--inverse{ border-color: var(--line); }
+*#dm div.dmContent .section__title {
+  margin: 0;
+  max-width: var(--title-max, none);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: var(--fs-h2);
+  line-height: var(--lh);
+  color: var(--ink);
+}
+*#dm div.dmContent .section__title--inverse { color: var(--white); }
+/* Figma fixes a width on each heading text node; keeping it preserves the
+   intended line breaks at 1440px. */
+*#dm div.dmContent #inspection-title{ --title-max: 42.34375%; }
+*#dm div.dmContent #installation-title { --title-max: 44.84375%; }
+*#dm div.dmContent #metal-title { --title-max: 47.34375%; }
+*#dm div.dmContent #flat-title { --title-max: 60.15625%; }
+*#dm div.dmContent #repair-vs-replacement-title { --title-max: 92.741935%; }
+*#dm div.dmContent #approach-title { --title-max: 99.516129%; }
+*#dm div.dmContent #faq-title { --title-max: 76.415094%; }
+*#dm div.dmContent .section__head {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+*#dm div.dmContent .section__head--center {
+  align-items: center;
+  text-align: center;
+}
+*#dm div.dmContent .section__lead {
+  /* 16px head gap + 9px = the 25px gap Figma puts above this paragraph. */
+  margin: 9px 0 0;
+  max-width: 68.125%;
+  font-weight: 500;
+  color: var(--text-muted-inverse);
+}
+*#dm div.dmContent .prose {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+*#dm div.dmContent .prose__head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-16);
+}
+*#dm div.dmContent .prose__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-17);
+  color: var(--text-muted);
+}
+*#dm div.dmContent .prose__body p { margin: 0; }
+*#dm div.dmContent .inline-link {
+  color: var(--blue);
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+*#dm div.dmContent .inline-link:hover { color: var(--ink-deep); }
+/* Text link with trailing arrow glyph ("Learn more",
+*#dm div.dmContent "Explore …"). */
+*#dm div.dmContent .link-arrow{
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: var(--space-10);
+  border-radius: var(--radius-pill);
+  color: var(--white);
+  font-weight: 600;
+  line-height: var(--lh);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+*#dm div.dmContent .link-arrow:hover,
+*#dm div.dmContent .link-arrow:focus-visible { text-decoration: underline; opacity: 0.8; }
+*#dm div.dmContent .link-arrow__icon { display: block; transition: transform 0.2s ease; }
+*#dm div.dmContent .link-arrow:hover .link-arrow__icon,
+*#dm div.dmContent .link-arrow:focus-visible .link-arrow__icon { transform: translateX(3px); }
+/* Pill buttons rendered as links (all of these navigate). */
+*#dm div.dmContent .btn{
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-10);
+  padding: var(--space-16) var(--space-24);
+  border-radius: var(--radius-pill);
+  color: var(--white);
+  font-weight: 600;
+  line-height: var(--lh);
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, filter 0.2s ease;
+}
+*#dm div.dmContent .btn__icon { display: block; transition: transform 0.2s ease; }
+*#dm div.dmContent .btn:hover .btn__icon,
+*#dm div.dmContent .btn:focus-visible .btn__icon { transform: translateX(3px); }
+*#dm div.dmContent .btn--gradient {
+  background-image: var(--grad-button);
+  filter: drop-shadow(0 4px 12px rgba(30, 45, 59, 0.24));
+}
+*#dm div.dmContent .btn--gradient:hover { filter: brightness(1.1) drop-shadow(0 4px 12px rgba(30, 45, 59, 0.24)); }
+*#dm div.dmContent .btn--primary {
+  background: var(--blue);
+  border: 1px solid rgba(87, 114, 163, 0.1);
+  filter: drop-shadow(0 4px 4px rgba(30, 45, 59, 0.16));
+}
+*#dm div.dmContent .btn--primary:hover { background: var(--ink); }
+*#dm div.dmContent .btn--ghost { border: 1px solid var(--white); }
+/* The arrow icon is a flat white PNG-style SVG (stroke="white",
+*#dm div.dmContent not currentColor),
+*#dm div.dmContent so it needs an explicit filter to stay visible once the hover fill goes white. */
+*#dm div.dmContent .btn--ghost:hover{
+  background: var(--white);
+  color: var(--ink);
+}
+*#dm div.dmContent .btn--ghost:hover .btn__icon { filter: invert(1); }
+*#dm div.dmContent .btn:focus-visible,
+*#dm div.dmContent .link-arrow:focus-visible,
+*#dm div.dmContent .inline-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+/* --------------------------------------------------------------------------
+   1. Intro lead paragraph
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .intro__lead{
+  margin: 0 auto;
+  max-width: 79.296875%;
+  font-size: var(--fs-lead);
+  font-weight: 600;
+  line-height: var(--lh);
+  text-align: center;
+  color: var(--ink);
+}
+/* --------------------------------------------------------------------------
+   2. Service selection — image collage + copy
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .collage-split{
+  display: flex;
+  align-items: center;
+  column-gap: 4.6875%;
+  row-gap: var(--space-40);
+}
+*#dm div.dmContent .collage {
+  display: flex;
+  flex: 0 0 48.4375%;
+  gap: var(--space-16);
+}
+*#dm div.dmContent .collage__tall {
+  flex: 0 0 48.709677%;
+  margin: 0;
+  height: 550px;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background: var(--image-placeholder);
+}
+*#dm div.dmContent .collage__tall img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Figma crops this fill 6.42% to the left of centre at 127% scale. */
+  object-position: 44% center;
+}
+*#dm div.dmContent .collage__stack {
+  display: flex;
+  flex: 0 0 48.709677%;
+  flex-direction: column;
+  gap: var(--space-21);
+}
+*#dm div.dmContent .collage__photo {
+  margin: 0;
+  height: 391px;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background: var(--image-placeholder);
+}
+*#dm div.dmContent .collage__photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+*#dm div.dmContent .collage__card {
+  min-height: 136px;
+  padding: 35px var(--space-24);
+  border-radius: var(--radius-card);
+  background: var(--ink);
+}
+*#dm div.dmContent .collage__card-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: var(--fs-display);
+  line-height: var(--lh);
+  color: var(--white);
+}
+*#dm div.dmContent .collage__card-sub {
+  margin: 0;
+  color: var(--white);
+}
+*#dm div.dmContent .collage-split .prose { flex: 0 1 45%; }
+/* --------------------------------------------------------------------------
+   3,
+*#dm div.dmContent 4 & 6. Service card grids
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .card-grid{
+  display: grid;
+  gap: var(--space-24);
+}
+/* 3 cards across,
+*#dm div.dmContent then 2 — expressed on a 6-column track. */
+*#dm div.dmContent .card-grid--5{ grid-template-columns: repeat(6, 1fr); }
+*#dm div.dmContent .card-grid--5 > *:nth-child(-n + 3) {
+  grid-column: span 2;
+  --card-angle: 150.5558deg;
+  --badge-right: -19px;
+  --badge-bottom: -27px;
+}
+*#dm div.dmContent .card-grid--5 > *:nth-child(n + 4) {
+  grid-column: span 3;
+  --card-angle: 159.724deg;
+  --badge-right: -17px;
+  --badge-bottom: -27px;
+}
+*#dm div.dmContent .card-grid--4 {
+  grid-template-columns: repeat(2, 1fr);
+  --badge-right: -18px;
+  --badge-bottom: -18px;
+}
+*#dm div.dmContent .card-grid--gap-40 { row-gap: var(--space-40); }
+*#dm div.dmContent .card-grid--gap-25 { row-gap: var(--space-25); --badge-right: -19px; }
+*#dm div.dmContent .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-24);
+  padding: var(--space-32);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+*#dm div.dmContent .card--tinted {
+  min-height: 400px;
+  background-image: linear-gradient(var(--card-angle, 155deg), rgba(255, 255, 255, 0.1) 28.357%, rgba(87, 114, 163, 0.1) 124.65%);
+}
+*#dm div.dmContent .card--solid {
+  min-height: 320px;
+  background-image: var(--grad-card-solid);
+}
+*#dm div.dmContent .card__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+*#dm div.dmContent .card__title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: var(--fs-h3);
+  line-height: var(--lh);
+  color: var(--white);
+}
+*#dm div.dmContent .card__copy {
+  margin: 0;
+  color: var(--text-muted-inverse);
+}
+/* Circular accent that bleeds out of the bottom-right corner of every card. */
+*#dm div.dmContent .badge{
+  position: absolute;
+  right: var(--badge-right, -18px);
+  bottom: var(--badge-bottom, -18px);
+  width: 156px;
+  height: 156px;
+  border: 4px solid var(--blue);
+  border-radius: var(--radius-badge);
+  box-shadow: var(--shadow-badge);
+  overflow: hidden;
+}
+*#dm div.dmContent .badge--icon { background-image: var(--grad-badge); }
+*#dm div.dmContent .badge--photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-badge);
+  object-fit: cover;
+}
+*#dm div.dmContent .badge__icon {
+  position: absolute;
+  /* 44px from the badge's outer edge, minus its 4px border. */
+  left: 40px;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+/* Figma draws these traced icons through a vertical flip; keep their native size. */
+*#dm div.dmContent .badge__icon img{
+  display: block;
+  transform: scaleY(-1);
+}
+/* --------------------------------------------------------------------------
+   5. Metal roofing panels
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .panel-grid{
+  display: flex;
+  align-items: center;
+  gap: var(--space-24);
+}
+*#dm div.dmContent .panel {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--space-16);
+  padding: var(--space-32);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background-color: var(--image-placeholder);
+  background-image: var(--grad-panel-scrim), var(--panel-image);
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+}
+*#dm div.dmContent .panel--metal-roofs { --panel-image: url("https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/panel-metal-roofs-1920w.jpg"); }
+*#dm div.dmContent .panel--standing-seam { --panel-image: url("https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/panel-standing-seam-metal-roofing-1920w.jpg"); }
+*#dm div.dmContent .panel__title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: var(--fs-h3);
+  line-height: var(--lh);
+  color: var(--white);
+}
+*#dm div.dmContent .panel__copy {
+  margin: 0;
+  color: var(--text-muted-inverse);
+}
+/* --------------------------------------------------------------------------
+   7 & 9. Copy-beside-image blocks
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .media-split{
+  display: flex;
+  align-items: center;
+  column-gap: 6.25%;
+  row-gap: var(--space-40);
+}
+*#dm div.dmContent .media-split__text {
+  flex: 0 0 48.4375%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+*#dm div.dmContent .media-split__text .section__title { max-width: var(--title-max, none); }
+*#dm div.dmContent .media-split__media {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background: var(--image-placeholder);
+}
+*#dm div.dmContent .media-split__media--stretch { align-self: stretch; }
+*#dm div.dmContent .media-split__media--fixed { height: 500px; }
+*#dm div.dmContent .media-split__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* --------------------------------------------------------------------------
+   8. What to expect
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .centered-copy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-17);
+  text-align: center;
+}
+*#dm div.dmContent .centered-copy p {
+  margin: 0;
+  max-width: 65.46875%;
+  font-weight: 500;
+  color: var(--text-muted-inverse);
+}
+/* --------------------------------------------------------------------------
+   10. CTA band
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .cta-band{
+  display: flex;
+  align-items: center;
+  min-height: 432px;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background-color: var(--ink);
+  background-image: var(--grad-cta-scrim), url("https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/cta-bg-1920w.png");
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+}
+*#dm div.dmContent .cta-band__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-25);
+  width: 100%;
+  max-width: 60.078125%; /* 609px of content + 2 x 80px padding, at 1280 basis */
+  padding: var(--space-80);
+}
+*#dm div.dmContent .cta-band__copy {
+  margin: 0;
+  max-width: 47.578125%;
+  color: var(--white);
+}
+*#dm div.dmContent .cta-band__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-16);
+}
+/* --------------------------------------------------------------------------
+   11. FAQs
+   -------------------------------------------------------------------------- */
+*#dm div.dmContent .faq{
+  display: flex;
+  align-items: flex-start;
+  column-gap: 1.40625%;
+  row-gap: var(--space-32);
+}
+*#dm div.dmContent .faq__intro {
+  flex: 0 0 33.125%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-16);
+}
+*#dm div.dmContent .faq__list {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+*#dm div.dmContent .faq__item {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  background: var(--surface-tint);
+}
+*#dm div.dmContent .faq__question { margin: 0; }
+*#dm div.dmContent .faq__toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-16);
+  width: 100%;
+  padding: var(--space-32);
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: var(--fs-h3);
+  line-height: var(--lh);
+  text-align: left;
+  cursor: pointer;
+}
+*#dm div.dmContent .faq__toggle:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: -4px;
+  border-radius: var(--radius-card);
+}
+*#dm div.dmContent .faq__question-text { flex: 1 1 auto; }
+*#dm div.dmContent .faq__icon {
+  display: block;
+  flex: none;
+}
+*#dm div.dmContent .faq__toggle[aria-expanded="true"] .faq__icon--open { display: none; }
+*#dm div.dmContent .faq__toggle[aria-expanded="false"] .faq__icon--close { display: none; }
+*#dm div.dmContent .faq__panel { padding: 0 var(--space-32) var(--space-32); }
+*#dm div.dmContent .faq__answer {
+  margin: 0;
+  max-width: 100%;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+*#dm div.dmContent .faq__answer--placeholder {
+  font-style: italic;
+  opacity: 0.65;
+}
+/* --------------------------------------------------------------------------
+   Responsive — 1440px is the only width verified against Figma. Everything
+   below is inferred fluid behaviour.
+   -------------------------------------------------------------------------- */
+@media (max-width: 1180px){
+  *#dm div.dmContent .card-grid--5 { grid-template-columns: repeat(2, 1fr); }
+  *#dm div.dmContent .card-grid--5 > *:nth-child(-n + 3),
+  *#dm div.dmContent .card-grid--5 > *:nth-child(n + 4) { grid-column: auto; }
+  *#dm div.dmContent .collage-split,
+  *#dm div.dmContent .media-split {
+    flex-wrap: wrap;
+    gap: var(--space-40);
+  }
+  *#dm div.dmContent .collage,
+  *#dm div.dmContent .collage-split .prose,
+  *#dm div.dmContent .media-split__text {
+    flex: 1 1 100%;
+  }
+  *#dm div.dmContent .media-split__media {
+    flex: 1 1 100%;
+    height: clamp(280px, 40vw, 500px);
+  }
+  *#dm div.dmContent .media-split__media--stretch { align-self: auto; }
+  *#dm div.dmContent .collage { max-width: 620px; }
+}
+@media (max-width: 900px) {
+  *#dm div.dmContent {
+    --section-y: 64px;
+    --space-80: 48px;
+    --space-60: 40px;
+  }
+  *#dm div.dmContent .card-grid--4 { grid-template-columns: 1fr; }
+  *#dm div.dmContent .panel-grid { flex-wrap: wrap; }
+  *#dm div.dmContent .panel { flex: 1 1 100%; }
+  *#dm div.dmContent .faq { flex-wrap: wrap; gap: var(--space-32); }
+  *#dm div.dmContent .faq__intro,
+  *#dm div.dmContent .faq__list { flex: 1 1 100%; }
+  *#dm div.dmContent .cta-band__content { padding: var(--space-40); }
+  *#dm div.dmContent .cta-band { min-height: 0; }
+}
+@media (max-width: 640px) {
+  *#dm div.dmContent {
+    --section-y: 48px;
+    --space-32: 24px;
+  }
+  *#dm div.dmContent .card-grid--5 { grid-template-columns: 1fr; }
+  *#dm div.dmContent .collage { flex-wrap: wrap; }
+  *#dm div.dmContent .collage__tall,
+  *#dm div.dmContent .collage__stack { flex: 1 1 100%; }
+  *#dm div.dmContent .collage__tall { height: clamp(260px, 70vw, 550px); }
+  *#dm div.dmContent .collage__photo { height: clamp(220px, 55vw, 391px); }
+  *#dm div.dmContent .badge {
+    width: 120px;
+    height: 120px;
+    right: -14px;
+    bottom: -14px;
+  }
+  *#dm div.dmContent .badge__icon {
+    left: 26px;
+    top: 26px;
+  }
+  *#dm div.dmContent .cta-band__content { padding: var(--space-32); }
+}
+/* ==========================================================================
+   Hero  (Figma 7764:785 background, 7764:786 content, 7764:1123 breadcrumb)
+   ========================================================================== */
+*#dm div.dmContent .hero{ position: relative; display: flex; min-height: 800px; overflow: hidden; }
+/* hero-align: Duda centres widget content by default; the hero is left-aligned. */
+*#dm div.dmContent .hero,
+*#dm div.dmContent .hero h1,
+*#dm div.dmContent .hero p,
+*#dm div.dmContent .hero nav{ text-align: left; }
+*#dm div.dmContent .hero .crumbs{ justify-content: flex-start; }
+*#dm div.dmContent .hero__bg{ position: absolute; inset: 0; }
+*#dm div.dmContent .hero__bg img{ display: block; width: 100%; height: 100%; object-fit: cover; }
+/* Rectangle 9's scrim: solid ink to 35%, fading to transparent on the right. */
+*#dm div.dmContent .hero__bg::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, var(--ink) 0%, var(--ink) 35%, rgba(30, 45, 59, 0) 100%);
+}
+/* Content starts at y=232 (below the overlaid site header); the breadcrumb
+   sits 50px above the hero's bottom edge (7764:1123 at y=726, 24px tall). */
+*#dm div.dmContent .hero__inner{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 232px 0 50px;
+}
+*#dm div.dmContent .hero__content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-32);
+  max-width: 645px;
+}
+*#dm div.dmContent .hero__heading{ display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+*#dm div.dmContent .hero__intro{ display: flex; flex-direction: column; gap: var(--space-16); }
+*#dm div.dmContent .hero__title{ font-size: 64px; font-weight: 900; color: var(--white); }
+*#dm div.dmContent .hero__title-grad{
+  background: linear-gradient(90deg, var(--white) 0%, var(--blue) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+*#dm div.dmContent .hero__text{ margin: 0; max-width: 638px; font-size: var(--fs-body); line-height: var(--lh); color: var(--white); }
+/* The breadcrumb gets its own layer above the ::after scrim. */
+/* This page has no shared button-row, so the hero adds it. */
+*#dm div.dmContent .button-row{ display: flex; flex-wrap: wrap; gap: var(--space-16); }
+*#dm div.dmContent .hero__foot{ position: relative; z-index: 3; margin-top: auto; padding-top: 50px; }
+/* Breadcrumb */
+*#dm div.dmContent .crumbs{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+*#dm div.dmContent .crumbs a,
+*#dm div.dmContent .crumbs span{ font-size: var(--fs-body); font-weight: 600; line-height: var(--lh); white-space: nowrap; }
+*#dm div.dmContent .crumbs img{ flex: none; width: 24px; height: 24px; }
+*#dm div.dmContent .crumbs a{
+  background: linear-gradient(90deg, rgba(30, 45, 59, 0.2) 0%, var(--blue) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+*#dm div.dmContent .crumbs span{ color: var(--white); }
+@media (max-width: 900px){
+  *#dm div.dmContent .hero__title{ font-size: 44px; }
+  *#dm div.dmContent .hero__inner{ padding-top: 200px; }
+}
+@media (max-width: 640px){
+  *#dm div.dmContent .hero{ min-height: 0; }
+  *#dm div.dmContent .hero__title{ font-size: 34px; }
+  *#dm div.dmContent .hero__inner{ padding: 170px 0 40px; }
+  *#dm div.dmContent .hero__foot{ padding-top: 40px; }
+  /* Text spans the full width on phones, so the scrim runs top-to-bottom. */
+  *#dm div.dmContent .hero__bg::after{ background: linear-gradient(180deg, rgba(30, 45, 59, 0.92) 0%, rgba(30, 45, 59, 0.78) 55%, rgba(30, 45, 59, 0.62) 100%); }
+}
+/* ============================================================
+   Duda container reset (widget row u_1243667655)
+   ============================================================ */
+body *#dm *.dmBody div.u_1243667655 {
+    padding: 0 !important;
+}
+body *#dm *.dmBody div.u_1243667655 .dmRespColsWrapper {
+    max-width: 100%;
+    padding: 0;
+}
+body *#dm *.dmBody div.u_1243667655 .dmRespColsWrapper .dmRespCol {
+    padding: 0;
+}
+ </style>
+ <!-- Scope note: this file is the page body plus the hero. The site header
+     and footer are excluded. -->
+ <!-- ============================================================
+     0. Hero  (Figma 7764:785 / 7764:786 / 7764:1123)
+     ============================================================ -->
+<div id="dm">
+<div class="dmContent">
+ <section class="hero">
+  <div class="hero__bg">
+   <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/roofing-services-hero.png" alt="Roofer in a safety harness fastening mounting rails to a tiled roof with a power drill">
+  </div>
+  <div class="hero__inner">
+   <div class="container">
+    <div class="hero__content">
+     <div class="hero__intro">
+      <div class="hero__heading">
+       <p class="chip chip--inverse">
+        Roofing services
+       </p>
+       <h1 class="hero__title">
+        Roofing Services
+        <br>
+        in
+        <span class="hero__title-grad">
+         Newport, OR
+        </span>
+       </h1>
+      </div>
+      <p class="hero__text">
+       Every roof has its own history, condition, and service needs. Some homeowners are dealing with an active leak, while others are planning a roof replacement or considering a different roofing system. The right solution depends on factors such as the roof’s age, material, installation quality, and overall condition rather than a single visible problem.
+      </p>
+     </div>
+     <div class="button-row">
+      <a class="btn btn--gradient" href="#">
+       Request a quote
+       <img class="btn__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="" width="24" height="24">
+      </a>
+      <a class="btn btn--ghost" href="#">
+       Contact us
+       <img class="btn__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="" width="24" height="24">
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     1. Intro / lead paragraph  (Figma 7764:1129)
+     ============================================================ -->
+ <section class="section section--light section--intro">
+  <div class="container">
+   <p class="intro__lead">
+    Our roofing services in Newport, OR begin with understanding your roof before recommending the next step. We evaluate the roofing system, explain what we find, and discuss the services that best fit your home’s needs, helping you move forward with confidence instead of uncertainty.
+   </p>
+  </div>
+  <div class="hero__foot">
+   <div class="container">
+    <nav class="crumbs" aria-label="Breadcrumb">
+     <a href="index.html">
+      Homepage
+     </a>
+     <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-home-roof.svg" alt="">
+     <span aria-current="page">
+      Roofing Services
+     </span>
+    </nav>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     2. Service selection  (Figma 7764:851 "Frame 50")
+     ============================================================ -->
+ <section class="section section--tinted" aria-labelledby="service-selection-title">
+  <div class="container">
+   <div class="collage-split">
+    <div class="collage">
+     <figure class="collage__tall">
+      <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/collage-skylight-work-1920w.jpg" alt="Roofer kneeling beside a skylight while working on a residential roof">
+     </figure>
+     <div class="collage__stack">
+      <figure class="collage__photo">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/collage-solar-roof-install-1920w.jpg" alt="Roofing technician fastening panels along the slope of a roof">
+      </figure>
+      <div class="collage__card">
+       <p class="collage__card-title">
+        Personalized
+       </p>
+       <p class="collage__card-sub">
+        Roofing Solutions
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="prose">
+     <div class="prose__head">
+      <p class="chip">
+       Service Selection
+      </p>
+      <h2 class="section__title" id="service-selection-title">
+       Choose the Right Roofing Service for Your Home
+      </h2>
+     </div>
+     <div class="prose__body">
+      <p>
+       Roofing concerns can appear in different ways, and the appropriate service depends on what we find during an onsite evaluation. You may have a roof leak, aging or missing shingles, questions about ongoing maintenance, or uncertainty about whether repair or replacement makes more sense. Some homeowners are also interested in installing a different roofing system as part of a larger project.
+      </p>
+      <p>
+       Rather than recommending the same solution for every property, we inspect the overall roofing system and explain the available options based on its condition. This approach helps you understand whether maintenance, repair, installation, or replacement is the most appropriate next step for your home.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     3. Inspection & maintenance  (Figma 7764:1169 "Frame 15")
+     ============================================================ -->
+ <section class="section section--deep" aria-labelledby="inspection-title">
+  <div class="container">
+   <header class="section__head section__head--center">
+    <p class="chip chip--inverse">
+     Inspection &amp; Maintenance
+    </p>
+    <h2 class="section__title section__title--inverse" id="inspection-title">
+     Roof Inspection, Repair, and Maintenance
+    </h2>
+   </header>
+   <div class="card-grid card-grid--5">
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Roof Inspection
+      </h3>
+      <p class="card__copy">
+       A roof inspection gives us the opportunity to evaluate the overall condition of your roofing system and discuss any visible concerns. After the evaluation, we explain what we find and help determine whether maintenance, repair, installation, or replacement should be considered for your home.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-roof-inspection.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Roofing Repairs
+      </h3>
+      <p class="card__copy">
+       Roof leaks, missing shingles, and aging roofing materials do not always require replacement. If the roofing system remains reasonably maintainable, repairs may be an appropriate solution after our evaluation. We inspect the roof, explain the observed condition, and recommend work that reflects your home’s actual needs. Learn more about our roofing repair services.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-roofing-repairs.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Emergency Roof Repair
+      </h3>
+      <p class="card__copy">
+       Sudden roof damage or active leaks sometimes require prompt professional attention. We evaluate the situation, explain the condition of the roof, and discuss the appropriate next steps based on what we observe. Learn more about our emergency roof repair services.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-emergency-roof-repair.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Roofing Maintenance
+      </h3>
+      <p class="card__copy">
+       Routine roofing maintenance helps monitor roofs that remain serviceable and addresses smaller concerns before larger projects are considered. During maintenance visits, we evaluate the roof’s condition and discuss any observations that may require future attention. Learn more about our roofing maintenance services.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-roofing-maintenance.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Related Maintenance: Gutter Cleaning
+      </h3>
+      <p class="card__copy">
+       Keeping gutters clear can help support proper roof drainage by allowing water to move away from the roofing system more effectively. Gutter cleaning may be discussed as part of ongoing exterior maintenance when appropriate.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-gutter-cleaning.svg" alt="">
+      </span>
+     </span>
+    </article>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     4. Roof installation & replacement  (Figma 7764:1248 "Frame 68")
+     ============================================================ -->
+ <section class="section section--white" aria-labelledby="installation-title">
+  <div class="container">
+   <header class="section__head section__head--center">
+    <p class="chip">
+     Roof Installation
+    </p>
+    <h2 class="section__title" id="installation-title">
+     Residential Roof Installation and Replacement
+    </h2>
+   </header>
+   <div class="card-grid card-grid--4 card-grid--gap-40">
+    <article class="card card--solid">
+     <div class="card__text">
+      <h3 class="card__title">
+       Roofing Installation
+      </h3>
+      <p class="card__copy">
+       When a substantial roofing project is planned, we begin by evaluating the property and discussing the goals for the new roofing system. After reviewing the available options, we prepare a project-specific estimate that reflects the home’s needs. Learn more about our roofing installation services.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--photo">
+      <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/card-roofing-installation-1920w.jpg" alt="Roofer in safety gear laying shingles on a sloped roof">
+     </span>
+    </article>
+    <article class="card card--solid">
+     <div class="card__text">
+      <h3 class="card__title">
+       Asphalt Roof Replacement
+      </h3>
+      <p class="card__copy">
+       If repeated roofing problems, the overall condition of the roof, or previous installation concerns make continued repairs less practical, asphalt roof replacement may be discussed. Every recommendation begins with an onsite evaluation rather than assumptions based on roof age alone.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--photo">
+      <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/card-asphalt-roof-replacement-1920w.jpg" alt="Roofing crew member working beside a service vehicle on a job site">
+     </span>
+    </article>
+    <article class="card card--solid">
+     <div class="card__text">
+      <h3 class="card__title">
+       Asphalt Roof Installation
+      </h3>
+      <p class="card__copy">
+       We install complete asphalt roofing systems for homeowners planning a new roof installation. During the planning process, we discuss material selections, review the project requirements, and explain what to expect before installation begins. Learn more about our asphalt roof installation services.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--photo">
+      <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/card-asphalt-roof-installation-1920w.jpg" alt="Roofer climbing a ladder onto a tiled residential roof">
+     </span>
+    </article>
+    <article class="card card--solid">
+     <div class="card__text">
+      <h3 class="card__title">
+       Shingle Roofing
+      </h3>
+      <p class="card__copy">
+       Shingle roofing remains a common residential roofing category that may involve repair, installation, or replacement depending on the condition of the existing roof. During our evaluation, we explain which service best fits your home’s roofing system and long-term needs.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--photo">
+      <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/card-shingle-roofing-1920w.jpg" alt="Roofers working on a shingle roof of a home surrounded by trees">
+     </span>
+    </article>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     5. Metal roofing options  (Figma 7764:1343 "Frame 49")
+     ============================================================ -->
+ <section class="section section--deep" aria-labelledby="inspection-title">
+  <div class="container">
+   <header class="section__head section__head--center">
+    <p class="chip chip--inverse">
+     Inspection &amp; Maintenance
+    </p>
+    <h2 class="section__title section__title--inverse" id="1886006551">
+     Roof Inspection, Repair, and Maintenance
+    </h2>
+   </header>
+   <div class="card-grid card-grid--5">
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Roof Inspection
+      </h3>
+      <p class="card__copy">
+       A roof inspection gives us the opportunity to evaluate the overall condition of your roofing system and discuss any visible concerns. After the evaluation, we explain what we find and help determine whether maintenance, repair, installation, or replacement should be considered for your home.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-roof-inspection.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Roofing Repairs
+      </h3>
+      <p class="card__copy">
+       Roof leaks, missing shingles, and aging roofing materials do not always require replacement. If the roofing system remains reasonably maintainable, repairs may be an appropriate solution after our evaluation. We inspect the roof, explain the observed condition, and recommend work that reflects your home’s actual needs. Learn more about our roofing repair services.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-roofing-repairs.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Emergency Roof Repair
+      </h3>
+      <p class="card__copy">
+       Sudden roof damage or active leaks sometimes require prompt professional attention. We evaluate the situation, explain the condition of the roof, and discuss the appropriate next steps based on what we observe. Learn more about our emergency roof repair services.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-emergency-roof-repair.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Roofing Maintenance
+      </h3>
+      <p class="card__copy">
+       Routine roofing maintenance helps monitor roofs that remain serviceable and addresses smaller concerns before larger projects are considered. During maintenance visits, we evaluate the roof’s condition and discuss any observations that may require future attention. Learn more about our roofing maintenance services.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-roofing-maintenance.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--tinted">
+     <div class="card__text">
+      <h3 class="card__title">
+       Related Maintenance: Gutter Cleaning
+      </h3>
+      <p class="card__copy">
+       Keeping gutters clear can help support proper roof drainage by allowing water to move away from the roofing system more effectively. Gutter cleaning may be discussed as part of ongoing exterior maintenance when appropriate.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-gutter-cleaning.svg" alt="">
+      </span>
+     </span>
+    </article>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     6. Flat & membrane roofing  (Figma 7764:1394 "Frame 70")
+     ============================================================ -->
+ <section class="section section--white section--gap-25" aria-labelledby="flat-title">
+  <div class="container">
+   <header class="section__head section__head--center">
+    <p class="chip">
+     Flat &amp; Membrane Roofing
+    </p>
+    <h2 class="section__title" id="flat-title">
+     Flat and Membrane Roofing Services
+    </h2>
+   </header>
+   <div class="card-grid card-grid--4 card-grid--gap-25">
+    <article class="card card--solid">
+     <div class="card__text">
+      <h3 class="card__title">
+       Flat Roof Repair
+      </h3>
+      <p class="card__copy">
+       When a flat roof develops localized or manageable concerns, repair may be an appropriate solution following an onsite evaluation. We inspect the roofing system, explain what we find, and discuss the available options based on the roof’s overall condition before recommending any work.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-flat-roof-repair.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--solid">
+     <div class="card__text">
+      <h3 class="card__title">
+       Flat Roof Replacement
+      </h3>
+      <p class="card__copy">
+       If repeated roofing problems, overall deterioration, or previous installation concerns make continued repairs less suitable, flat roof replacement may be discussed. Every recommendation is based on the condition of the roofing system rather than assumptions or predetermined solutions.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-flat-roof-replacement.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--solid">
+     <div class="card__text">
+      <h3 class="card__title">
+       PVC Roofing
+      </h3>
+      <p class="card__copy">
+       PVC roofing is one membrane roofing system we install for properties where it is appropriate. During the planning process, we discuss available roofing systems and explain which options best match the property’s requirements.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-pvc-roofing.svg" alt="">
+      </span>
+     </span>
+    </article>
+    <article class="card card--solid">
+     <div class="card__text">
+      <h3 class="card__title">
+       TPO Roofing
+      </h3>
+      <p class="card__copy">
+       TPO roofing is another membrane roofing option available for qualifying projects. We evaluate your roofing system and discuss material options that align with your property’s needs before preparing a project-specific recommendation.
+      </p>
+     </div>
+     <a class="link-arrow" href="#">
+      Learn more
+      <img class="link-arrow__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+     <span class="badge badge--icon" aria-hidden="true">
+      <span class="badge__icon">
+       <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-tpo-roofing.svg" alt="">
+      </span>
+     </span>
+    </article>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     7. Repair vs. replacement  (Figma 7764:1431 "Frame 71")
+     ============================================================ -->
+ <section class="section section--tinted" aria-labelledby="repair-vs-replacement-title">
+  <div class="container">
+   <div class="media-split">
+    <div class="media-split__text">
+     <div class="prose__head">
+      <p class="chip">
+       Repair vs. Replacement
+      </p>
+      <h2 class="section__title" id="repair-vs-replacement-title">
+       How Repair or Replacement Recommendations Are Made
+      </h2>
+     </div>
+     <div class="prose__body">
+      <p>
+       Every roofing recommendation begins with an onsite evaluation. We inspect the overall roofing system, discuss the condition of the roof, and explain the available options before recommending any work. If the roof remains reasonably maintainable, repairs may be an appropriate solution. When the roof’s overall condition, repeated roofing problems, previous installation issues, or age make continued repairs less suitable, replacement may be discussed instead.
+      </p>
+      <p>
+       Our goal is to help you understand your options so you can choose the roofing service that best fits your home’s needs. Recommendations are always based on what we observe during the inspection rather than a predetermined outcome.
+      </p>
+      <p>
+       Learn more about our
+       <a class="inline-link" href="#">
+        roofing repair services
+       </a>
+       if you are experiencing localized roofing concerns.
+      </p>
+     </div>
+     <a class="btn btn--gradient" href="#">
+      See Installation Process
+      <img class="btn__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+    </div>
+    <figure class="media-split__media media-split__media--stretch">
+     <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/repair-vs-replacement-1920w.jpg" alt="Roofer securing mounting rails across a metal roof on a hillside home">
+    </figure>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     8. What to expect  (Figma 7764:1458 "Frame 41")
+     ============================================================ -->
+ <section class="section section--gradient-band" aria-labelledby="what-to-expect-title">
+  <div class="container">
+   <header class="section__head section__head--center">
+    <p class="chip chip--inverse">
+     Getting Started
+    </p>
+    <h2 class="section__title section__title--inverse" id="what-to-expect-title">
+     What to Expect When You Contact Us
+    </h2>
+   </header>
+   <div class="centered-copy">
+    <p>
+     Getting started begins with a phone call or contact form submission. After learning more about your roofing concerns, we follow up to gather information about your project and schedule an onsite evaluation when appropriate. During the visit, we inspect the roof, take photographs and measurements, and discuss the observed condition with you.
+    </p>
+    <p>
+     After completing the evaluation, we prepare and email a project-specific estimate for your review. Once the proposed work is approved, we discuss the next steps, including color selections when applicable and the agreed payment process before scheduling the roofing work.
+    </p>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     9. Our approach  (Figma 7764:1475 "Frame 72")
+     ============================================================ -->
+ <section class="section section--tinted" aria-labelledby="approach-title">
+  <div class="container">
+   <div class="media-split">
+    <figure class="media-split__media media-split__media--fixed">
+     <img src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/opt/roofing-approach-aerial-1920w.jpg" alt="Aerial view of a roof mid-replacement with new decking exposed beside existing shingles">
+    </figure>
+    <div class="media-split__text">
+     <div class="prose__head">
+      <p class="chip">
+       Our Approach
+      </p>
+      <h2 class="section__title" id="approach-title">
+       A Clear and Careful Residential Roofing Approach
+      </h2>
+     </div>
+     <div class="prose__body">
+      <p>
+       Every roofing project begins with a thorough evaluation and an honest conversation about your home’s needs. We explain the available options clearly, complete each project with attention to detail, and maintain organized jobsites throughout the installation or repair process.
+      </p>
+      <p>
+       Our team continues to build its knowledge through ongoing training while following established fall protection and safety practices on every project. We also use quality roofing materials selected for the property’s needs and local conditions, allowing us to complete roofing work with consistency and care from beginning to end.
+      </p>
+     </div>
+     <a class="btn btn--gradient" href="#">
+      See Installation Process
+      <img class="btn__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+     </a>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     10. CTA band  (Figma 7764:1003 background + 7764:1004 content)
+     ============================================================ -->
+ <section class="section section--flush" aria-labelledby="cta-title">
+  <div class="container">
+   <div class="cta-band">
+    <div class="cta-band__content">
+     <div class="prose__head">
+      <p class="chip chip--inverse">
+       Get in Touch
+      </p>
+      <h2 class="section__title section__title--inverse" id="cta-title">
+       Discuss Your Roofing Needs
+      </h2>
+     </div>
+     <p class="cta-band__copy">
+      If you have questions about your roof, you do not need to determine the appropriate service before contacting us. Call us, submit our contact form, or explore one of our service pages to learn more.
+     </p>
+     <div class="cta-band__actions">
+      <a class="btn btn--primary" href="#">
+       Request a quote
+       <img class="btn__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+      </a>
+      <a class="btn btn--ghost" href="#">
+       Contact us
+       <img class="btn__icon" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/arrow-right.svg" alt="">
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- ============================================================
+     11. FAQs  (Figma 7764:965 "Frame 51")
+     ============================================================ -->
+ <section class="section section--white" aria-labelledby="faq-title">
+  <div class="container">
+   <div class="faq">
+    <div class="faq__intro">
+     <p class="chip">
+      FAQ’s
+     </p>
+     <h2 class="section__title" id="faq-title">
+      Roofing Services FAQs
+     </h2>
+    </div>
+    <div class="faq__list">
+     <div class="faq__item">
+      <h3 class="faq__question">
+       <button class="faq__toggle" type="button" id="faq-1-toggle" aria-expanded="true" aria-controls="faq-1-panel">
+        <span class="faq__question-text">
+         How do I know which roofing service my home needs?
+        </span>
+        <img class="faq__icon faq__icon--open" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-plus.svg" alt="" aria-hidden="true">
+        <img class="faq__icon faq__icon--close" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-close-filled.svg" alt="" aria-hidden="true">
+       </button>
+      </h3>
+      <div class="faq__panel" id="faq-1-panel" role="region" aria-labelledby="faq-1-toggle">
+       <p class="faq__answer">
+        The right service depends on your roof’s condition, material, age, repair history, installation quality, and the concerns identified during an onsite evaluation.
+       </p>
+      </div>
+     </div>
+     <div class="faq__item">
+      <h3 class="faq__question">
+       <button class="faq__toggle" type="button" id="faq-2-toggle" aria-expanded="false" aria-controls="faq-2-panel">
+        <span class="faq__question-text">
+         Can a roof leak or missing shingles be repaired, or will the roof need replacement?
+        </span>
+        <img class="faq__icon faq__icon--open" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-plus.svg" alt="" aria-hidden="true">
+        <img class="faq__icon faq__icon--close" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-close-filled.svg" alt="" aria-hidden="true">
+       </button>
+      </h3>
+      <!-- Answer copy for rows 2-5 is not present in the Figma design (these rows are drawn collapsed). Replace the placeholder below with the real answer. -->
+      <div class="faq__panel" id="faq-2-panel" role="region" aria-labelledby="faq-2-toggle" hidden="">
+       <p class="faq__answer faq__answer--placeholder">
+        Answer copy not supplied in the Figma design — add it here.
+       </p>
+      </div>
+     </div>
+     <div class="faq__item">
+      <h3 class="faq__question">
+       <button class="faq__toggle" type="button" id="faq-3-toggle" aria-expanded="false" aria-controls="faq-3-panel">
+        <span class="faq__question-text">
+         Do you provide both roof repair and roof replacement services?
+        </span>
+        <img class="faq__icon faq__icon--open" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-plus.svg" alt="" aria-hidden="true">
+        <img class="faq__icon faq__icon--close" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-close-filled.svg" alt="" aria-hidden="true">
+       </button>
+      </h3>
+      <div class="faq__panel" id="faq-3-panel" role="region" aria-labelledby="faq-3-toggle" hidden="">
+       <p class="faq__answer faq__answer--placeholder">
+        Answer copy not supplied in the Figma design — add it here.
+       </p>
+      </div>
+     </div>
+     <div class="faq__item">
+      <h3 class="faq__question">
+       <button class="faq__toggle" type="button" id="faq-4-toggle" aria-expanded="false" aria-controls="faq-4-panel">
+        <span class="faq__question-text">
+         What happens after I contact Northwest Roofing about a roofing project?
+        </span>
+        <img class="faq__icon faq__icon--open" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-plus.svg" alt="" aria-hidden="true">
+        <img class="faq__icon faq__icon--close" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-close-filled.svg" alt="" aria-hidden="true">
+       </button>
+      </h3>
+      <div class="faq__panel" id="faq-4-panel" role="region" aria-labelledby="faq-4-toggle" hidden="">
+       <p class="faq__answer faq__answer--placeholder">
+        Answer copy not supplied in the Figma design — add it here.
+       </p>
+      </div>
+     </div>
+     <div class="faq__item">
+      <h3 class="faq__question">
+       <button class="faq__toggle" type="button" id="faq-5-toggle" aria-expanded="false" aria-controls="faq-5-panel">
+        <span class="faq__question-text">
+         Do I need to know which roofing service to request before contacting the company?
+        </span>
+        <img class="faq__icon faq__icon--open" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-plus.svg" alt="" aria-hidden="true">
+        <img class="faq__icon faq__icon--close" src="https://irp.cdn-website.com/fc45f923/dms3rep/multi/icon-close-filled.svg" alt="" aria-hidden="true">
+       </button>
+      </h3>
+      <div class="faq__panel" id="faq-5-panel" role="region" aria-labelledby="faq-5-toggle" hidden="">
+       <p class="faq__answer faq__answer--placeholder">
+        Answer copy not supplied in the Figma design — add it here.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ </div>
+ </div>
+ <script>
+  // FAQ disclosure widgets: the Figma design shows row 1 expanded (x icon)
+  // and rows 2-5 collapsed (+ icon), so each row is a real expand/collapse control.
+  document.querySelectorAll('.faq__toggle').forEach(function (toggle) {
+    toggle.addEventListener('click', function () {
+      var expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      document.getElementById(toggle.getAttribute('aria-controls')).hidden = expanded;
+    });
+  });
+ </script>
