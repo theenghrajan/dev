@@ -1,0 +1,17 @@
+{% comment %}
+Task : 001-adding validation popup
+tech_confirm_box  -1/5- html for that popup on product page 
+snippet product_buy_botton -2/5-duplicate below button to handle popup event-28072022
+theme.liquid -3/5- calling snippet to handle popup on product page 
+custom.js -4/5 js code to control popup event if key field is empty - adding cdn for jquery in theme.liquid
+theme.css-5/5- styling for product page popup if serial key empty
+
+{% endcomment %}
+
+{% if template == 'product' %}
+<div class="confirm-box disabled">
+  <p>Please confirm that you want to leave the key number space blank?</p>
+  <a class="key_number_empty" title="Yes">Yes</a>
+  <a class="key_number_fill" title="No">No</a>
+</div>
+{% endif  %}

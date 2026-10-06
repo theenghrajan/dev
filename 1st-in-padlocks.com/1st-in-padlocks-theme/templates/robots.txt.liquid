@@ -1,0 +1,43 @@
+# we use Shopify as our ecommerce platform
+{%- comment -%}
+  # Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
+{%- endcomment -%}
+{% for group in robots.default_groups %}
+  {{- group.user_agent -}}
+
+  {% for rule in group.rules %}
+    {{- rule -}}
+  {% endfor %}
+
+  {%- if group.user_agent.value == '*' -%}
+    {{ 'Disallow: /*?pr_prod_strat=*' }}
+  {%- endif -%}
+
+  {%- if group.user_agent.value == 'Googlebot' -%}
+    {{ 'Allow: /' }}
+  {%- endif -%}
+
+  {%- if group.user_agent.value == 'Googlebot-Image' -%}
+    {{ 'Allow: /' }}
+  {%- endif -%}
+
+  {%- comment -%}
+Added by SS FED
+{% endcomment %}
+
+  {%- if group.user_agent.value == '*' -%}
+    {{ 'Disallow: /*.atom' }}
+  {%- endif -%}
+
+  {%- if group.user_agent.value == '*' -%}
+    {{ 'Disallow: /*.webp' }}
+  {%- endif -%}
+
+  {%- if group.user_agent.value == '*' -%}
+    {{ 'Disallow: /agents.md' }}
+  {%- endif -%}
+
+  {%- if group.sitemap != blank -%}
+    {{ group.sitemap }}
+  {%- endif -%}
+{% endfor %}

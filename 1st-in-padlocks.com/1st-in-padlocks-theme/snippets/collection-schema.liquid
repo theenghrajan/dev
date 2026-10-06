@@ -1,0 +1,42 @@
+{%- liquid
+  assign offset = page_offset | default: 0
+  if collection.description != blank
+    assign desc = collection.description | strip_html | strip_newlines | truncate: 300
+  else
+    assign desc = page_description
+  endif
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": {{ shop.url | append: collection.url | append: '#collection' | json }},
+  "url": {{ canonical_url | json }},
+  "name": {{ collection.title | json }},
+  "description": {{ desc | json }},
+  {%- if collection.image -%}
+  "image": {{ collection.image | image_url: width: 1200 | prepend: 'https:' | json }},
+  {%- endif -%}
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": {{ shop.url | append: '/#website' | json }},
+    "name": {{ shop.name | json }},
+    "url": {{ shop.url | json }}
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ collection.products_count }},
+    "itemListOrder": "https://schema.org/ItemListUnordered",
+    "itemListElement": [
+      {%- for product in collection.products -%}
+      {
+        "@type": "ListItem",
+        "position": {{ offset | plus: forloop.index }},
+        "url": {{ shop.url | append: product.url | json }},
+        "name": {{ product.title | json }}
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  }
+}
+</script>

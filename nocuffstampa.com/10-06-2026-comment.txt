@@ -1,0 +1,37 @@
+As per comment #9,
+
+For the site: https://nocuffstampa.com/
+
+Re: you can create an admin account for Smartsites:
+...
+We have created a separate WP Admin account for SmartSites (web@smartsites.com) and updated the credentials to the passbolt as well.
+Screenshot: https://drive.google.com/file/d/1okEbOaAgeZpEfT-dZ3QT0sWNbUM_6Nqa/view?usp=sharing
+
+Passbolt link: https://chamber.smartsites.com/app/passwords/view/b9ef85ce-19c2-4b06-a1ce-de74629f7019
+
+With this, we now have all the access needed for the site:
+- WordPress: SmartSites admin (above) and Terry's admin, both in Passbolt.
+- Domain/DNS: GoDaddy delegate access. The Microsoft 365 email records are unchanged.
+- Hosting: GoDaddy Managed WordPress in the client's account, with SSL active.
+
+A few items still need attention:
+1. Form emails: form submissions are saved on the site, but the notification emails are not being delivered, because the site has no email sending (SMTP) setup since Placement Labs left. We recommend a separate task to set this up so new leads reach the inbox. Until then, submissions can be checked in the WordPress dashboard.
+2. Login page: on the new hosting, the standard WordPress login page is open to the public again. On the old server, it was hidden behind a custom address. Can we add login protection (a custom login address and a limit on failed login attempts)?
+3. Terry's password: his login is the same one Placement Labs had access to. We recommend he changes it.
+
+Thanks!
+
+####################################
+
+As per comment #8,
+
+For the site: https://nocuffstampa.com/
+
+Re: you can create an admin account for Smartsites:
+...
+We have created a separate WP Admin account for SmartSites (web@smartsites.com) and updated the credentials to the passbolt as well.
+Screenshot: https://drive.google.com/file/d/1okEbOaAgeZpEfT-dZ3QT0sWNbUM_6Nqa/view?usp=sharing
+
+Passbolt link: https://chamber.smartsites.com/app/passwords/view/b9ef85ce-19c2-4b06-a1ce-de74629f7019
+
+Thanks!

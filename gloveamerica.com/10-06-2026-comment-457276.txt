@@ -1,0 +1,13 @@
+As per comment #42,
+
+For the site: https://gloveamerica.com/
+
+Re: Note: this is reason client was blocked out.
+...
+Yes. The password reset from comment #41 caused the client lockout reported in the "Logins Reset - No Access" task. Users weren't told about the reset beforehand, and repeated attempts with their old passwords triggered a temporary security block.
+
+The shared passwords for dylan@smartsites.com, Gloveadmin, glovecontact and glovesupport were not working. We have reset these 4 again, tested them, and updated them in Keyring. Details are in the "Logins Reset - No Access" task.
+
+We are still waiting for confirmation on turning on two-step login (2FA) for all admin users before we continue with the PCI compliance work.
+
+Thanks!

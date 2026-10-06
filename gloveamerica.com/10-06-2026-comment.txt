@@ -1,0 +1,78 @@
+As per comment #5,
+
+For the site: https://gloveamerica.com/
+
+Re: this was the reason: PCI Compliance - shopping cart monitor plugin actions - woocommerce.
+...
+Yes, that's correct, and we're sorry for the confusion in our earlier reply (comment #2).
+
+On October 5, Kinsta finished removing the malware from the site (PCI Compliance task, comment #41). Kinsta found that the malicious script was added through the WPCode Lite plugin, which means a WordPress admin account may have been compromised. On their recommendation, we reset the passwords for all WordPress users and shared the new ones through Keyring.
+
+Users who then tried their old passwords couldn't log in. After several failed attempts from the same network, Wordfence (the site's security plugin) temporarily blocked that network, which is the page in the screenshot. The "gloveprocessor" login kept working because it was created after the reset.
+
+Our comment #2 said that no other admin passwords had been changed. That was not correct.
+
+The logins for dylan@smartsites.com, Gloveadmin, glovecontact and glovesupport did not work with the shared passwords. We have reset these 4 again, tested each one, and updated them in Keyring:
+- dylan@smartsites.com: <keyring link>
+- Gloveadmin: <keyring link>
+- glovecontact: <keyring link>
+- glovesupport: <keyring link>
+
+If the block page still shows, it clears on its own within 4 hours. An admin can also enter their email on that page and use "Send unlock email".
+
+As Kinsta recommended, could you please confirm whether we should turn on two-step login (2FA) for all admin users? Going forward, we will let everyone know before any password reset.
+
+Thanks!
+
+##################################################
+
+As per comments #3 - #5,
+
+For the site: https://gloveamerica.com/
+
+Re: this was the reason: PCI Compliance - shopping cart monitor plugin actions - woocommerce (https://login.smartsites.com/projects/8237/tasks/457276)
+...
+Yes, that's correct and during the malware cleanup in the PCI Compliance task, the passwords for all WordPress users were reset as a security step. The details are in that task (comment #41). Because the client's old passwords stopped working, the repeated login attempts set off the temporary block page.
+
+We have tested all 9 WordPress logins, and each one is now working. Please use the Keyring links below. The links for dylan@smartsites.com, Gloveadmin, glovecontact and glovesupport are new, so please don't use the earlier ones for these users from PCI Compliance task. Each screenshot shows a successful login.
+
+1. briannaFX:
+https://keyring.smartsites.com/password/94262004/Kp2cqoBW5OdhTHuhlPW_UwfYBKH5tPDsXliAEypEZKQ  
+Screenshot: https://drive.google.com/file/d/19CLNtmejRb5GAdWC8I7Yalg6DHvg8A5y/view?usp=sharing
+
+2. DougIMS:
+https://keyring.smartsites.com/password/78092403/j7jFuJksMq0d4_QMbsTCoGAU87ETIusn9ESjoJV_BkM
+Screenshot: https://drive.google.com/file/d/1lvecsR_Lk4FzjToxvwCCb7Xk3SMEPg3f/view?usp=sharing
+
+3. dylan@smartsites.com:
+https://keyring.smartsites.com/password/58929464/71ZJ3qdF5zwRt_xJouVPccNdjw-J1vhux-TwWGa1UZ0
+Screenshot: https://drive.google.com/file/d/1e5EvFxKuLWQt0mpGJRuRvljx5VwdXcGk/view?usp=sharing
+
+4. fxstageadmin:
+https://keyring.smartsites.com/password/21689032/O_t5PZucEqvF-g185VaOWfMEts-5X1AD78p2GCckXTE
+Screenshot: https://drive.google.com/file/d/170F4bgFJfUkfMD58KT1x4Yt0sUGA0eJt/view?usp=sharing
+
+5. Gloveadmin:
+https://keyring.smartsites.com/password/83923001/N5nPOyfwKyLBMh6FCEanuod1i5zwvzc0Qr-r2wNDl6o
+Screenshot: https://drive.google.com/file/d/1VkugHBwmuq1ZwbeHYDKoU5TCqseZAnRl/view?usp=sharing
+
+6. gloveclerk:
+https://keyring.smartsites.com/password/55734669/08OpiZ8b9fG4bu7lUpHzs8WlvcP192M1YMXSLJh-XoQ 
+Screenshot: https://drive.google.com/file/d/1VYhVom-FJ--qxtUUD71e5hisYOfmwVhs/view?usp=sharing
+
+7. glovecontact:
+https://keyring.smartsites.com/password/26225576/DHQqacqImPJJCOwUmHNtxdObjB8C25JszEtSd8D8jxo
+Screenshot: https://drive.google.com/file/d/1KXcLLvepSAnvsBK7G2JfxFnHidjN9ff8/view?usp=sharing
+
+8. glovesupport:
+https://keyring.smartsites.com/password/40536864/SZ6cZG8M8IQ6gyOe6e8MsvtKsAWYXu1UtRaYuQWDxD4
+Screenshot: https://drive.google.com/file/d/1O-PQe6A1iXl6N-DAponCCDFFsWXlQeku/view?usp=sharing
+
+9. Lennon-zonos:
+https://keyring.smartsites.com/password/93111414/e4JZ-d7ThZhrPmrnQw2q2ADFKAu-31izTY3TO4RZLRg 
+Screenshot: https://drive.google.com/file/d/1ONp-I0_s7Lv8l8OzFV9DsYZkLLspVqxA/view?usp=sharing
+
+Notes:
+As Kinsta recommended, we have asked in the PCI Compliance task (comment #41) about enabling Two-Factor Authentication (2FA) for all WordPress Administrator users. Could you please confirm whether we should go ahead with it? Once we hear back, we will continue the Glove America PCI compliance work in that task.
+
+Thanks!

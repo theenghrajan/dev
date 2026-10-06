@@ -1,0 +1,21 @@
+As per comments #72 and #73,
+
+For the site: https://www.nuwattlighting.com/
+
+Re: Wall wash doesn't need a calculator, none of the unclassified ones need a calculator.
+...
+Thank you for confirming. Based on this, the 136 products on the Default template will be set up as follows:
+- 39 recessed products will keep the calculator.
+- 97 products will move to a new "no-calc" template without the calculator. This covers the 59 non-recessed products, the 37 unclassified products and the 4 Inch Wall Wash LED Recessed Light.
+
+Our next steps:
+1. Create the "no-calc" template on the Draft Theme by copying the Default template and removing the calculator and the "Not Sure How Many You Need?" shortcut.
+2. Create the same "no-calc" template on the LIVE theme as an exact copy of the current live product template. This lets us assign the products safely without changing anything on the live site.
+3. Assign the 97 products to the "no-calc" template and update the product sheet with the final template for each product.
+4. Check the product pages on the Draft Theme to confirm the calculator only shows on recessed products.
+
+Draft Theme URL: https://www.nuwattlighting.com/products/4-inch-wall-wash-led-recessed-light-led-scoop-downlight-12w-900-lumens?preview_theme_id=148630929482
+
+We will share the update once this is done.
+
+Thanks!

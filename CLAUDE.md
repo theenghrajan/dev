@@ -53,5 +53,32 @@ Full handoff is in `nobleplumbers.com/HANDOFF.md`: import steps, section map, co
 - Login is hidden (wp-login.php 404, /wp-admin/ loops), so `tools/bb-fetch.sh` doesn't work. Use a browser session or an XML export instead.
 - `.env` and `work/` are git-ignored here.
 
+### gloveamerica.com — WordPress + WooCommerce, Kinsta + Cloudflare, Wordfence (AC #503236 logins, #457276 PCI)
+- Notes follow the `D:\work\seo` convention (see "Adding a new project"). No site copy or DB here, and no production access.
+- On 2026-10-05, all 9 WP user passwords were reset after Kinsta's malware cleanup (457276 #41). That reset caused the client lockout (503236 #5).
+- Keyring logins for dylan@smartsites.com, Gloveadmin, glovecontact and glovesupport still fail. Check with `wp user check-password` rather than live logins, because Wordfence locks an IP for 240 min after 10 failed logins.
+- Keep Keyring URLs out of the repo.
+
+### nocuffstampa.com — WordPress + Elementor Pro on GoDaddy Managed WP (AC #501091 Overall Access Check)
+- Notes follow the `D:\work\seo` convention (see "Adding a new project").
+- Migrated from Placement Labs (shut down 2026-10-06) to the client's GoDaddy. M365 MX is untouched. SmartSites WP admin web@smartsites.com created 2026-10-06 and added to Passbolt.
+- Open: no SMTP (form emails not delivered); `/wp-login.php` is public again.
+
+### thevaultluxuryresale.com — Shopify (redirects)
+- Store `vault-luxury-resale.myshopify.com` on `shop.` (CNAME shops.myshopify.com). Root and www use GoDaddy forwarding, homepage only; deep paths return 404. DNS at GoDaddy; MX = Proofpoint.
+- The redirect sheet `1M4wxOdH…` isn't shared yet. Access needed is in `10-06-2026-solutions.md`.
+
+### nuwattlighting.com — Shopify (AC #492529 New Product Page Design)
+- Store `nuwatt-lighting.myshopify.com`. LIVE theme 144428662858 ("ITG Work Nuwatt Theme"); draft 148630929482 ("Figma Match - 2026-09-04"). Preview: `?preview_theme_id=148630929482` (sets a cookie, so curl needs `-L -c/-b`).
+- The calculator appears only on recessed products. Next step after #72: a `product.no-calc` template on both themes, with 97 Default products assigned to it.
+
+### 1st-in-padlocks.com — Shopify, Warehouse theme + Boost PFS (local theme in `1st-in-padlocks-theme/`)
+- FAQs come from the `custom.ss_faqs` metafield (a list of FAQ metaobjects): product pages via the `faq` block in `main-product.liquid`, collection pages via `sections/collection-faqs.liquid` (added 2026-10-06). The collection metafield definition still has to be created in admin.
+
 ## Adding a new project
-Create `<domain>/`, keep the client's export and Design assets inside it, and write a `HANDOFF.md` or `CLAUDE.md` + `LOG.md` + `SOLUTIONS.md` (see the covertthreat pattern). Then add a section here.
+Create `<domain>/`, keep the client's export and Design assets inside it, and add a section here.
+
+Notes follow the `D:\work\seo` convention (from 2026-10-06; older projects keep their `LOG.md`/`SOLUTIONS.md`). Write one set per AC reply:
+- `MM-DD-YYYY-log.md`: what was checked and found. Technical detail is fine here.
+- `MM-DD-YYYY-solutions.md`: fixes and suggestions in order. Link to the comment file; don't repeat the draft.
+- `MM-DD-YYYY-comment.txt`: the final AC comment in plain text, pasted as-is. Add a `-<task id>` suffix when there is a second task. Plain language for non-technical PMs. Start with "As per comment #N,", then "For the site: <url>" and "Re: <quote>" / "...". End with "Thanks!" only.
