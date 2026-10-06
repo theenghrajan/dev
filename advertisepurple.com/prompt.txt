@@ -1,0 +1,18 @@
+Update the WordPress draft page for Advertise Purple using the provided source content.
+
+Pages and sources:
+- Live reference page: https://www.advertisepurple.com/agency/
+- Draft page to update: https://www.advertisepurple.com/?page_id=800248
+- SmartSites task with source links in comment #18: https://login.smartsites.com/projects/7423/tasks/491282
+- Final content document: https://docs.google.com/document/d/1YKnIcrwxyfo9MfGBGLfCWhLBF43gB6UN/edit#heading=h.30j0zll
+
+Please:
+1. Review comment #18 and identify all four Google Docs links and the content each one provides.
+2. Review the final Google Doc linked above.
+3. Compare the draft with the live agency page and the source documents. Update the draft page’s content to match the supplied content, preserving the existing page structure and styling where appropriate.
+4. The site uses WordPress with Beaver Builder. Make edits in Beaver Builder, and save the result as a draft.
+5. Do not publish the page, change the live page, or modify other pages.
+6. Before saving, check headings, body copy, links, calls to action, and any other content against the source documents. Report anything ambiguous or conflicting instead of guessing.
+7. When finished, provide the draft URL and a concise summary of what changed.
+
+If any page or document requires authentication, stop and tell me which one. I will sign in or share the page through the browser; do not ask me to send passwords, verification codes, or session tokens.
