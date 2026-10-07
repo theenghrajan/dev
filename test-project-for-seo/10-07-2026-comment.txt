@@ -1,0 +1,19 @@
+As per comment #235,
+
+Re: "This process is obsolete due to the new Backlink health check process. Please confirm you have received this, and we will stop adding the script to all past & future projects."
+
+>> Confirmed, we have received this. We will stop adding the Backlink Checker script to all past and future projects.
+
+If no further action is needed, please feel free to close this task.
+
+Thanks!
+
+########################################
+
+As per comment #235,
+
+Re: "This process is obsolete due to the new Backlink health check process. Please confirm you have received this, and we will stop adding the script to all past & future projects."
+....
+Confirmed, we have received this and will stop adding the script to all past and future projects. Please once confirm with the IBM team as well.
+
+Thanks!

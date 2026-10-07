@@ -75,6 +75,14 @@ Full handoff is in `nobleplumbers.com/HANDOFF.md`: import steps, section map, co
 ### 1st-in-padlocks.com — Shopify, Warehouse theme + Boost PFS (local theme in `1st-in-padlocks-theme/`)
 - FAQs come from the `custom.ss_faqs` metafield (a list of FAQ metaobjects): product pages via the `faq` block in `main-product.liquid`, collection pages via `sections/collection-faqs.liquid` (added 2026-10-06). The collection metafield definition still has to be created in admin.
 
+### cmsa.fas.harvard.edu — WordPress on Pantheon, The Events Calendar Pro (AC #1912 task #498621, bot load / 502s)
+- Also covers www.math.harvard.edu (same client). Both return 403 to curl because of bot protection.
+- Don't update The Events Calendar Pro; task #188 says it breaks the calendar.
+- 2026-10-07: CMSA robots.txt blocks Amazonbot, meta-externalagent, Bytespider and LogicMonitor, and sets ClaudeBot Crawl-delay 10. It has no calendar-URL rules yet.
+
+### test-project-for-seo — AC project #3051 "Test Project for SEO" (internal, no site)
+- Task #130314 (Backlink Checker Script): obsolete as of #235 (2026-10-07), replaced by the Backlink health check process. FED confirmed; we no longer add the script.
+
 ## Adding a new project
 Create `<domain>/`, keep the client's export and Design assets inside it, and add a section here.
 

@@ -1,0 +1,19 @@
+As per the task descriptions,
+
+For the site URL: https://proaquawater.com/
+
+Re: 1. Add individual review objects to Product (aggregateRating exists, reviews do not).
+>> We are unsure on this and need to look into this for further review.
+
+Re: 2. Add itemCondition, mpn (where applicable), hasMerchantReturnPolicy and shippingDetails (client offers free shipping and 30-day returns).
+>> We will require Merchant Return Policy and shipping details from client to implement this.
+
+Re: 3. Add ItemList schema to collection pages.
+>> We have implemented this.
+Screenshot: https://drive.google.com/file/d/1m7EBoqDXxGnL_Ztjmp7xcO5T27YG6PRe/view?usp=sharing
+
+Re: 4. Check PDPs for FAQ content and mark up with FAQPage where it exists.
+>> We have implemented this.
+Screenshot: https://drive.google.com/file/d/1b85Y5JLXIo5Eo8l8R_0svnKpdMJ08Mnf/view?usp=sharing
+
+Thanks!

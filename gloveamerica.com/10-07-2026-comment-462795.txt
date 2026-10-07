@@ -1,0 +1,38 @@
+As per comment #27,
+
+Site URL: https://gloveamerica.com/
+
+>> Volume Pricing page
+The HubSpot meeting scheduler is embedded on the Volume Pricing page.
+URL: https://gloveamerica.com/volume-pricing/
+
+>> Product page link
+The "Get volume pricing" / "Get case pricing" link on the product pages opens the Volume Pricing page and passes the product data as URL parameters.
+SS (Desktop View, Box selected): https://drive.google.com/file/d/19h5f5CZXtUE-eJpdaVhKxKnZvfvynuSz/view
+SS (Desktop View, Case selected): https://drive.google.com/file/d/13T4Re6chKAyooALXAkGTHkGLvR_09-cJ/view
+
+>> Tracking
+Could you please provide instructions on what we need to do on our end for the tracking part?
+
+Once confirmed, we will update the link accordingly and publish the changes on the live site.
+
+Thanks!
+
+######################################################
+
+As per comment #27,
+
+Site URL: https://gloveamerica.com/
+
+Please see comments #27 and #26.
+
+We need to align the click ID source for the new "Get volume pricing" link on product pages with your implementation, so the link and the forms always agree on the same click.
+The link points to /volume-pricing/?sku=...&src=pdp and forwards gclid and msclkid. We have updated it to read only the cookies set by your "Add + Grab GCLID" tag, and removed the fallback to Google's _gcl_aw and Microsoft's _uetmsclkid cookies. The gclid in the page URL still takes priority, matching your tag's behaviour.
+
+Could you please confirm:
+# The exact cookie names your tag writes for gclid and msclkid (we have assumed gclid and msclkid).
+# That both cookies store the raw click ID only, without any prefix.
+# How the click IDs should reach the HubSpot contact for bookings made through the HubSpot scheduler on /volume-pricing/. 
+# The meetings embed does not accept custom hidden fields, so we want to confirm whether you are capturing these through the HubSpot tracking code / Google Ads integration, or whether you need anything from our side on that page.
+
+Please advise.

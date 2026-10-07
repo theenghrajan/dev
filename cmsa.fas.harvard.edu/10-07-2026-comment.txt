@@ -1,0 +1,18 @@
+As per comment #25,
+
+For the sites:
+https://cmsa.fas.harvard.edu/
+https://www.math.harvard.edu/
+
+Re: "The metrics on the Pantheon site run at least a day behind, so when I've looked today I see a whole lot of Meta's agent. I'm really looking forward to seeing what happens after that block takes effect."
+>> We have checked the latest traffic metrics on both sites. Please see the results below:
+Screenshot (cmsa.fas.harvard.edu): https://drive.google.com/file/d/1VNDZbX6pzakCeWQrtFsvb78UqdPEDxFL/view?usp=sharing
+Screenshot (math.harvard.edu): https://drive.google.com/file/d/12jQriI2nF6OF0K4jEyAoAj19m_ChL3Qy/view?usp=sharing
+
+Kindly review the traffic metrics and let us know your review.
+
+Re: "I'm wondering if it's possible to do the same Calendar Crawling modifications on the Math site you did on the CMSA site? Or are the calendars too different from each other?"
+>> The Math site uses the same events calendar plugin as the CMSA site, so we have applied the same Calendar Crawling changes there.
+Screenshot: https://drive.google.com/file/d/1BYLMJy7PFXB_Nl3RZkrEnZV4EVi4_tAk/view?usp=sharing
+
+Thanks!

@@ -1,0 +1,11 @@
+As per comment #24,
+
+For the site: https://www.aventissystems.com/
+
+Re: "can you confirm which clones you suggest removing?"
+...
+Could you please confirm with the client which clones to remove? We suggest removing the oldest ones.
+
+Once confirmed, we will remove them and proceed with the implementation.
+
+Thanks!
