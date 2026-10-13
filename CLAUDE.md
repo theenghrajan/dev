@@ -83,6 +83,9 @@ Full handoff is in `nobleplumbers.com/HANDOFF.md`: import steps, section map, co
 ### test-project-for-seo — AC project #3051 "Test Project for SEO" (internal, no site)
 - Task #130314 (Backlink Checker Script): obsolete as of #235 (2026-10-07), replaced by the Backlink health check process. FED confirmed; we no longer add the script.
 
+### theplantguru.com — Magento 2, theme `Smartsites/theplantguru` (AC project 597, task #603 / 504856 remove sizes)
+- Sizes are a configurable "Size" attribute. Read the options from `jsonConfig` on the product page; out-of-stock sizes are hidden there. No admin access from here.
+
 ## Adding a new project
 Create `<domain>/`, keep the client's export and Design assets inside it, and add a section here.
 

@@ -48,3 +48,4 @@ videos/
 
 #database
 *.sql
+graphify-out/

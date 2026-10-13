@@ -1,0 +1,4 @@
+# vendor/theme JS, not our code
+*/assets/*.js
+**/assets/*.js
+graphify-out/
