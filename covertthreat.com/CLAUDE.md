@@ -44,3 +44,14 @@ Status 2026-10-01: all 12 pages done and verified.
 - DNS Monitor: confirm with Charlie whether it's intentionally out of this batch.
 - Live: `/vulnerability-scanning/` and `/digital-forensics/` redirect to other pages. Remove the redirects at go-live (recheck first).
 - Pushing to live is Charlie's decision after review. Then reopen the reference task "Content Implementation (August ops - 12WP)".
+
+## Notes moved from dev/CLAUDE.md (2026-10-15)
+
+Full notes are in `covertthreat.com/CLAUDE.md`, which is the source of truth for page IDs, image conventions and the swap procedure. Also:
+- `LOG.md`: dated log of every action, newest at the bottom. Append to it on every request.
+- `SOLUTIONS.md`: one section per task.
+- `10-1-2026.txt`: the AC reply draft (12 dev URLs + screenshots) for comment #11.
+- `tools/swap-feature-images.sh <slug>...`: uploads `images/output/<slug>/<slug>-feature-img01|02.webp` and swaps them in for stock media 9024 (About) and 9032 (Penetration Testing tab) via `elementor_ajax`. It backs up to `images/output/backups/`, keeps page settings, and stops on any change other than the images. Already-done pages are skipped.
+- `images/source/` holds the Design originals and `images/output/` the optimized WebP plus `alt-titles.csv` / `swap.csv`.
+- Generic successor: skill `D:\work\claude\elementor-image-swap`.
+- Status 2026-10-01: all 12 pages swapped and verified on dev. Open items are in its CLAUDE.md.
