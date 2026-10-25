@@ -1,0 +1,19 @@
+As per comment #1, here is a short summary for the Tennessee team.
+
+For the site: https://gloveamerica.com/
+
+Re: "Is this section something that should be emailing our contact@gloveamerica.com email or do we have access to respond directly from the dashboard?"
+
+The "Survey Answers" screen is not an inbox. It comes from the cancellation survey that pops up when a customer clicks "Cancel" on a subscription. Customers pick a reason and can type a short note. Those notes are saved for reporting only, so they are not emailed to contact@gloveamerica.com and there is no way to reply from that screen (the only option is Delete).
+
+What we suggest:
+
+1. Go through the existing 4 pages once. Any note asking for an account or order change was never sent to anyone, so those customers may still be waiting. The "Retain Status" column shows whether each customer actually cancelled or accepted the offer.
+
+2. Reply the usual way. Each survey answer is also saved in the notes of that customer's subscription (WooCommerce > Subscriptions > open the subscription), so staff can look up the customer there and email or call them as normal.
+
+3. Optional, no development needed: WooCommerce has a built-in "Cancelled Subscription" email that can be sent to contact@gloveamerica.com (WooCommerce > Settings > Emails). The inbox would then be alerted each time a customer cancels, and staff can open that subscription to read the note. Let us know if you'd like us to set this up.
+
+If you would rather have the typed notes themselves forwarded to contact@gloveamerica.com automatically, that would be a small custom addition, and we can scope it as a separate task.
+
+Thanks!
