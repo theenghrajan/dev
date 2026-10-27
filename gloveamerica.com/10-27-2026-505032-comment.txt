@@ -1,0 +1,32 @@
+As per comment #6, we have added the internal links from the IBM Team's sheet on the live site.
+
+AI SmartSites had added the first link on the dev site only (comment #7) for review. We have now added all 7 links directly on the live site.
+
+For the site: https://gloveamerica.com/
+
+In each of the 7 blog posts below, the words "nitrile gloves" now link to the Nitrile Gloves page (https://gloveamerica.com/shop/disposable-gloves/nitrile/).
+
+URL: https://gloveamerica.com/blog/what-is-the-best-glove-for-automotive-grease/
+Reference screenshot: https://drive.google.com/file/d/1JXDkhTyHokKa9blFHLmVT99EnqUx_oK5/view?usp=sharing
+
+URL: https://gloveamerica.com/blog/what-you-need-to-know-about-chemical-resistant-gloves/
+Reference screenshot: https://drive.google.com/file/d/18Z8O2RWsAuGy446SRj1zm7E1MAXQeSyW/view?usp=sharing
+
+URL: https://gloveamerica.com/blog/are-nitrile-gloves-latex-free/
+Reference screenshot: https://drive.google.com/file/d/1yiq6wYlL6iqKGtgmj7AmpTiUoUB4IGYD/view?usp=sharing
+
+URL: https://gloveamerica.com/blog/nitrile-vs-latex-gloves-key-differences-to-know/
+Reference screenshot: https://drive.google.com/file/d/1sl2-tRnzJ8oszvXq3qEcckZ9Iruwao46/view?usp=sharing
+
+URL: https://gloveamerica.com/blog/what-are-the-types-of-disposable-gloves/
+Reference screenshot: https://drive.google.com/file/d/1DtWF5VY4M8utvwABoyv-z3k8CqE7cGB5/view?usp=sharing
+
+URL: https://gloveamerica.com/blog/your-guide-to-nitrile-gloves-wholesale-pricing/
+Reference screenshot: https://drive.google.com/file/d/1koNjOsMj0WeSSTGvEyM70OV6jUqelCJx/view?usp=sharing
+
+URL: https://gloveamerica.com/blog/using-latex-gloves-in-food-services-is-it-safe/
+Reference screenshot: https://drive.google.com/file/d/1oeLMavr6StNo4c8BKxKPTK2NdY2W6p9F/view?usp=sharing
+
+Please review and let us know if anything else is needed.
+
+Thanks!

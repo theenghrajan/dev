@@ -1,0 +1,32 @@
+https://login.smartsites.com/projects/8237/tasks/508395
+
+As per the comment #3, we have checked the order emails on the live site.
+
+For the site: https://gloveamerica.com/
+
+What we found:
+
+AI SmartSites (comment #1) checked a copy of the site and found nothing in the site's code blocking the order emails, and pointed to Mailgun as the likely cause, but could not check the live site. We have now confirmed this on the live site.
+
+The orders are coming in normally, and the WooCommerce "New order" email is still turned on with both contact@gloveamerica.com and imsgloves@gmail.com. The problem is the email service that actually sends the site's emails.
+
+The site sends all of its emails through a Mailgun account that was set up by the previous agency (WebFX). When we sent a test email from the site, Mailgun refused it with "401: Unauthorized / Forbidden", which means the site's login key for that Mailgun account is no longer accepted. This matches the WebFX notice the client forwarded about Mailgun's security changes.
+Reference screenshot: https://drive.google.com/file/d/11b3WF9rCu09T_AWGpru0-BLXlgBNoPU5/view?usp=sharing
+
+This affects every email the site sends, not only the order alerts to the team. Customers are most likely not getting their order confirmation emails either, and website form notifications will be affected too.
+
+What is needed to fix it:
+
+The site needs to send email through an account the client owns, instead of the old WebFX one. Any one of these works:
+
+1. If the client already has an SMTP2GO or SendGrid account (their domain settings already allow both), please share the login or an API key and we will connect it to the site.
+
+2. If not, the client can create a free Mailgun, SendGrid or SMTP2GO account (or let us know and we can set one up for them). The service will provide a few domain (DNS) records that need to be added for gloveamerica.com, so whoever manages the domain will need to add them.
+
+3. As an alternative, the client can reach out to WebFX and ask them to reconnect the site's Mailgun email sending (a new API key for gloveamerica.sitecontact.net).
+
+Once the new account is connected, we will send test emails and place a test order to confirm both the team and customer emails are delivered.
+
+Please let us know which option the client prefers.
+
+Thanks!

@@ -1,0 +1,54 @@
+﻿ID,Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,Description,Tax status,Tax class,In stock?,Backorders allowed?,Sold individually?,Weight (lbs),Allow customer reviews?,Regular price,Categories,Images,Parent,Position,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global,Attribute 2 name,Attribute 2 value(s),Attribute 2 visible,Attribute 2 global,Meta: _product_addons_exclude_global,Meta: _technical-information_tab_custom_title,Meta: technical-information,Meta: _technical-information,Meta: _resources_tab_custom_title,Meta: resources,Meta: _resources,Meta: _additional-info_tab_custom_title,Meta: _additional-info,Meta: _wc_pre_orders_enabled,Meta: _wc_pre_orders_when_to_charge,Meta: _yoast_wpseo_content_score,Meta: _yoast_wpseo_estimated-reading-time-minutes,Meta: _faq_shortcode,Meta: _willrich_variation_table,Sale price,Meta: additional-info
+47188,variable,,Vision Engineering PICOZOOM,1,0,visible,"PicoZoom is an autofocus digital inspection microscope that brings focus, lighting and reporting together for clearer inspection images and more consistent records. Designed for electronics, component inspection and quality control environments","Autofocus\nOne-click autofocus reduces time spent adjusting focus between parts, surfaces and magnification levels.\nMotorized zoom\nInspect a wide range of feature sizes without changing lenses or physically adjusting the optical zoom.\nMeasurement and reporting\nBuilt-in measurement, annotation and custom report output help capture results and create clear QC documentation.\nEase of use\nSimple controls, a compact bench footprint and mouse-based operation make PicoZoom straightforward to set up, learn and use",taxable,,1,0,0,,0,,"MICROSCOPES & BORESCOPES > Easy Viewing Stereo Scopes, MICROSCOPES & BORESCOPES > Video Microscopes, MICROSCOPES & BORESCOPES",https://willrich.com/wp-content/uploads/2026/07/picozoom.jpg,,0,Brands,Vision Engineering,1,1,Item,PicoZoom,1,0,0,technical-information_tab_custom_title,"Item Specification
+Magnification* 20× to 140x
+Optical zoom* 7× : 1×
+Digital zoom* 6x
+Autofocus Yes
+Motorized zoom Yes
+Camera sensor CMOS, 1/2 inch
+Resolution 2 MP, 1080p
+Frame rate 60 fps
+Working distance 4in (100 mm)
+Measurement function Built-in measurement and reports
+Lighting system Quadrant controlled lighting
+Output interfaces HDMI, USB 3.0, LAN
+Software feature Focus stacking and reporting
+Memory / storage
+USB / PC storage
+
+PicoZoom - Measurement and annotation tools
+With 30 digital tools to aid accurate measurement and annotation
+of a range of specific features.
+- User configurable calibrations for easy measurement
+- 30 digital tools to help define and annotate features
+- Click-to-edge tool to aid edge identification
+- Text annotation tool
+- Report data table",technical-information,resources_tab_custom_title,"<a href=""https://willrich.com/wp-content/uploads/2026/07/PICOZoom-Spec-Sheet-ENUS-002.pdf"">PICOZoom Spec Sheet ENUS (002)</a>
+
+<a href=""https://willrich.com/wp-content/uploads/2026/07/PicoZoom-2026.pdf"">PicoZoom 2026</a>",resources,additional-info_tab_custom_title,additional-info,yes,upon_release,90,1,field_683d85f0871aa,no,,
+47190,variation,'- PCZ001,Vision Engineering PICOZOOM - PicoZoom,1,0,visible,,,taxable,parent,1,0,0,30,0,4295,,,id:47188,1,Item,PicoZoom,,0,,,,,,,,,,,,,,,,,,,,,
+43465,variable,,Mitutoyo Surface Roughness tester SJ-220 Series,1,0,visible,"Mitutoyo SJ-220 Series Surface Roughness tester\n\nThe SJ-220 series of surface roughness measuring instruments offers excellent portability and ease of use on-site, it now also provides touch screen functionality for intuitive operability. Equipped with a built-in battery, it can perform measurements even in environments where power is not available and can be used approximately 1000 times on a full charge. Cableless and paperless work is also made possible by using the Wireless Unit for Measuring\nInstrument U-WAVE-TIB.\nThis is a user-friendly device that provides compatibility and versatility to meet the diverse needs of manufacturing sites.\nMeasurements can be made on-site, so there is no need to transport large and heavy workpieces. Light and compact, the device is easy to carry and allows for simple one-touch measurement.\nThe device is equipped with a touch screen and a new user interface. You can perform operations like changing the display screen and adjusting the settings with your fingertip.\nThe screen size has been expanded to 2.8 inches, achieving high visibility while maintaining a compact device size to fit in one hand.\n\nIncreased measuring efficiency capable of displaying results and setting conditions via\nwireless communication when used with option accessory U-WAVE-TIB\n\nNote: you cannot use both the U-Wave TIB transmitter and the printer at the same time(Both use the same output port\n\nMitutoyo America Corporation is pleased to announce a special promotion for the SJ-220 Surftest effective only through September 30, 2025. This promotion includes five various packages with special pricing on the SJ-220 along with free eLearning courses and different accessories.\n\nSJ-220 Surftest packages in this promotion include:\n• SJ-220 4mN with free eLearning course\n• SJ-220 4mN with free calibration specimen and eLearning course\n• SJ-220 4mN with U-WAVE-TIB wireless unit and eLearning course\n• SJ-220 4mN with free Digimatic Height Gage, Height Gage adapter and eLearning course\n• SJ-220 4mN with free column stand, magnetic stand adapter and eLearning course","Intuitive operation through touch screen, switch, set, flick and swipe supported\n\nThe SJ-200 Surftest is now capable of bidirectional communication via a USB cable and Bluetooth® using the optional U-WAVE-TIB and the free dedicated smartphone SJ-App.\n\nThe SJ-200 Surftest is now capable of bidirectional communication via a USB cable and Bluetooth® using the optional U-WAVE-TIB and the free dedicated smartphone SJ-App.\n\nThis bidirectional capability allows users to import various data to a PC, while its optional Bluetooth® provides full remote access for measurements, live data feeds and more.\n\nFree dedicated PC SJ-220 software connects an SJ-220 to a PC to import data such as measurement conditions, parameter settings, calculation results and measurement data, as well as create and edit inspection reports. This makes your data managment much easier and more efficient.",taxable,,1,0,0,,1,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers",https://willrich.com/wp-content/uploads/2025/02/sj220.jpg,,51,Brands,Mitutoyo,1,1,Item,"Standard Drive 4mN, Standard Drive .75mN, Transverse tracing drive unit type 4 mN, Transverse tracing drive unit Type 0.75 mN, Retractable Drive Unit Type 0.75mN",1,0,0,technical-information_tab_custom_title,"Compatible with new standard ISO 21920.
+JIS B0601:1982 ISO 4287:1997 ASME B46.1
+JIS B 0601:1994 ISO 13565:1996 VDA2006
+JIS B 0601:2013 ISO 12085:1996 Switchable
+JIS B 0671:2002 ISO 21920:2021
+JIS B 0631:2000",technical-information,resources_tab_custom_title,"<a href=""https://willrich.com/wp-content/uploads/2025/02/PRE-1610-Surftest-SJ-220_WEB.pdf"">PRE 1610 - Surftest SJ-220_WEB</a>
+
+&nbsp;
+
+&nbsp;
+
+https://youtu.be/yBi38Qr_AjA
+
+&nbsp;
+
+https://youtu.be/52iEGfSoQw8
+
+&nbsp;",resources,additional-info_tab_custom_title,additional-info,yes,upon_release,90,1,field_683d85f0871aa,,,"Dedicated software app “SJ-App” for increased efficiency of measurement work
+
+<img class=""alignnone size-medium wp-image-43473"" src=""https://willrich.com/wp-content/uploads/2025/02/sj220-1-800x280.jpg"" alt="""" width=""800"" height=""280"" />"
+45146,variation,178-742-13-,Mitutoyo Surface Roughness tester SJ-220 Series - Standard Drive 4mN,1,0,visible,,,taxable,parent,1,0,0,,0,3440,,,id:43465,1,Item,Standard Drive 4mN,,0,,,,,,,,,,,,,,,,,,,,2730,
+45145,variation,178-746-13,Mitutoyo Surface Roughness tester SJ-220 Series - Transverse tracing drive unit type 4 mN,1,0,visible,,,taxable,parent,1,0,0,,0,6220,,,id:43465,3,Item,Transverse tracing drive unit type 4 mN,,0,,,,,,,,,,,,,,,,,,,,5250,
+45144,variation,178-741-13,Mitutoyo Surface Roughness tester SJ-220 Series - Standard Drive .75mN,1,0,visible,,,taxable,parent,1,0,0,,0,4090,,,id:43465,2,Item,Standard Drive .75mN,,0,,,,,,,,,,,,,,,,,,,,2875,
+45143,variation,178-743-13,Mitutoyo Surface Roughness tester SJ-220 Series - Retractable Drive Unit Type 0.75mN,1,0,visible,,,taxable,parent,1,0,0,,0,4020,,,id:43465,4,Item,Retractable Drive Unit Type 0.75mN,,0,,,,,,,,,,,,,,,,,,,,3395,
+43470,variation,178-745-13,Mitutoyo Surface Roughness tester SJ-220 Series - Transverse tracing drive unit Type 0.75 mN,1,0,visible,,,taxable,parent,1,0,0,10,0,6220,,,id:43465,5,Item,Transverse tracing drive unit Type 0.75 mN,,0,,,,,,,,,,,,,,,,,,,,5250,

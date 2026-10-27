@@ -1,0 +1,20 @@
+As per comment #2, the homepage "Promos and Specials" section has been updated on the following review dev link and is ready for your review.
+
+https://305-promo-update.willrich.smartwebsitedesign.com/
+
+Re: Task Descriptions
+...
+The old promo products have been removed and the section is now set up for the 4 products you listed, in this order:
+
+1. PICO 4K Vision Eng ZOOM scope - will show once this goes live (see note below)
+2. The MTI High Accuracy Mic (Mitutoyo MDH Sub-Micron Digimatic Micrometer) - showing now, $1449
+3. LH600 (Mitutoyo Linear Height LH-600E / EG) - showing now, $7550
+4. SJ220 (Mitutoyo Surface Roughness Tester SJ-220 Series) - will show once this goes live (see note below)
+
+Reference screenshot: https://drive.google.com/file/d/1x-RZh9zSP7AKzslWVdjDf2GhgW2hhOkO/view?usp=sharing
+
+Please note: the PICO ZOOM scope and the SJ-220 were added to the live website only, so they are not on the review dev link yet. That is why you will only see 2 products there for now. Both products are live on willrich.com, and all 4 will appear together in this section once you approve and we publish the change.
+
+Please review and let us know if this looks good to go live.
+
+Thanks!

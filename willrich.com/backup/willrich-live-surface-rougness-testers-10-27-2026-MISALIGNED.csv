@@ -1,0 +1,858 @@
+ID,Type,SKU,Name,Published,"Is featured?","Visibility in catalog","Short description",Description,"Date sale price starts","Date sale price ends","Tax status","Tax class","In stock?",Stock,"Low stock amount","Backorders allowed?","Sold individually?","Weight (lbs)","Length (in)","Width (in)","Height (in)","Allow customer reviews?","Purchase note","Sale price","Regular price",Categories,Tags,"Shipping class",Images,"Download limit","Download expiry days",Parent,"Grouped products",Upsells,Cross-sells,"External URL","Button text",Position
+719,variable,,"Fowler X-PRO  Portable Surface Roughness Tester",1,0,visible,"Fowler's X-Pro portable surface roughness tester is the perfect instrument for making traceable surface roughness measurements on a wide variety of surfaces including small inside diameters. Models with and without RS232 output are available. Also available with either a .0004"" or .0002"" probe.","Fowler X-Pro Portable Surface Roughness Tester Features :\n\nâ— Ra - Average Roughness\nâ— Rz - Max Roughness depth (DIN)\nâ— Meets ANSI, ISO, DIN, &amp; MIL Specifications\nâ— Supports Multiple Cut-off &amp; Traverse settings\nâ— Convenient digital display located on top\nâ— Easy to read 3 Digit LCD readout\nâ— Roughness in microinches or micrometers\nâ— Vee Base for location on round parts\nâ— Battery Low ""indicator\nâ— Models with RS-232 Output for SPC\nâ— Works on standard 9V Alkaline battery\nâ— Includes fitted case, standard &amp; probe\nâ— Supplied with Reference Speciman\nâ— Included Speciman Calibration Certificate",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers","Fowler High Precision",,https://willrich.com/wp-content/uploads/2014/06/Fowler-Surface-Roughness-Gage-Ra-and-Rz-Easy-read.jpg,,,,,,,,,1634,"Portable Surface Roughness",".0004"" radius stylus, .0002"" radius stylus",1,0,"Output (Select)","No output, RS232 Output",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,"Fowler High Precision",1,1,,0,1575,1899,725,726,1575,1899,725,726,,technical-information_tab_custom_title,"Fowler X-Pro Portable Surface Roughness Tester:
+<ul>
+ 	<li>Measuring Ranges: Ra-0.03 Î¼m~6.3 Î¼m/1 Î¼ ""~250 Î¼""  Rz-0.2 Î¼m~25.0 Î¼m/8 Î¼ ""~999 Î¼""</li>
+ 	<li>Display Resolution: 0.01 Î¼m/1 Î¼""</li>
+ 	<li>Cut-off: 0.25mm/0.8mm/2.5mm, ANSI 2RC Filter</li>
+ 	<li>Display: 3-digital LCD</li>
+ 	<li>Measure Accuracy: Meets ISO and DIN standards</li>
+</ul>
+&nbsp;",technical-information,,resources_tab_custom_title,"Click below to download the Fowler X-Pro Portable Surface Roughness Tester product info:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/06/Fowler-Surface-Roughness-Gage-Ra-and-Rz-Easy-read.pdf"">Fowler Surface Roughness Gage Ra and Rz Easy read</a>",resources,,additional-info_tab_custom_title,"[caption id=""attachment_812"" align=""alignleft"" width=""150""]<a href=""https://willrich.com/wp-content/uploads/2014/06/54-400-896-.jpg""><img class=""wp-image-811 size-thumbnail"" src=""https://willrich.com/wp-content/uploads/2014/06/54-400-896--150x150.jpg"" alt=""54-400-896"" width=""150"" height=""150"" /></a> <img class=""aligncenter wp-image-814"" src=""https://willrich.com/wp-content/uploads/2014/06/54-420-301-550x550-300x300.jpg"" alt=""54-420-301-550x550"" width=""190"" height=""190"" /> <a href=""https://willrich.com/wp-content/uploads/2014/06/Small-Bore-Probe.jpg""><img class=""wp-image-812"" src=""https://willrich.com/wp-content/uploads/2014/06/Small-Bore-Probe-289x300.jpg"" alt=""Small Bore Probe"" width=""190"" height=""197"" /></a> Height Stand[/caption]
+
+Fowler X-PRO Surface Roughness Gage Accessories listed below.  Call or email for prices.  (Ph: 866-945-5742 / <a href=""mailto:sales@willrich.com"">sales@willrich.com</a> )
+
+54-400-300 Fowler RS-232 Output Cable for X-Pro $114.00
+54-400-319 Fowler General Purpose Probe for X-Pro .0004""  $515.00
+54-400-319 Fowler General Purpose Probe for X-Pro .0004""
+54-400-326 Fowler General Purpose Probe for X-Pro .0002""
+54-400-351 Fowler SPC Printer and Cable for X-Pro
+54-400-896 Fowler Optional Height Gage Stand for X-Pro
+54-420-120 Fowler AC Adapter for X-Pro
+54-420-301 Fowler Traverse Chisel Probe for X-Pro .0004""
+54-420-302 Fowler Parallel Chisel Probe for X-Pro .0004""
+54-420-321 Fowler Small Bore Probe for X-Pro .0004""
+54-420-327 Fowler Small Bore Probe for X-Pro .0002""
+54-420-328 Fowler Groove Bottom Probe for X-Pro .0004""",additional-info,"portable surface roughness tester",55,"Fowler X-Pro Portable Surface Roughness Tester",yes,upon_release,,"portable surface roughness tester",90,,,1,classic-editor,,1659350025,,,,field_683d85f0871aa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+847,variable,,"Mahr Pocket Surf IV Portable Surface Roughness Tester",1,0,visible,"The Mahr Pocket Surf IV portable surface roughness gage/profilometer is the ideal instrument for making traceable, contact surface roughness measurements on a large range of surfaces including small inside diameters. This feature packed surface roughness tester is portable and affordable. The Pocket Surf is the Gold Standard of portable surface finish testers!\n\nThe Pocket Surf easily handles a variety of surface roughness measurements including flat, inside/outside diameters and many difficult to gage surfaces.\n\n<strong>2191800 Pocketsurf IV 10um radius tip (.0004"")\n</strong>\n\n<strong>2191802 Pocketsurf IV 5um radius tip (.0002"")</strong>","Mahr Pocket Surf IV Features:\n<ul>\n 	<li>Can be used to measure any one of four, switch-selectable, parameters: Ra, Rmax/Ry, Rz</li>\n 	<li>Selectable traverse length 1, 3 or 5 cut-offs of 0.8 mm/.030“</li>\n 	<li>Operates in any position – horizontal, vertical, and upside down</li>\n 	<li>Four switchable probe positions – axial (folded) or at 90°, 180° or 270°</li>\n 	<li>Even difficult-to-reach surfaces such as inside and outside diameters are accessible</li>\n 	<li>Integrated data output for SPC-processing units that is compatible with the most common data processing systems</li>\n 	<li>LCD readout presents the measured roughness value, in microinches or micrometers, within half a second after surface is traverse</li>\n 	<li>Out”‘of”‘range (high or low) and “battery low“ signals are also displayed</li>\n 	<li>MarConnect data output for easy SPC-processing that is compatible with the most common data processing systemsImproved digital</li>\n 	<li>calibration process eliminate scandrivers and potentiometers to simplify and enhance the calibrtion process</li>\n 	<li>Improved battery life with easy to replace standard 9V battery</li>\n 	<li>Test certificate</li>\n</ul>",,,taxable,,1,,,0,0,10,,,,0,,,,"Surface Roughness Testers > Surface Roughness Testers","Mahr Federal",,https://willrich.com/wp-content/uploads/2014/06/Mahr-Federal-Pocket-SurfIV-PHOTO.jpg,,,,,,,,,145,"Surface Roughness Tester","10um probe\, w/Test Cert, 5Î¼m probe\, w/Test Cert",1,1,"Surface Rough. Contact Style",Skidded,1,1,Brands,"Mahr Federal",1,1,,,,,,0,2195,2195,13419,13419,2195,2195,13419,13419,,technical-information_tab_custom_title,"Click below to enlarge Mahr Pocket Surf IV Technical information.
+
+<a href=""//willrich.com/wp-content/uploads/2014/06/Mahr-Federal-Pocket-SurfIV-technical.jpg""><img class=""alignnone wp-image-13412"" src=""https://willrich.com/wp-content/uploads/2014/06/Mahr-Federal-Pocket-SurfIV-technical.jpg"" alt=""mahr federal pocketsurf iv"" width=""387"" height=""300"" /></a>
+
+Note: 5um ( .0002) stylus is recommended for anything below a 20Ra.
+
+&nbsp;",technical-information,,resources_tab_custom_title,"Download the product literature using the link below:
+
+&nbsp;
+
+<a href=""https://willrich.com/wp-content/uploads/2014/06/Pocket-Surf-IV-Brochure.pdf"">https://willrich.com/wp-content/uploads/2014/06/Pocket-Surf-IV-Brochure.pdf</a>
+
+&nbsp;",resources,,additional-info_tab_custom_title,"Download specifications for Pocket surf probes and pocketsurf stands  using this link : <a href=""https://willrich.com/wp-content/uploads/2014/06/mahr-pocketsurv-iv-accessories.pdf"">Probes-for-Pocket-Surf</a>
+
+&nbsp;
+
+<b>Pocketsurf Accessories</b><strong> listed below: Call or email us for pricing ( Ph: 866-945-5742 / <a href=""mailto:sales@willrich.com"">sales@willrich.com</a> )</strong>
+<ul>
+ 	<li>EGH-1028</li>
+ 	<li>EGH-1021</li>
+ 	<li>EGH-1020</li>
+ 	<li>EAS-2496</li>
+ 	<li>EAS-2426</li>
+</ul>
+Click below to enlarge information on Pocketsurf probes:
+
+<a href=""//willrich.com/wp-content/uploads/2014/06/Mahr-Federal-Pocket-SurfIV-probe-accessories.png""><img class=""alignnone wp-image-13416"" src=""https://willrich.com/wp-content/uploads/2014/06/Mahr-Federal-Pocket-SurfIV-probe-accessories.png"" alt=""pocketsurf probes"" width=""386"" height=""468"" /></a>
+
+Click below to enlarge information on Pocketsurf Stands
+
+<a href=""//willrich.com/wp-content/uploads/2014/06/Mahr-Federal-Pocket-SurfIV-stands-and-accessories.jpg""><img class=""alignnone wp-image-13417"" src=""https://willrich.com/wp-content/uploads/2014/06/Mahr-Federal-Pocket-SurfIV-stands-and-accessories.jpg"" alt=""pocketsurf stand"" width=""387"" height=""506"" /></a>
+
+Click below to enlarge information on extra length probes for pocketsurf:
+
+<a href=""//willrich.com/wp-content/uploads/2014/06/extra-length-probes-for-pocketsurf-iv.png""><img class=""alignnone wp-image-13418"" src=""https://willrich.com/wp-content/uploads/2014/06/extra-length-probes-for-pocketsurf-iv.png"" alt=""POCKETSURF PROBES"" width=""420"" height=""550"" /></a>
+
+&nbsp;",additional-info,"pocket surf",55,"Mahr Federal Pocket Surf Portable Surface Roughness Tester",yes,upon_release,,"pocket surf",90,,,1,classic-editor,,1665917915,,,,field_683d85f0871aa,1885,1885,13419,13419,"Four switchable probe positions – axial (folded) or at 90°, 180° or 270°
+Dimensions: 140 mm x 76 mm x 25 mm / 5.5"" x 3"" x 1""
+Measuring Ranges: Ra 0.03 Î¼m to 6,35 Î¼m / 1 Î¼in to 250 Î¼in
+Ry 0,2 Î¼m to 25,3 Î¼m / 8 Î¼in to 999 Î¼in
+Rmax0,2 Î¼m to 25,3 Î¼m / 8 Î¼in to 999 Î¼in
+Rz 0,2 Î¼m to 25,3 Î¼m / 8 Î¼in to 999 Î¼in
+Weight: 435 g / 14 oz
+Display Resolution: 0.01 Î¼m / 1 Î¼in","Click this link for detailed info on probes : <a href=""https://willrich.com/wp-content/uploads/2014/06/Probes-for-Pocket-Surf.pdf"">Probes for Pocket Surf</a>
+
+Click this link for detailed info on stands and fixture: <a href=""https://willrich.com/wp-content/uploads/2014/06/Pocket-Surf-Stand-and-Fixture.pdf"">Pocket Surf Stand and Fixture</a>",13420,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+879,variable,,"MarSurf XR 1 Surface Roughness Tester",1,0,visible,"The MarSurf XR 1 combines mobile surface metrology with the advantages of a MarWin evaluation software. This means, for a roughness or waviness measurement, a simple all-in-one PC as well as the suitable drive unit suffice. Depending upon the customer's needs, laptops or industrial PCs can also be implemented.\nBluetooth technology offers a special degree of freedom, for in addition to the cable connection between the drive unit and evaluation unit, the connection functions also cable-free. The measurement can be comfortably activated by touchscreen or the respective drive unit and the data transferred to the computer.\nCorresponding to your measurement tasks, you can decide if you would like to configurate the measuring tstation with skidded or skidless tracing.\nThe surface measuring unit Marsurf XR 1 offers you the most cost-efficient entry to comfortable surface metrology.","Mahr Federal MarSurf XR 1 bench top surface roughness tester Features:\n\n• Over 80 parameters selectable for R, P, W profile as per current standards ISO/JIS or MOTIF (ISO 12085)\n• Band-pass filter Ls according to current standard, LS can also be switched off or freely varied\n• Comprehensive recording records\n• Quick and Easy measuring programs can be quickly created in the teach-in procedure\n• Automatic function for the standardized selection of cutoff and probe length (patented)\n• Support of different calibration methods (static and dynamic) with specificaiton of the parameter Ra or Rz\n• Maintenance and calibration intervals can set\n• Many measuring station configurations are available to suit each individual application case.\n• Different options make the system flexible\n• Different user levels to protect against misuse of the unit and ensure that no unauthorized operator can use the unit\n\nThe evaluation software described here can be expanded as needed.",,,taxable,,1,,,0,0,10,,,,1,"Ph: 866-945-5742 for price",,,"Surface Roughness Testers > Surface Roughness Testers","Mahr Federal",,https://willrich.com/wp-content/uploads/2014/06/Mahr-Federal-XR1-Surface-Roughness-Bench-Typle.jpg,,,,,,,,,1718,"Call or email for price ph: 866-945-5742","866-945-5742, sales@willrich.com",1,0,"Surface Rough. Contact Style",Skidless,1,1,Brands,"Mahr Federal",1,1,,,,,,0,,,,,,,,,,technical-information_tab_custom_title,"Download the product literature using the link below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/06/Mahr-Federal-XR1-Surface-Roughness-Bench-Typle.pdf"">Mahr Federal XR1 Surface Roughness Bench Typle</a>",technical-information,,resources_tab_custom_title,,resources,,additional-info_tab_custom_title,,additional-info,"surface roughness tester",53,"MarSurf XR 1 Surface Roughness Tester",yes,upon_release,,,30,,,,classic-editor,,1653392238,,,,,,,,,,,,,"This product is available for pre-order.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+933,variable,,"Mitutoyo SJ-310 Surface Roughness Tester",1,0,visible,"The Mitutoyo SJ-310 SURFTEST surface roughness tester supports a micro-SD card (optional) for storage of up to 10,000 measurement values, 500 measuring conditions, 1000 measuring data, 500 image (BMP) data, 500 statistic data or auto save up to the last 10 sets of measurement data.\nUSB, Digimatic SPC output, RS-232C and External Software connectivity is supported.","Mitutoyo SJ-310 Surface Roughness Tester Features:\n<ul>\n 	<li>Color LCD with touch screen improves operability and achieves high visibility</li>\n 	<li>16 languages can be selected and are switchable</li>\n 	<li>Statistic measurements  standard deviation, max, min, pass rate and histogram.</li>\n 	<li>Up to ten measurements can be stored data can be displayed and printed out by the built-in thermal printer.</li>\n</ul>",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers",Mitutoyo,,https://willrich.com/wp-content/uploads/2014/07/Mitutoyo-SJ310-Surface-Roughness-Unit.jpg,,,,,,,,,151,Products,"178-571-22A Standard drive unit 5um tip\, 4mN force, 178-571-21A Standard drive unit 2um tip\, .75mN force, 178-573-22A Retractable drive unit 5um tip\, 4mN force, 178-573-21A Retractable drive unit 2um tip\, .75mN force, 178-575-22A Transverse tracing 5um tip\, 4mN force, 178-575-21ATransverse tracing unit 2um tip\, .75mN force",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,Mitutoyo,1,1,,,,,,0,3499,6295,937,941,3655,6295,937,941,,technical-information_tab_custom_title,"Mitutoyo SJ-310 Surftest surface roughness tester:
+<ul>
+ 	<li>Measurement range (Resolution) 25um (0.002um),  100um (0.006um),  360um (0.02um), Auto</li>
+ 	<li>Measurement speed 0.25, 0.5, 0.75mm/s</li>
+ 	<li>Return speed 1mm/s</li>
+ 	<li>Sampling length 0.08, 0.25, 0.8, 2.5, 8mm</li>
+ 	<li>Number of sampling lengths 1`10, x L</li>
+ 	<li>Battery capacity 1500 measurement (approx.)</li>
+ 	<li>Time required for recharging battery Max. 4h</li>
+ 	<li>Waiting time for auto-sleep 30`600s (only w/battery)</li>
+ 	<li>RS-232C speed 9600, 19200, 38400</li>
+</ul>",technical-information,,resources_tab_custom_title,"Download the Mitutoyo SJ-310 Surftest product information using the link below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Mitutoyo-SJ310-Surface-Roughness-Unit.pdf"">Mitutoyo SJ310 Surface Roughness Unit</a>",resources,,additional-info_tab_custom_title,"Download the specification for the Mitutoyo SJ-310 SURFTEST Surface roughness accessories using the link below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Mitutoyo-SJ-310-SURFTEST-accessories.pdf"">Mitutoyo SJ-310 SURFTEST accessories</a>
+
+SJ-310 Accessories listed below.  Call or email for pricing: (Ph: 866-945-5742 / <a href=""mailto:sales@willrich.com"">sales@willrich.com </a>)
+
+178-029 stand + 12AAA221 to mount the surftest. shps via truck
+<ul>
+ 	<li>178-383</li>
+ 	<li>178-384</li>
+ 	<li>178-385</li>
+ 	<li>178-388</li>
+ 	<li>178-390</li>
+ 	<li>178-392</li>
+ 	<li>178-393</li>
+ 	<li>178-394</li>
+ 	<li>178-296</li>
+</ul>",additional-info,"mitutoyo sj-310",49,"Mitutoyo SJ-310 Surface Roughness Gage",yes,upon_release,,"mitutoyo sj-310",90,,,1,classic-editor,,1665722484,,,,field_683d85f0871aa,3499,3499,937,937,,,,,"This product is available for pre-order.",default,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+951,variable,,"Mitutoyo SJ-410 Series Model SJ-411 SJ-412 Portable Surface Roughness Tester",1,0,visible,"Mitutoyo SJ-411 Surface Roughness Testers feature the ability to do both skidded and skid-less measurements.\nThese SJ-411 Surftest / SJ-412 Surftest series offer a wide-range, high-resolution detector and a drive unit that provide superior high-accuracy measurement in its class.  By using the skid-less measurement function you can obtain ultra-fine steps, straightness and waviness. The Mitutoyo skidless surface roughness unit is ideal for curved or radiused surfaces. The unit would need at least .030” of surface to trace. It’s possible to go down to .010” land but that is typically used on a surface of 5 micro inch or less.","Mitutoyo  Model SJ-411 Model SJ-412 Portable Surface Roughness Tester Features:\n<ul>\n 	<li>Both skidded and skidless measurement</li>\n 	<li>Equipped with 46 roughness parameters that conform to the latest ISO, DIN, ANSI, and JIS standards.</li>\n 	<li>Straightness/traverse length</li>\n 	<li>Ultra-fine steps, straightness and waviness can be measured by using the skidless measurement function.</li>\n 	<li>5.7-inch color graphic and back light LCD touch-panel</li>\n 	<li>Measured data can be output to a PC with optional RS-232C or USB cable.</li>\n 	<li>Digital filter function for non-distorted roughness profiles.</li>\n 	<li>GO/NG judgment function.</li>\n 	<li>supports 16 languages</li>\n 	<li>Simplified contour analysis function supports the four types of measurement: step, level change, area and coordinate difference.</li>\n 	<li>Access to each feature can be password protected</li>\n 	<li>The optional attachments for mounting on a column stand significantly increase the operability.</li>\n 	<li>178-581-11A SJ-411\n178-581-12A SJ-411\n178-583-11A SJ-412\n178-583-12A SJ-412</li>\n</ul>",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers",Mitutoyo,,https://willrich.com/wp-content/uploads/2014/07/Mitutoyo-SJ-410-Series-Model-SJ-411-Portable-Surface-Roughness-Tester.jpg,,,,,,,,,144,"Product Choice","178-581-31A .75mN meas. force 1"" stroke, 178-581-32A 4mM meas. force 1"" stroke, 178-583-31A .75mN meas. force 2"" stroke, 178-583-32A 4mM meas. force 2"" stroke",1,0,"Surface Rough. Contact Style",Skidless,1,1,Brands,Mitutoyo,1,1,,,,,,0,6585,8590,956,958,7035,8590,956,958,,technical-information_tab_custom_title,"Mitutoyo SJ-410 Series Model SJ-411 Portable Surface Roughness Tester SJ-412 :
+<ul>
+ 	<li>Measuring range: 800Î¼m</li>
+ 	<li>Resolution: 0.000125Î¼m (at 8Î¼m range)</li>
+ 	<li>Drive unit</li>
+ 	<li>Straightness/traverse length</li>
+ 	<li>SJ-411: 0.3Î¼m/25mm</li>
+ 	<li>SJ-412: 0.5Î¼m/50mm</li>
+ 	<li>SJ411 can easily go to less than 1 microinch. (Ra) Then, vibration is very important.</li>
+</ul>
+178-581-11A SJ-411
+178-581-12A SJ-411
+
+178-583-11A SJ-412
+178-583-12A SJ-412
+
+https://www.youtube.com/watch?time_continue=92&amp;v=X7jCTIwVs80
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;",technical-information,,resources_tab_custom_title,"Download the SJ-410 , SJ-411, SJ-412 Series product literature using the link below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Surftest_SJ410_E15014-US.pdf"">Surftest_SJ410_E15014-US</a>
+
+<a href=""https://www.youtube.com/watch?v=kAI5J5fL-4A"">Click here Mitutoyo SJ-410 SURFTEST youtube video</a>",resources,,additional-info_tab_custom_title,"Click below link to download specifications for the SJ-410 SJ-411 SJ-412  accessories
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Accessories-for-Mitutoyo-SJ-410-Surftest.pdf"">Accessories for Mitutoyo SJ-410 Surftest</a>
+
+SJ-411 Accessories listed below.  Call or email us for pricing. (Ph: 866-945-5742 / <a href=""mailto:sales@willrich.com"">sales@willrich.com</a> )
+<ul>
+ 	<li>178-069 Column Stand</li>
+ 	<li>178-069 STAND This new model has both applicable adapters for holding the drive units of all
+SJ-210/310/410 models. Numerous innovative option accessories combined with a competitive price make this
+option manual column stand an appealing accessory.
+The main features of the Combination Manual Column Stand are as follows:
+• Maximum traversing range in column Z-axis is 200mm.
+• Built-in aluminum T-groove in granite base aligned with the center-line of drive
+unit when mounted.
+• Column shaft is plating finish for smooth travel.
+• Lead thread pitch 3 for efficient traverse up and down and high load capacity.
+• Both Drive unit mounting adapters for SJ-210/310 (65GAA083) and SJ-410
+(65GAA068) are included for versatility</li>
+ 	<li>178-397 Standard Detector - 4mN</li>
+ 	<li>178-396 Standard Detector - .75mN</li>
+ 	<li>12AAE882 Standard 1Î¼m stylus/60°</li>
+ 	<li>12AAE924 Standard 1Î¼m stylus/90°</li>
+ 	<li>12AAE883 Standard 250Î¼m stylus/60°</li>
+ 	<li>12AAB403 Standard 5Î¼m stylus</li>
+ 	<li>12AAB355  Skidless nosepiece</li>
+ 	<li>12AAB344 Standard nosepiece</li>
+ 	<li>12AAC731 Standard 2Î¼m stylus/60°</li>
+ 	<li>12AAB415 Standard 10Î¼m stylus</li>
+ 	<li>12AAA882 RS232 Cable</li>
+ 	<li>64AAB213  Vibraplane isolation stand 30 x 48</li>
+ 	<li>12AAM556 SJ-410 Height-Tilt adjustment unit</li>
+ 	<li>178-010 Auto set unit</li>
+ 	<li>357651 AC Adapter</li>
+</ul>
+&nbsp;
+
+&nbsp;",additional-info,SJ-410,47,"Mitutoyo SJ-410 Surface Roughness Tester",yes,upon_release,,SJ-410,90,,,1,classic-editor,,1668620180,,,,field_683d85f0871aa,6585,8150,956,959,,,,,"This product is available for pre-order.",,"<iframe width=""944"" height=""531"" src=""https://www.youtube.com/embed/X7jCTIwVs80?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1552503241,"<iframe width=""967"" height=""544"" src=""https://www.youtube.com/embed/X7jCTIwVs80?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1552503252,"<iframe width=""1020"" height=""574"" src=""https://www.youtube.com/embed/X7jCTIwVs80?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1552521497,"<iframe width=""982"" height=""552"" src=""https://www.youtube.com/embed/X7jCTIwVs80?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1555532733,"<iframe title=""Surface Finish Measurement - Skidded VS. Skidless Surface Roughness Measurement"" width=""831"" height=""467"" src=""https://www.youtube.com/embed/X7jCTIwVs80?start=92&feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1653391674,"<iframe title=""Surface Finish Measurement - Skidded VS. Skidless Surface Roughness Measurement"" width=""1002"" height=""564"" src=""https://www.youtube.com/embed/X7jCTIwVs80?start=92&feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" allowfullscreen></iframe>",1705997221,"<iframe title=""Surface Finish Measurement - Skidded VS. Skidless Surface Roughness Measurement"" width=""691"" height=""389"" src=""https://www.youtube.com/embed/X7jCTIwVs80?start=92&feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1754746312,0,0,0,0,,custom,custom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+974,variable,,"Phase II SRG-2000 Surface Roughness Tester Profilometer",1,0,visible,"The New Phase II SRG-2200 Mini Surface Roughness Tester is a next generation of surface roughness tester developed by the Phase II Metrology Group that features high accuracy, a wide range of application, simple operation and stable performance. It is widely applicable in surface roughness testing all kinds of metals and non-metals.\n\n<b>Large memory with data output via Bluetooth.</b>\n\nThe 1.14″ IPS TFT display shows choice of surface roughness parameter Ra, Rz, Rq and Rt at the touch of a button, combined with the selected cutoff length.","Phase II SRG-2000 Surface Roughness Tester Profilometer is a pocket-sized economically priced  instrument for measuring surface roughness texture conforming to traceable standards.  It can be used on the shop floor in any position, horizontal, vertical or anywhere in between.\n\nThe large LCD display shows either surface roughness parameter Ra, Rz, Rms(Rq) and Rt at the touch of a button.",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers","Phase II",,https://willrich.com/wp-content/uploads/2014/07/PHASE-2.png,,,,,,,,,2041,Item,"SRG-2200 Surface Roughness Tester Profilometer",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,"Phase II",1,1,,,,,,0,1433.25,1433.25,976,976,1433.25,1433.25,976,976,,technical-information_tab_custom_title,"<section class=""sec2"">
+<div class=""row"">
+
+The New Phase II<strong> SRG-2200</strong> Mini Surface Roughness Tester/profilometer is a next generation of surface roughness tester/profilometer developed by the Phase II Metrology Group that features high accuracy, a wide range of application, simple operation and stable performance. It is widely applicable in surface roughness testing all kinds of metals and non-metals.
+
+<strong>Large memory with data output via Bluetooth.</strong>
+
+The 1.14” IPS TFT display shows choice of surface roughness parameter <strong>Ra, Rz, Rq and Rt </strong>at the touch of a button, combined with the selected cutoff length. External calibration of the surface roughness value is possible by means of a built-in calibration feature which makes adjustment of this instrument very easy. Data output via Bluetooth makes saving surface roughness results fast and easy.
+
+The easy to use <strong>SRG-2200</strong> surface roughness tester/profilometer operates on various surfaces, not only flat but also outer cylinder, outer cone, grooves, and recesses greater than 80x 30mm. The areas of application are wide-spread. It is suitable for inspection departments, quality control, on the shop floor during machining, during assembly, and on site.
+<h4><strong>The PHASE II SRG-2200 surface roughness tester/profilometer comes complete with a compact durable carrying case, surface roughness standard, data output software and instruction manual.</strong></h4>
+</div>
+</section>
+<div class=""title1"">
+<h3>Specifications:</h3>
+<div class=""table-responsive mt-0 text-left"">
+<table>
+<thead>
+<tr>
+<th>Roughness parameter</th>
+<th>Ra, Rms(Rq), (ISO), Rt, Rz (DIN)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Measuring range</th>
+<td>Ra: 0.05-10.0µm / Rz 0.1-50µm
+Rms: 0.05-10.0µm / Rt: 0.1-50µm</td>
+</tr>
+<tr>
+<th>Display Type</th>
+<td>1.14” IPS TFT</td>
+</tr>
+<tr>
+<th>Cut-off lengths</th>
+<td>0.01in., 0.03in., 0.10in
+(0.25, 0.80, 2.50mm)</td>
+</tr>
+<tr>
+<th>Filter</th>
+<td>Gauss Digital</td>
+</tr>
+<tr>
+<th>Tracing length</th>
+<td>0.23in (6mm)</td>
+</tr>
+<tr>
+<th>Evaluation Length</th>
+<td>1.25mm, 4.0mm, 5.0mm</td>
+</tr>
+<tr>
+<th>Tracing speed</th>
+<td>0.04in/second (1.0mm/second)</td>
+</tr>
+<tr>
+<th>Accuracy</th>
+<td>+/- 12% of actual Value</td>
+</tr>
+<tr>
+<th>Pick-up stylus</th>
+<td>Piezo-electric</td>
+</tr>
+<tr>
+<th>Tracer tip</th>
+<td>Diamond, radius 10mm +- 2.5mm</td>
+</tr>
+<tr>
+<th>Memory / Transmission</th>
+<td>500 Values / Bluetooth</td>
+</tr>
+<tr>
+<th>Operating temperature</th>
+<td>32-104 degrees F (0-40 degrees C)</td>
+</tr>
+<tr>
+<th>Power</th>
+<td>1pc 1.5v AA Battery</td>
+</tr>
+<tr>
+<th>Contact force on probe</th>
+<td>&lt;0.5N</td>
+</tr>
+<tr>
+<th>Static measuring force of sensor stylus</th>
+<td>&lt;0.16N</td>
+</tr>
+<tr>
+<th>Dimensions</th>
+<td>73x28x62mm</td>
+</tr>
+<tr>
+<th>Weight</th>
+<td>0.5lbs (220g)</td>
+</tr>
+</tbody>
+</table>
+</div>
+Data Output Software is Included!
+
+</div>",technical-information,,resources_tab_custom_title,"&nbsp;
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/srg-2200-datasheet.pdf"">srg-2200-datasheet</a>
+
+[embed]https://youtu.be/gZTXDp6XJww[/embed]",resources,,additional-info_tab_custom_title,,additional-info,"phase ii srg-2200",40,"The PHASE II SRG-2000 Surface Roughness Tester Profilometer",yes,upon_release,,,60,,,1,classic-editor,,1653675612,,,,,,,,,,,,,"This product is available for pre-order.",,,,,,,,,,,,,,,,,,,,,,,"<iframe title=""Surface Roughness Testers -Profilometer - Surface Roughness Gages - Model # Phase ll   SRG 2200"" width=""1020"" height=""574"" src=""https://www.youtube.com/embed/gZTXDp6XJww?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" allowfullscreen></iframe>",1704309711,"<iframe title=""Surface Roughness Testers -Profilometer - Surface Roughness Gages - Model # Phase ll   SRG 2200"" width=""1002"" height=""564"" src=""https://www.youtube.com/embed/gZTXDp6XJww?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" allowfullscreen></iframe>",1705997804,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+978,variable,,"Phase II SRG-4000 Surface Roughness Gage",1,0,visible,"The Phase II SRG-4000 surface roughness gage utilizes an easy interface to allow for changes of in/mm (uin/um),  cutoff length, sampling length, parameters, level of test(stylus position), digital filters and more!","Phase II SRG-4000 Surface Roughness Gage offers a diamond stylus which is hypersensitive and sophisticated enough to allow for a .001 (um) micron display resolution. The SRG-4000 surface roughness tester measurement results are displayed as large characters on the LCD screen for easy recognition. Battery powered portability allows the SRG-4000 surface roughness testers profilometer to mobilize productivity throughout the shop.\n\nFeatures:\n<ul>\n 	<li>Direct printing</li>\n 	<li>Auto-off with auto store</li>\n 	<li>Data output RS 232  to printer/PC</li>\n 	<li>Cut-off lengths 0.25mm/0.8mm/2.5mm</li>\n 	<li>Tracing length Lt 1.3mm – 17.5mm</li>\n 	<li>Digital Filter RC, PC-RC, GUASSIAN, D-P</li>\n 	<li>Detector Diamond tip radius 5 µm</li>\n 	<li>Power Li-Ion battery</li>\n 	<li>NIST Certificate</li>\n</ul>",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers","Phase II",,https://willrich.com/wp-content/uploads/2014/07/Phase-II-SRG4000-Surface-Roughness-Gage.jpg,,,,,,,,,2045,Item,"SRG-4000 Surface Roughness Testers",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,"Phase II",1,1,,,,,,0,1795.95,1795.95,979,979,1795.95,1795.95,979,979,,technical-information_tab_custom_title,"Phase II SRG-4000 Surface Roughness Tester:
+<ul>
+ 	<li>Roughness Parameters: Ra, Rz, Rq, Rt</li>
+ 	<li>Assessed Profiles Primary profile(p), Roughness profile(R) tp curve (Mr)</li>
+ 	<li>Conformance Standards: ISO/DIN/JIS/ANSI</li>
+ 	<li>Measuring System Metric µm,  Imperial µ inch</li>
+ 	<li>Display Resolution +/-20 µm  = 0.001 µm
++/-40 µm = 0.002 µm
++/-80 µm = 0.004 µm</li>
+ 	<li>Sensor Specifications: 5 µm Diamond Tip Stylus</li>
+ 	<li>Sensor Angle: 90°</li>
+ 	<li>Contact Force: 4mN (0.4gf)</li>
+ 	<li>Display features Stylus position sensor</li>
+ 	<li>Battery level indicator</li>
+ 	<li>Direct display of parameters</li>
+ 	<li>Working temperature 5-40 degrees C.</li>
+ 	<li>Dimensions 139mm x 56mm x 48mm</li>
+ 	<li>Weight 450g</li>
+</ul>",technical-information,,resources_tab_custom_title,"Download the Phase II SRG-4000 Surface Roughness Gage video by using the link below:
+
+<a href=""https://www.youtube.com/watch?feature=player_embedded&amp;v=xOiZVy_ry0E"">Phase II SRG-4000 Surface Roughness Gage Youtube video</a>",resources,,additional-info_tab_custom_title,,additional-info,"phase ii srg-4000",50,"Phase II SRG-4000 Surface Roughness Gage",yes,upon_release,,,90,,,1,classic-editor,,1653675612,,,,field_683d85f0871aa,,,,,,,979,,"This product is available for pre-order.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+999,variable,,"Starrett SR300 Surface Roughness Tester",1,0,visible,"The Starrett SR300 Surface Roughness Tester - a full-featured, powerful and versatile device. This unit can be used either freestanding or bench mounted with fixturing for batch measurement and laboratory applications.\n\n&nbsp;","<p align=""LEFT"">Starrettt SR300 Portable Surface Roughness Tester Features:</p>\n<p align=""LEFT"">• Large screen display</p>\n• Unique stylus lift mechanism for total flexibility\n\n• Many application specific parameter options\n\n• Comprehensive selection optional accessories and pickups\n\n• Long traverse length and extended pickup reach\n\n• Stores of up to 100 readings\n<p align=""LEFT"">Included items:</p>\n\n<ul>\n 	<li>Display &amp; Traverse unit</li>\n 	<li>Pick-up &amp; Diamond Stylus</li>\n 	<li>Calibration Standard</li>\n 	<li>Manual; and Carrying Case</li>\n 	<li>17.5mm travel, 200um range, 10nm resolution</li>\n 	<li>Standard Parameter Set (ISO 4287, ASME, JIS)</li>\n 	<li>*TalyProfile Lite software</li>\n</ul>",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers",Starrett,,https://willrich.com/wp-content/uploads/2014/07/sr300.jpg,,,,,,,,,306,Item,"Starrett SR300 Surface Roughness Tester",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,Starrett,1,1,,,,,,0,2692,2692,1000,1000,3025,3025,1000,1000,,technical-information_tab_custom_title,"Starrett SR300 Surface Roughness Tester:
+
+• Accuracy (in) 2% of reading + LSD µm
+• Cutoff Lengths 0.01, 0.03, 0.3"" / 0.25, 0.8, 2.5, 8mm
+• Filter 2CR or gaussian (selectable)
+• Measuring Range 200/100/10µm
+• Pick-up Stylus Inductive
+• Roughness Parameter Ra, Rz, Rt, Rp, Rmr, Rpc, Rsm, Rz1max, Rsk, Rda
+• Tracer Tip Diamond stylus Tip radius 200µ"" / 5µm unless otherwise specified
+• Tracing Length 0.01-0.49"" / 0.25-12.5mm
+• Tracing Speed 0.04""/sec, 1mm/sec
+• Portable surface roughness
+• SPC Output: No",technical-information,,resources_tab_custom_title,"Download the Starrett SR300 Surface Roughness Tester literature using the link below :
+
+<a href=""//willrich.com/wp-content/uploads/2014/07/Starrett-SR300-and-SR400-Surface-Roughness-Units.pdf"">Starrett SR300 and SR400 Surface Roughness Units</a>
+
+Click below link to watch Starrett SR300 video
+
+<a href=""https://youtu.be/3MuzcyLKUOo"">Starrett SR300 Video </a>",resources,,additional-info_tab_custom_title,"Download specifications for the Starrett SR300 Surface Roughness tester accessories by using the link below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Starrett-SR300-and-SR400-Surface-Roughness-tester-accessories.pdf"">Starrett SR300 and SR400 Surface Roughness tester accessories</a>
+
+SR300 accessories listed below.  Call or email us for pricing on below (Ph: 866-945-5742 / <a href=""mailto:sales@willrich.com"">sales@willrich.com</a>)
+<ul>
+ 	<li>SR-112-1510 20961 7.875""/200mm Extension Rod with Lead</li>
+ 	<li>SR-112-1534 20962 Reference Standard</li>
+ 	<li>SR-112-1517 20963 Support Stand</li>
+ 	<li>SR-112-2693 20964 Column and Stand</li>
+ 	<li>SR-112-1502 20956 Standard Pickup with 200Î¼"" / 5Î¼m Stylus</li>
+ 	<li>SR-112-1503 20957 Standard Pickup with 400Î¼"" / 10Î¼m Stylus</li>
+ 	<li>SR-115-P28495 21004 Small Bore Pickup</li>
+ 	<li>SR-112-1505 20959 Right Angle Pickup</li>
+ 	<li>SR-112-1506 20960 Recess Pickup</li>
+ 	<li>SR-112-3680 20952 TalyProfile Gold - 2D Analysis Software w/cable</li>
+ 	<li>SR-112-3681 20953 TalyProfile Silver - 2D Analysis Software w/cable</li>
+ 	<li>SR-K509-1578 20954 TalyProfile 8'/2.5m Cable</li>
+ 	<li>SR-K509-1820 20955 TalyProfile 5'/1.5m Cable</li>
+ 	<li>SR-112-4570 21002 USB Thermal Printer</li>
+ 	<li>SR-112-4571 21003 Thermal Paper</li>
+</ul>",additional-info,"starrett sr300",47,"Starrett SR300 Surface Roughness Tester",yes,upon_release,,"starrett sr300",90,,,1,classic-editor,,1660546962,,,,,2692,2692,1000,1000,,,,,"This product is available for pre-order.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1006,variable,,"Starrett SR400 Surface Roughness Tester",1,0,visible,"The Starrett SR400 Surface Roughness Tester offers Roughness Parameters Ra, Rz, Rt, Rp, Rmr, Rpc, Rsm, Rz1max, Rsk, Rda and is the perfect solution for all your roughness requirements.  Supplied with a lift/lower feature providing a 50mm height adjustment and 70mm reach into bores. Features a tactile measurement button that is great when the device is being used overhead or inside pipes.  Also includes a mini USB port that can be used for charging (with any standard USB charger) and or connection to a PC to provide further analysis and reporting functionality","Starrett SR400 Surface Roughness Tester Features:\n\n• Portable surface roughness\n\n• SPC Output: Yes\n\n• Large screen display\n\n• Unique stylus lift mechanism for total flexibility\n\n• Many application specific parameter options\n\n• Comprehensive selection optional accessories and pickups\n\n• Long traverse length and extended pickup reach\n\n• Stores of up to 100 readings\n\nIncluded items:\n<ul>\n 	<li>Display &amp; Traverse unit</li>\n 	<li>Pick-up &amp; Diamond Stylus</li>\n 	<li>Calibration Standard</li>\n 	<li>Manual; and Carrying Case</li>\n 	<li>25mm travel, 360um range, 5nm resolution</li>\n 	<li>Advanced Parameter Set (ISO 4287, ISO 13565, ASME, JIS)</li>\n 	<li>*TalyProfile Lite software.</li>\n</ul>\n&nbsp;",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers",Starrett,,https://willrich.com/wp-content/uploads/2014/07/Starrett-SR300-and-SR400-Surface-Roughness-Units1.jpg,,,,,,,,,2046,Item,"Starrett SR400 Surface Roughness unit",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,Starrett,1,1,,,,,,0,3587,3587,1007,1007,4031,4031,1007,1007,,technical-information_tab_custom_title,"Starrett SR400 Surface Roughness Tester:
+
+• Accuracy (in) 2% of reading + LSD µm
+• Cutoff Lengths 0.01, 0.03, 0.3"" / 0.25, 0.8, 2.5, 8mm
+• Filter 2CR or gaussian (selectable)
+• Measuring Range 400 µm 100 µm 10 µm
+• Pick-up Stylus Inductive
+• Roughness Parameter Ra, Rz, Rt, Rp, Rmr, Rpc, Rsm, Rz1max, Rsk, Rda
+• Tracer Tip Diamond stylus Tip radius 200µ"" / 5µm unless otherwise specified
+• Tracing Length 0.01-0.89/ 0.25-25.0mm
+• Tracing Speed 0.04""/sec, 1mm/sec
+• Resolution: 50 nm 10 nm 5 nm",technical-information,,resources_tab_custom_title,"Download the Starrett SR400 Product literature by using the link below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Starrett-SR300-and-SR400-Surface-Roughness-Units1.pdf"">Starrett SR400 Surface Roughness Units</a>
+
+Click below to watch Starrett SR400 surface roughness tester video
+
+<a href=""https://youtu.be/3MuzcyLKUOo"">Starrett SR400 Roughness tester Video</a>
+
+&nbsp;",resources,,additional-info_tab_custom_title,"Download the Starrett SR400 Accessories specifications by using the link below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Starrett-SR300-and-SR400-Surface-Roughness-tester-accessories1.pdf"">Starrett SR400 Surface Roughness tester accessories</a>
+
+SR400 Accessories listed below.
+
+Call or email us for pricing  (Ph 866-945-5742 / <a href=""mailto:sales@willrich.com"">sales@willrich.com</a> )
+<ul>
+ 	<li><span style=""color: #000000; font-family: Calibri; font-size: medium;""> </span>SR-112-1510 20961 7.875""/200mm Extension Rod with Lead</li>
+ 	<li> SR-112-1534 20962 Reference Standard</li>
+ 	<li> SR-112-1517 20963 Support Stand</li>
+ 	<li> SR-112-2693 20964 Column and Stand</li>
+ 	<li> SR-112-1502 20956 Standard Pickup with 200Î¼"" / 5Î¼m Stylus</li>
+ 	<li> SR-112-1503 20957 Standard Pickup with 400Î¼"" / 10Î¼m Stylus</li>
+ 	<li> SR-115-P28495 21004 Small Bore Pickup</li>
+ 	<li> SR-112-1505 20959 Right Angle Pickup</li>
+ 	<li>SR-112-1506 20960 Recess Pickup</li>
+ 	<li> SR-112-3680 20952 TalyProfile Gold - 2D Analysis Software w/cable</li>
+ 	<li> SR-112-3681 20953 TalyProfile Silver - 2D Analysis Software w/cable</li>
+ 	<li> SR-K509-1578 20954 TalyProfile 8'/2.5m Cable</li>
+ 	<li> SR-K509-1820 20955 TalyProfile 5'/1.5m Cable</li>
+ 	<li> SR-112-4570 21002 USB Thermal Printer</li>
+ 	<li> SR-112-4571 21003 Thermal Paper</li>
+</ul>",additional-info,"starrett sr400",51,"Starrett SR400 Surface Roughness Tester",yes,upon_release,,"starrett sr400",90,,,1,classic-editor,,1660546448,,,,,3587,3587,1007,1007,,,,,"This product is available for pre-order.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1021,variable,,"Brown & Sharpe Tesa Rugosurf 20 Profilometer",1,0,visible,"TESA Rugosurf 20 Surface Roughness Tester compact, robust and easy to use, this instrument is suited to daily use in the workshop. Accepts a wide range of probes making it suitable for measuring roughness parameters in all situations.\n\n&nbsp;\n\n&nbsp;","Tesa Rugosurf 20 Profilometer Features:\n<ul>\n 	<li>2Î¼m stylus tip radius</li>\n 	<li>Portable roughness</li>\n 	<li>Free download Data Connection tool</li>\n 	<li>Compact, Robust and easy to use</li>\n 	<li>X Axis 16mm</li>\n 	<li>Z Axis 400um</li>\n 	<li>15 roughness parameter with tolerance</li>\n 	<li>Built in memory</li>\n 	<li>USB Connection</li>\n</ul>\nTesa Rugosurf 20 Profilometer Included items:\n<ul>\n 	<li>Roughness standard, Ra = 2,97 Î¼m (117 Î¼in) Delivered with 2,97Î¼m roughness standard</li>\n 	<li>Clamping shaft for the 8 mm dia. universal support</li>\n 	<li>Positioning holders</li>\n 	<li>Standard SB10 probe</li>\n 	<li>Rechargeable battery (already mounted)</li>\n 	<li>Charger, 220/110 V</li>\n</ul>",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers","Brown & Sharpe Tesa",,https://willrich.com/wp-content/uploads/2014/07/Tesa-Rugosurf-20-Surface-Roughness-Teste.jpg,,,,,,,,,152,Item,"Rugosurf 20",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,"Brown & Sharpe Tesa",1,1,,,,,,0,1599,1599,1027,1027,2155,2155,1027,1027,,technical-information_tab_custom_title,"Tesa Rugosurf 20 Profilometer :
+<ul>
+ 	<li>Precision ISO 3274, Class 1</li>
+ 	<li>Keypad 4 protected buttons</li>
+ 	<li>Stylus tip R = 5 Î¼m, 90° (optionally 2 Î¼m, 60°)</li>
+ 	<li>Measuring force 0,75 mN (ISO 3274)</li>
+ 	<li>Languages English, French, German, Italian, Spanish, Portuguese, Chinese</li>
+ 	<li>Memory capacity 20 Measurements with additional graphics or &gt;1000 measurements with roughness parameters</li>
+ 	<li>Power supply 7,2 V integrated battery, 300 mAh, NiMH PP3</li>
+ 	<li>Battery life ~ 1000 measurements</li>
+ 	<li>Overall dimensions 122 x 60 x 62 mm</li>
+ 	<li>Weight 650 g</li>
+</ul>",technical-information,,resources_tab_custom_title,"Download the Brown &amp; Sharpe Tesa Rugosurf 20 product literature by using the link below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Tesa-Rugosurf-20-Surface-Roughness-Tester.pdf"">Tesa Rugosurf 20 Surface Roughness Tester</a>",resources,,additional-info_tab_custom_title,"<a href=""https://willrich.com/wp-content/uploads/2014/07/Tesa-Rugosurf-20-Surface-Roughness-Teste.jpg""><img class=""alignnone size-medium wp-image-1022"" src=""https://willrich.com/wp-content/uploads/2014/07/Tesa-Rugosurf-20-Surface-Roughness-Teste-300x240.jpg"" alt=""Tesa Rugosurf 20 Surface Roughness Teste"" width=""300"" height=""240"" /></a> <a href=""https://willrich.com/wp-content/uploads/2014/07/Accessories-for-Rugosurf.png""><img class=""alignnone size-medium wp-image-1024"" src=""https://willrich.com/wp-content/uploads/2014/07/Accessories-for-Rugosurf-206x300.png"" alt=""Accessories for Rugosurf"" width=""206"" height=""300"" /></a>
+
+Call or email us for pricing on below Tesa Rugosurf 20 Accessories (Ph: 866-945-5742/ <a href=""mailto:sales@willrich.com"">sales@willrich.com</a>)
+<ul>
+ 	<li>06960034 Rugosoft Software for storing and printing out the measurement results, but also for saving any graphical representations.</li>
+ 	<li>04760099 USB/Mini USB Cable  .</li>
+ 	<li>06960033 Portable Printer  No.</li>
+ 	<li>06960037 SB20  Probe for deep grooves  up to 5 mm</li>
+ 	<li>06960038 SB30  Probe for bores with diameters</li>
+</ul>",additional-info,"tesa rugosurf 20",49,"Brown & Sharpe Tesa Rugosurf 20 Profilometer",yes,upon_release,,"tesa rugosurf 20",90,,,1,classic-editor,,1653390861,,,,,1599,1599,1027,1027,,,,,"This product is available for pre-order.",default,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Brown & Sharpe Tesa Rugosurf 20 Profilometer",,,,,,,,,,,,,,,,,,,,,,,,,,
+1334,variable,,"TESA RUGOSURF 90G Surface Roughness Gauge",1,0,visible,"TESA RUGOSURF 90G Surface Roughness Gauge Small-size, versatile roughness tester providing maximum ease of use – suited for high-precision measurements\non the shop floor or in the inspection laboratory.","TESA RUGOSURF 90G Surface Roughness Gauge Features:\n\n• Measure roughness parameters according to ISO 4287, 12085 (CNOMO), 13565, DIN 4776 and JIS B060:2001.\n• TFT tactile colour display, 3,5"".\n• Three straight function keys.\n• Graphical interface.\n• Direct displaying of the measured values and computed profiles.\n• Intechangeable probe stylus, with or without contact skid.\n• Possible tolerancing of parameters.\n• RS 232 digital output for data transmission to a PC running TESA Measurement Studio (software available as an option)\n\nTESA RUGOSURF 90G roughness gauge Supplied with the following standard accessories:\n<ul>\n 	<li>Roughness standard, Ra = 2,97 Î¼m / 117 Î¼in</li>\n 	<li>Rechargeable built-in battery, 12 V</li>\n 	<li>SB60/10 standard probe, with or without contact skid</li>\n 	<li>Probe holder with two positions– Locked for probe without skid</li>\n 	<li>Guiding column, measuring travel 90 mm</li>\n 	<li>Battery charger, 110 to 240V, 50/60 H</li>\n</ul>\n&nbsp;",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers","Brown & Sharpe Tesa",,https://willrich.com/wp-content/uploads/2014/07/Tesa-Rugosurf-90G-Roughness-Gauge.jpg,,,,,,,,,1528,Item,"Surface Roughness Gage 90G",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,"Brown & Sharpe Tesa",1,1,,,,,,0,7499,7499,1339,1339,7499,7499,1339,1339,,technical-information_tab_custom_title,"TESA RUGOSURF 90G Surface Roughness Gauge
+
+• Measuring range X axis 50 mm Z-axis 1000um
+• Resolution 0,001um (0.01 µin)
+• Cut-offs 0,08 - 0,25 - 0,8 - 2,5 - 8 mm 1 up to 5 cut-offs of 8 mm
+
+&nbsp;",technical-information,,resources_tab_custom_title,"Download the Brown and Sharpe Tesa Rugosurf 90 product information by using below link:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Tesa-Rugosurf-90G-Roughness-Gauge.pdf"">Tesa Rugosurf 90G Roughness Gauge</a>",resources,,additional-info_tab_custom_title,"Download the specifications for the Tea 90G Surface Roughness Gauge using the below link:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Tesa-Rugosurf-90G-Roughness-Gauge-Accessories.pdf"">Tesa Rugosurf 90G Roughness Gauge Accessories</a>
+
+Tesa 90G Surface Roughness Tester accessories listed below.  Call or email for pricing (Ph: 866-945-5742/ <a href=""mailto:sales@willrich.com"">sales@willrich.com</a> )
+
+06960049 SB60/10 Probe with contact skid
+06960067 SB60/10 Same as 06960049, but with a diamond tip, R=2 µm.
+06960050 SB20 P Probe for grooves, max. depth 5 mm.
+06960051 SB30 P Probe for small bores from Ø 4 mm.
+06960052 SB40 P Probe with V-skid for cables with external diameter over 1 mm.
+06960053 SB50 P  Probe with contact skid for concave surfaces
+06960054 SB120P Probe for grooves, max. depth 20 mm.
+06960058 SB120S Probe without skid for grooves, max. depth 15 mm
+06960061 SB60-D2 Probe for small bores with diameter from 2 mm, L = 30 mm.",additional-info,"tesa rugosurf 90g",60,"Tesa Rugosurf 90G Surface Roughness Gage",yes,upon_release,,,90,,,1,classic-editor,,1653381577,,,,,,,,,,,,,"This product is available for pre-order.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14869,variable,,"Starrett SR160 Surface Roughness Tester",1,0,visible,"Starrett surface roughness testing equipment is simple, accurate and of high quality. It performs the complex analysis required to meet or exceed your customers specifications. The SR100, SR160, SR300, and SR400 units are tough, shock tested, and capable of withstanding the demands of a shop environment. Our surface roughness testers meet the increasing requirements across industries like safety, aerospace, automotive, precision bearings, and general manufacturing.\n\nWhen our customers speak, we listen. And that is why the new Starrett SR160 is one of our most well developed tools yet. Regardless of your application, an investment in a Starrett surface roughness tester will give you the peace of mind that your shop deserves.\n\nThe SR160 has an on-screen color graph display with instant results of multiple parameters. Two-piece Bluetooth connectivity.","Starrett SR160 Surface Roughness Tester Features:\n<ul>\n 	<li>Tactile Measurement Button</li>\n 	<li><i class=""fa fa-check""></i>Two-Piece Contruction with Bluetooth Low Energy Connectivity</li>\n 	<li><i class=""fa fa-check""></i>Diamond Stylus and Piezoelectric Pickup</li>\n 	<li><i class=""fa fa-check""></i> Li-Poly Battery</li>\n 	<li><i class=""fa fa-check""></i> Rubberized Molding</li>\n 	<li><i class=""fa fa-check""></i> Profile Graph</li>\n 	<li><i class=""fa fa-check""></i> Simple Navigation</li>\n</ul>",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers",Starrett,,https://willrich.com/wp-content/uploads/2015/07/starrett-sr160.jpg,,,,,,,,,147,Item,"SR160 Surface Roughness Tester",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,Starrett,1,1,,,,,,0,1753,1753,14870,14870,1970,1970,14870,14870,,technical-information_tab_custom_title,"Starrett SR160 Surface roughness unit:
+<ul>
+ 	<li><i class=""fa fa-check""></i> Accuracy (in): 5% of reading + 4 micro-in.</li>
+ 	<li><i class=""fa fa-check""></i> Accuracy (mm): 5% of reading + 0.1 micron</li>
+ 	<li><i class=""fa fa-check""></i> Cutoff Lengths: 0.8mm</li>
+ 	<li><i class=""fa fa-check""></i> Filter: Gaussian</li>
+ 	<li><i class=""fa fa-check""></i> Measuring Range: 1600 micro-in. (40 microns)</li>
+ 	<li><i class=""fa fa-check""></i> Pick-up Stylus: Piezoelectric</li>
+ 	<li><i class=""fa fa-check""></i> Roughness Parameter: Ra,Rz,Rp,Rv,Rt,Rz1Max,Rsk,Rq,Rku,Pa,Pz,Pp,Pv,Pt</li>
+ 	<li><i class=""fa fa-check""></i> Tracer Tip: Diamond, 5 micron radius</li>
+ 	<li><i class=""fa fa-check""></i> Tracing Length: 0.2 in (5mm)</li>
+ 	<li><i class=""fa fa-check""></i> Tracing Speed: 0.08 in/sec (2mm/sec)</li>
+</ul>
+Click below to enlarge Starrett SR160 Surface Roughness Tester Schematic
+
+<a href=""/wp-content/uploads/2015/07/Starrett-SR160-Surface-Roughness-Tester-Technical.jpg""><img class=""alignnone size-medium wp-image-14881"" src=""/wp-content/uploads/2015/07/Starrett-SR160-Surface-Roughness-Tester-Technical-300x185.jpg"" alt=""Starrett SR160 Surface Roughness Tester "" width=""300"" height=""185"" /></a>",technical-information,,resources_tab_custom_title,"Click below to download the Starrett SR160 Product Brochure:
+
+<a href=""https://willrich.com/wp-content/uploads/2015/07/starrett-SR160-SR300-SR400-lr.pdf"">starrett-SR160-SR300-SR400-lr</a>
+
+&nbsp;
+
+<a href=""https://starrett.egnyte.com/dl/ZI9tLqgkGo"">Starrett SR160 Yooutube Video</a>
+
+&nbsp;",resources,,additional-info_tab_custom_title,"Click below to enlarge Starrett SR160 Standard Accessories:
+
+<a href=""/wp-content/uploads/2015/07/Starrett-SR160-Standard-Accessories.jpg""><img class=""alignnone size-medium wp-image-14882"" src=""/wp-content/uploads/2015/07/Starrett-SR160-Standard-Accessories-300x256.jpg"" alt=""starrett surface roughness tester SR160"" width=""300"" height=""256"" /></a>",additional-info,"Starrett SR160 Surface Roughness Tester",47,"Starrett SR160 Surface Roughness Tester",yes,upon_release,,"Starrett SR160 Surface Roughness Tester",90,,,1,classic-editor,,1660547007,,,,field_683d85f0871aa,1753,1753,14870,14870,,,,,"This product is available for pre-order.",default,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{{unknown}},{{unknown}},{{unknown}},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,hello,,,,,,,,,,,,,,,,,,,,,,,,,
+16391,variable,,"Mahr Federal Pocketsurf III",1,0,visible,"Mahr Federal Pocketsurf III","Mahr Federal Pocketsurf III Features:\n<ul>\n 	<li>Pocket-sized economically priced, completely portable instrument which performs traceable surface roughness measurements on a wide variety of surfaces; can   be used confidently in production, on the shop floor and in the laboratory.</li>\n 	<li>Solidly built, with a durable cast aluminum housing, to provide years of accurate, reliable surface finish gaging.</li>\n 	<li>Can be used to measure any one of four, switch-selectable, parameters: Ra , Rmax/Ry , Rz.</li>\n 	<li>Selectable traverse length 1, 3 or 5 cut-offs of 0.8 mm/.030 in.</li>\n 	<li>Operates in any position – horizontal, vertical, and upside down</li>\n 	<li>Easy-to-read LCD readout presents the measured roughness value, in microinches or micrometers, within half a second after the surface is traversed.</li>\n 	<li>Out-of-range (high or low) and “battery low“ signals are also displayed.</li>\n 	<li>Four switchable probe positions – axial (folded) or at 90°, 180° or 270°</li>\n 	<li>Even difficult-to-reach surfaces such as inside and outside diameters are accessible.</li>\n 	<li>Integrated data output for SPC-processing units that is compatible with the most common data processing systems.</li>\n</ul>",,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers","Mahr Federal",,https://willrich.com/wp-content/uploads/2016/05/pOCKETSURF-iii.jpg,,,,,,,,,284,Brands,"Mahr Federal",1,1,Item,"EMD-1500-311 Pocketsurf III",1,0,"Surface Rough. Contact Style",Skidded,1,1,,,,,,0,1989,1989,16393,16393,1989,1989,16393,16393,,technical-information_tab_custom_title,"Dimensions:     140 mm x 76 mm x 25 mm / 5.5"" x 3"" x 1""
+Measuring Ranges: Ra 0.03 Î¼m to 6,35 Î¼m / 1 Î¼in to 250 Î¼in
+Ry 0,2 Î¼m to 25,3 Î¼m / 8 Î¼in to 999 Î¼in
+Rmax0,2 Î¼m to 25,3 Î¼m / 8 Î¼in to 999 Î¼in
+Rz 0,2 Î¼m to 25,3 Î¼m / 8 Î¼in to 999 Î¼in",technical-information,,resources_tab_custom_title,,resources,,additional-info_tab_custom_title,,additional-info,Pocketsurf,51,,yes,upon_release,,Pocketsurf,90,133,,1,classic-editor,,1650948637,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16508,variable,,"Phase II SRG-4600 Handheld Surface Roughness Gauge w/External Stylus",1,0,visible,"Phase II SRG-4600 Surface roughness tester will instill the highest level of confidence in your production, shop floor or QC lab. Extended memory and output coupled with multiple useful functions the SRG-4600 surface roughness tester profilometer is clearly the new leader in ultra accurate surface profile testing.","Phase II SRG-4600 Handheld Surface Roughness Gauge w/External Stylus Features:\n<ul>\n 	<li>9 Different roughness parameters</li>\n 	<li>Inside/Outside Diameters</li>\n 	<li>Stylus position indicator</li>\n 	<li>USB output to PC</li>\n 	<li>Large Memory</li>\n 	<li>Measures flat, inside &amp; outside diameters</li>\n 	<li>Roughness parameters: Ra, Rz, Rq(Rms), Rt, Rs, Rmr, Rsm, Rmax, Rpc</li>\n 	<li>Display resolutions: • 0.01µm/+/-20 µm • 0.02µm/+/-40 µm • 0.04µm/+/-80µm • Measuring accuracy: â‰¤±10%</li>\n 	<li>Repeatability: Less than or equal to 6% •</li>\n 	<li>Measuring range: Ra, Rq: 0.01-40µm Rz,Rt, Rm: 0.02-160µm</li>\n</ul>",,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers","Phase II",,https://willrich.com/wp-content/uploads/2016/05/Phase-II-SRG-4600-1.jpg,,,,,,,,,1633,Item,"SRG-4600 Surface roughness gage",1,0,Brands,"Phase II",1,1,,,,,,,,,,0,1888.38,1888.38,16509,16509,1888.38,1888.38,16509,16509,,technical-information_tab_custom_title,"SRG-4600 Technical Specifications:
+• Measures flat, Inside and Outside Diameters
+• Measures grooves and recessions: wider than 0.16in (4mm)
+• Roughness parameters: Ra, Rz, Rq, Rt, Rs, Rsm, Rmax, Rpc, Rmr
+• Roughness standards: ISO/DIN/JIS/ANSI
+• Display resolutions: 0.01Î¼m/+/-20 Î¼m | 0.02Î¼m/+/-40 Î¼m | 0.04Î¼m/+/-80 Î¼m
+• Measuring accuracy: â‰¤±10%
+• Repeatability: Less than or equal to 6%
+• Measuring range: Ra, Rq: 0.01-40Î¼m Rz,Rt, Rm: 0.02-160Î¼m
+• Maximum drive range: 0.7in(17.5mm)
+• Cut-off length: 0.009/0.03/0.09inch (0.25/0.8/2.5mm)
+• Tracing speeds: speed 1mm/s (sampling length 2.5mm) speed 0.5mm/s (sampling length 0.8mm) speed 0.135mm/s (sampling length 0.25mm)
+• Sensor: Inductance type
+• Sensor-stylus: Diamond, radius 5Î¼m
+• Pick up Force: &lt;4mN
+• Filter: RC, PC-RC,GAUSSIAN,D-P
+• Data output: USB
+• Operating temperature: 41ºF-104ºF (5º-40ºC)
+• Weight: 0.97lb(440g)
+• Dimensions: (119 x 47 x 65mm)
+• Power: Li-Ion rechargeable battery
+• Auto shut-off",technical-information,,resources_tab_custom_title,"<a href=""https://willrich.com/wp-content/uploads/2016/05/Phase-II-SRG-4600-surface-roughness-tester-Technical.jpg"" rel=""attachment wp-att-16511""><img class=""alignnone wp-image-16511"" src=""https://willrich.com/wp-content/uploads/2016/05/Phase-II-SRG-4600-surface-roughness-tester-Technical.jpg"" alt=""Phase II SRG-4600 surface roughness tester Tester"" width=""608"" height=""758"" /></a>",resources,,additional-info_tab_custom_title,"SRG-4600 comes supplied with:
+• Calibrated Reference Standard w/support plate
+• Leveling plate
+• Stylus protector
+• A/C Adapter
+• Rugged Carry case
+
+Optional Accessories:
+1) Precision Support Stand
+2) Deep Groove Stylus
+3) Small Hole Stylus
+4) Curved Surface Stylus
+5) Stylus Extension
+6) Data Output Software
+7) <strong>Optional Bluetooth Mini-printer available</strong>
+
+Click below to enlarge SRG-4600 Accessories information:
+
+<a href=""https://willrich.com/wp-content/uploads/2016/05/Phase-II-SRG-4600-surface-roughness-tester-Technical.jpg"" rel=""attachment wp-att-16511""> </a>",additional-info,"Phase II SRG-4600 Handheld Surface Roughness Gauge w/External Stylus",38,,yes,upon_release,,"Phase II SRG-4600 Handheld Surface Roughness Gauge w/External Stylus",90,133,,1,classic-editor,,1650948548,,,,,,,,,,,16509,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16887,variable,,"Mahr PS10 Surface Roughness Tester",1,0,visible,"MarSurf PS10 surface roughness measuring unit for mobile use. Using a smartphone-like 4.3 in TFT touch screen display. The PS10 roughness tester measures 31 roughness parameters, has a removable drive and provides lab level performance on the shop floor\n\nSPECIAL OFFER:  INCLUDES ISO-17025 CERTIFIED PATCH WITH ACTUAL CERTIFICATE (factory does not supply) at NO EXTRA CHARGE","Mahr PS10 Surface Roughness Tester Features:\n<ul>\n 	<li>Removable drive, touch display and easy to use</li>\n 	<li>6910230: PS10 Kit with 2 um Probe Tip or 6910232: PS10 Kit with 5 um Probe Tip</li>\n 	<li>Compact roughness measuring instrument for mobile use</li>\n 	<li>Simple and intuitive to use: As easy to use as a smart phone</li>\n 	<li>Large, illuminated 4.3"" TFT touch display</li>\n 	<li>Adjustable display</li>\n 	<li>Start button also serves as the Home button for direct access to the start screen</li>\n 	<li>Data backup as TXT, X3P or PDF file</li>\n 	<li>Mains-independent operation: Over 1200 measurements without having to recharge the instrument</li>\n 	<li>An all-in-one solution. Small and lightweight (approx. 500 g)</li>\n 	<li>Instrument flexibility: Removable drive unit</li>\n 	<li>All the measuring positions you need: horizontal, vertical, upside down</li>\n 	<li>31 surface parameters offer the same range of functions as a laboratory instrument.</li>\n 	<li>Error-free operation thanks to an integrated, removable roughness standard</li>\n 	<li>Quick access to your frequently used functions via the Favorites list in the display</li>\n 	<li>Very short activation time: results available within seconds</li>\n 	<li>Automatic cutoff selection, so even non-specialists can be sure of getting the correct measuring results</li>\n</ul>",,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers","Mahr Federal",,https://willrich.com/wp-content/uploads/2016/08/Mahr-Federal-PS10.jpg,,,,,,,,,141,Brands,"Mahr Federal",1,1,"Surface Roughness Tester","2um Probe Tip, 5um Probe Tip",1,1,,,,,,,,,,0,2515,2515,16891,16891,2515,2515,16891,16891,,technical-information_tab_custom_title,"Measuring Principle Skid Probe System
+Number of Parameters 31 (DIN/ISO, JIS, ASME, MOTIF)
+Measuring Range 350 um / 0.014 uin
+Profile Resolution 8 nm / 3 uin
+Internal Memory:3,900 Profiles, 1500 pdf-files, 500,000 Results,Memory can be Extended with micro SD-Card up to 32 GB",technical-information,,resources_tab_custom_title,"Click below for the PS10 Mahr Surface Roughness Tester product info download:
+
+<a href=""https://willrich.com/wp-content/uploads/2016/08/Mahr-PS10-1.pdf"">Mahr PS10</a>
+
+&nbsp;
+
+&nbsp;",resources,,additional-info_tab_custom_title,"Click below for the PS10 Mahr Surface Roughness Tester accessories/probes info download
+
+<a href=""https://willrich.com/wp-content/uploads/2016/08/Mahr-PS10-1.pdf"">mahr-ps10-accessories</a>
+
+&nbsp;",additional-info,"Mahr PS10 Surface Roughness Tester",47,,yes,upon_release,,"Mahr PS10 Surface Roughness Tester",90,133,,1,classic-editor,,1665929555,,,,field_683d85f0871aa,,,,,,,16890,,,default,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,
+19326,variable,,"Mahr MarSurf PS 10 C2 Surface Roughness Tester traverse drive",1,0,visible,"Mahr Marsurf PS 10 C2 Set traverse drive unit",,,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers","Mahr Federal",,https://willrich.com/wp-content/uploads/2018/01/ps10-c2.jpg,,,,,,,,,342,Brands,"Mahr Federal",1,1,item,"PS10 2 μm probe, PS 10 5 μm probe 350 μm",1,0,,,,,,,,,,0,2945,2945,19330,19330,3312,3312,19330,19330,,technical-information_tab_custom_title,"Mahr 6910230 Marsurf PS 10 with 2 micron tip
+Mahr 6910232 Marsurf PS 10 with 5 micron tip
+
+Mahr MarSurf PS 10 C2 Traverse Travel Surface Roughness Tester 6910235
+<ul>
+ 	<li>Stylus 2 Î¼m</li>
+ 	<li>Traverse Length Lt According to ISO/JIS 1,5 mm, 4,8 mm, N x Lc, Variable, Automatic</li>
+ 	<li>Traverse Length According to 12085 (MOTIF) 1 mm, 2 mm, 4 mm</li>
+ 	<li>Evaluation Length According to ISO/JIS 1,25 mm, 4,0 mm</li>
+</ul>",technical-information,,resources_tab_custom_title,"Click below to download PDF on Mahr MarSurf PS 10 C2 Traverse Travel Surface Roughness Tester
+
+<a href=""https://willrich.com/wp-content/uploads/2018/01/mahr-ps-10.pdf"">mahr ps 10</a>
+
+<a href=""https://willrich.com/wp-content/uploads/2018/01/MarSurf-3765690-FL-mobile-surface-analysis-EN-2025-02-03.pdf"">MarSurf--3765690--FL--mobile surface analysis--EN--2025-02-03</a>
+
+&nbsp;",resources,,additional-info_tab_custom_title,,additional-info,,,,yes,upon_release,,,,133,,1,classic-editor,,1650869501,,,,field_683d85f0871aa,2945,2945,19330,19330,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,
+19336,variable,,"MarSurf M 400 C Surface Roughness Tester- Wired Drive and Controller",1,0,visible,"Mahr MarSurf M 400 C surface roughness tester",,,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers",,,https://willrich.com/wp-content/uploads/2018/01/Mahr-Federal-M400-c-Surface-Roughness-Tester.jpg,,,,,,,,,304,Brands,"Mahr Federal",1,1,"M400 C","Surface Roughness Tester- Wired Drive and Controller",1,0,,,,,,,,,,0,8725,8725,19338,19338,9180,9180,19338,19338,,technical-information_tab_custom_title,"MarSurf M 400 C Surface Roughness Tester- Wired Drive and Controller
+<ul>
+ 	<li>Measuring Principle Stylus method</li>
+ 	<li>Probe BFW skidless system</li>
+ 	<li>Measuring Range +/- 250 Î¼m (up to +/- 750 Î¼m with 3x probe arm length)</li>
+ 	<li>Profile Resolution Measuring range +/- 250 Î¼m: 8 nm</li>
+ 	<li>Measuring range +/- 25 Î¼m: 0.8 nm</li>
+ 	<li>Filter According to ISO/JIS Gaussian filter as per ISO 11562</li>
+ 	<li>Filter as per ISO 13565</li>
+ 	<li>Number n of Sampling Length According to ISO/JIS 1 - 5</li>
+ 	<li>Contacting Speeds 0,2 mm/s; 1,0 mm/s</li>
+ 	<li>Measuring Force (N) 5 mN</li>
+ 	<li>Weight Drive Unit Approximately 0.9 kg</li>
+ 	<li>Weight Measuring Instrument Approximately 1.0 kg</li>
+ 	<li>Surface Parameters Over 50 surface parameters for R, P and W profiles according to current ISO/JIS or MOTIF standards (ISO 12085)</li>
+</ul>",technical-information,,resources_tab_custom_title,,resources,,additional-info_tab_custom_title,"Accessories
+
+• Measuring stand ST-D, ST-F and ST-G
+• Holder on measuring stand
+• CT 120 XY table, parallel vise, V-block
+• Assorted probe arms for the BFW probe system",additional-info,,,,yes,upon_release,,,60,138,,,classic-editor,,1650869282,,,,,8725,8725,19338,19338,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19618,variable,,"Mahr MarSurf PS 10 C2 Mobile Roughness Measuring Instrument",'-1,0,visible,"Mahr MarSurf PS 10 C2 Mobile Roughness Measuring Instrument\n\nApplication:\n• For transverse scanning i.e. on crank or camshafts","Mahr MarSurf PS 10 C2 Mobile Roughness Measuring Instrument Features:\n<ul>\n 	<li>Compact roughness measuring instrument for mobile use</li>\n 	<li>Simple and intuitive, as easy to use as a smart phone</li>\n 	<li>Large, illuminated 4.3 in TFT touch display</li>\n 	<li>Adjustable display</li>\n 	<li>Start button also serves as home button for direct access to the start screen</li>\n 	<li>Data backup as TXT, X3P or PDF file</li>\n 	<li>Device creates PDFs of complete measuring records</li>\n 	<li>Customer specific comments can be added to the PDF directly from the MarSurf PS 10</li>\n 	<li>Built-in rechargeable battery can be used for up to 1200 measurements before being recharged</li>\n 	<li>Small and lightweight (approximately 500 g)</li>\n 	<li>Increased flexibility due to removable drive unit</li>\n 	<li>Fully functional in horizontal, vertical and upside down measuring positions</li>\n 	<li>31 surface parameters offer the same range of functions as a laboratory instrument</li>\n 	<li>Error-free operation due to an integrated, removable roughness standard</li>\n 	<li>Quick access to frequently used functions via the ‚Favorites‘ list in the display</li>\n 	<li> Short activation time, results available within seconds</li>\n 	<li> Automatic cutoff selection to ensure correct measuring results</li>\n 	<li>Includes: MarSurf PS 10 Unit, DriveUnit RD18C2 (Detachable),\nHandheld V-Block, 1 Standard\nProbe Conforming to Standards,\nBuilt-in Rechargeable Battery,\nRoughness Standard Integrated\ninto Housing (detachable), including\nMahr Calibration Certificate, Probe\nProtection, Charger / 3 Adapters,\nOperating Instructions, Carry Case\nwith Shoulder Strap, USB Cable,\nExtension Cable for Drive Unit,\nHeight Adjustment (Integrated)</li>\n</ul>\n&nbsp;",,,taxable,,0,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers","Mahr Federal",,,,,,,,,,,1712,Brands,"Mahr Federal",1,1,Item,"6910235 Mahr MarSurf PS 10 C2",1,0,,,,,,,,,,0,,,,,,,,,,technical-information_tab_custom_title,"Model PS 10 C2
+
+Parameters
+Ra, Rq, Rz (Ry (JIS) is equivalent to Rz), Rz (JIS), Rmax, Rp, RpA (ASME), Rpm (ASME),
+Rpk, Rk, Rvk, Mr1, Mr2, A1, A2, Vo, Rt, RPc, Rmr (tp (JIS, ASME) is equivalent to Rmr),
+RSm, RSk, RS, CR, CF, CL, R, Ar, Rx
+Stylus 2 Î¼m
+Calibration Function Dynamic; Ra, Rz, Rsm
+Storage Capacity
+Min. 3900 profiles, min. 500,000 results, min. 1500 PDF records,
+expandable with microSD card up to 32 GB
+Languages
+German, English, French, Italian, Spanish, Portugese, Dutch, Swedish, Russian, Polish,
+Czech, Japanese, Chinese, Korean, Hungarian, Turkish, Romanian
+Other Lock/password protected, date/time
+Data Interface: USB, MarConnect (RS232), microSD slot for SD / SDHC cards up to 32 GB
+System of Protection IP 40
+Rechargeable Batteries Lithium-ion battery, min. 1200 measurements
+Wide Range Power Supply 100 to 264 V
+H x W x D 160 mm x 77 mm x 50 mm
+Weight 0,49 kg
+Measuring Principle Stylus method
+Probe Inductive skidded probe
+Measuring Range 0,350 mm
+Profile Resolution 8 nm
+Filter According to ISO/JIS
+Gaussian filter as per ISO 16610– 21 (formerly ISO 11562), special filter as per DIN EN
+ISO 13565– 1, Lambda s filter as per DIN EN ISO 3274 (can be switched off)
+Cutoff Ic According to ISO/JIS 0,25 mm, 0,8 mm, 2,5 mm, automatic filter detection
+Number n of Sampling Length
+According to ISO/JIS
+Selectable: 1 to 16
+Short Stroke Under ISO/JIS Selectable
+Traversing Length Lt According ISO/JIS 1,5 mm, 4,8 mm, N x Lc, variable, automatic
+Traversing Length According ISO 12085
+(MOTIF) 1 mm, 2 mm, 4 mm
+Evaluation Lenth In According to ISO/JIS 1,25 mm, 4,0 mm
+Measuring Force 0,00075 N
+Application:
+• For transverse scanning i.e. on crank or camshafts",technical-information,,resources_tab_custom_title,,resources,,additional-info_tab_custom_title,,additional-info,,,,yes,upon_release,,,30,133,,,classic-editor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29629,variable,,"Mahr MarSurf M 310 Mobile Surface Roughness Measurement System",1,0,visible,"Replacing the Mahr MarSurf M 300, the all-new M 310 brings ease-of-use to new levels with a large, illuminated, rotatable 4.3” high-resolution touch screen built right into the unit. It was designed to provide high-precision measurements to test surface roughness on small and large workpieces.\n\nThe new portable unit provides features that were previously only available in PC-based systems to the mobile world.","Mahr MarSurf M 310 Mobile Surface Roughness Measurement System Features:\n<ul>\n 	<li>Simple operating concept for <strong>intuitive handling</strong> without training</li>\n 	<li>Transmission of measurement reports and data either <strong>via Bluetooth</strong> or Cables</li>\n 	<li><strong>Automatic creation of measuring reports</strong> in PDF format</li>\n 	<li>Integration of a <strong>barcode or data matrix scanner</strong></li>\n 	<li><strong>Printing reports</strong> to letter-size pape</li>\n</ul>\n\nMarSurf M 310 SET 6910260 - 2 µm  consisting of: \n-	MarSurf M 310 basic unit \n-	Drive unit (removable)\n-	1 standard probe PHT6-350, standard-compliant\n2 µm probe tip\n-	Built-in rechargeable battery\n-	calibration master, integrated in the housing (removable)\n        incl. Mahr calibration certificate\n-	Probe protection (prism holder)\n-	Probe protection with attachment prism\n-	Height adjustment (integrated)\n-	Charger I 3 mains adapters\n-	Operating instructions \n-	Carrying bag with shoulder strap\n-	USB cable\n-	Hand prism with height adjustment '\n(pair) \n-	Extension cable to the drive unit\n(length 1.2 m) ",,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers",,,https://willrich.com/wp-content/uploads/2020/08/mahr-M-310.jpg,,,,,,,,,1526,Brands,"Mahr Federal",1,1,Configurations,"M310 w/2um probe, M310 w/5um probe, M310 w/2um probe & printer, M310 w/ 5um probe & printer, M310 w.out PHT Probe, M310 C2 *2um)",1,0,,,,,,,,,,0,,,,,,,,,,technical-information_tab_custom_title,,technical-information,,resources_tab_custom_title,"<a href=""https://willrich.com/wp-content/uploads/2020/08/MarSurf-M-310-Brochure.pdf"">MarSurf M 310 Brochure</a>",resources,,additional-info_tab_custom_title,,additional-info,,,,yes,upon_release,,,90,133,,1,classic-editor,,1665929709,,,,field_683d85f0871aa,,,,,,,29634,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35408,variable,,"Portable roughness gauge TESA TWIN-SURF",1,0,visible,,"• Separate activation/deactivation of the measurement parameters\n• Adjustable upper and lower tolerance for each parameter\n• Storage of measured parameters\n• Automatic return of the probe to the starting position possible after each measurement\n• Menu available in 9 languages\nThe probe can be rotated by 90° to enable transverse measurement and increase the measurement options.\nEach TESA TWIN-SURF is supplied free of charge with the TESA DATA-STUDIO software that provides an ergonomic and intuitive interface with many features. Once the measurements are complete, the connected instrument allows you to download the measurement reports that can be viewed in Excel or PDF on your tablet or Smartphone.\n\nSB21 probe for small bores For groove of depth &lt; 5 mm SB31 PROBE For planes and holes For small bores of Ø &gt; 4 mm Max depth 20 mm\nSB51 (INCLUDED) For concave surfaces and for measuring at 90 For groove of depth &lt; 5 mm\n\nSB121 For groove of depth &lt; 20 mm",,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers","Tesa Brown & Sharpe",,https://willrich.com/wp-content/uploads/2022/04/69.30015-scaled.jpg,,,,,,,,,149,Brands,"Brown & Sharpe Tesa, Tesa",1,1,Item,"TESA TWIN-SURF, TESA TWIN-SURF BT Bluetooth",1,0,,,,,,,,,,0,,,,,,,,,,technical-information_tab_custom_title,"Compact, light weight robust
+90° probe orientation for transverse measurements
+Store of the measured parameters
+Wireless model available
+Free software included for creating measurement reports
+<table width=""751"">
+<tbody>
+<tr>
+<td colspan=""2"" width=""751"">TWIN-SURF portable roughness gauge Includes</td>
+</tr>
+<tr>
+<td colspan=""2"" width=""751"">SB 51 probe</td>
+</tr>
+<tr>
+<td colspan=""2"" width=""751"">Main charger with EU and US charger adaptor</td>
+</tr>
+<tr>
+<td colspan=""2"" width=""751"">Roughness setting standard Ra = 2,97 µm</td>
+</tr>
+<tr>
+<td colspan=""2"" width=""751"">Adaptor for 8 mm diameter holder</td>
+</tr>
+<tr>
+<td colspan=""2"" width=""751"">Key to remove the probe protection</td>
+</tr>
+<tr>
+<td colspan=""2"" width=""751"">USB A-C cable</td>
+</tr>
+<tr>
+<td colspan=""2"" width=""751"">USB key including:
+
+•User manual
+
+•Measuring report
+
+•Declaration of conformity
+
+•TESA DATA-STUDIO software (basic version)</td>
+</tr>
+</tbody>
+</table>",technical-information,,resources_tab_custom_title,"<table width=""1503"">
+<tbody>
+<tr>
+<td width=""380""><b>Standards</b></td>
+<td width=""1123"">According to ISO 3274 - ISO 4287 - ISO 12085</td>
+</tr>
+</tbody>
+</table>
+<table width=""1503"">
+<tbody>
+<tr>
+<td width=""380""><b>Parameters</b></td>
+<td width=""1123"">Parameters according to ISO 4287:
+
+Ra – Rq – Rt – Rz – Rc - Rmax - RSm - RPc
+
+Parameters according to ISO 12085:
+
+Pt – R – AR – Rx – PPc
+
+<b>Additional</b> <b>parameters</b> <b>with</b><b> software TESA DATA-STUDIO Premium version (</b><b>with</b> <b>license</b><b>):</b>
+
+Parameters according to ISO 4287:
+
+Rp – Rv – Rsk – Rku – RΔq – RΔa – Rmr rel – Rδc – Rmr(c)
+
+Pa - Pq - Pp – Pv – Pt – Pc – RPc - R3z
+
+Psk – Pku - PSm- PΔq - Pmr rel – Pδc – Pmr (c)
+
+Rk – Rpk – Rvk - A1 – A2 - Mr1 – Mr2
+
+Parameters according to ISO 12085:
+
+Rke – Rpke – Rvke - A1e – A2e – Mr1e – Mr2e</td>
+</tr>
+</tbody>
+</table>
+<table width=""1503"">
+<tbody>
+<tr>
+<td width=""380""><b>Max permissible </b><b>error</b></td>
+<td width=""1123"">0,05 µm + (5 % R), R = Roughness in µm</td>
+</tr>
+</tbody>
+</table>
+<table width=""1503"">
+<tbody>
+<tr>
+<td width=""380""><b>Diamond-like </b><b>stylus</b></td>
+<td width=""1123"">R=2 µm, 90°</td>
+</tr>
+</tbody>
+</table>",resources,,additional-info_tab_custom_title,"Portable roughness gauge TESA TWIN-SURF
+
+&nbsp;
+<ul>
+ 	<li><strong>Probes</strong></li>
+</ul>
+SB21 probe for small bores For groove of depth &lt; 5 mm
+SB31 PROBE For planes and holes For small bores of Ø &gt; 4 mm Max depth 20 mm
+SB51 (INCLUDED) For concave surfaces and for measuring at 90 For groove of depth &lt; 5 mm
+SB121 For groove of depth &lt; 20 mm
+<ul>
+ 	<li><strong>Printer</strong> Powered with a rechargeable battery, connector USB type  Cable USB type C included Automatic connection to the TWIN-SURF once paired (pairing through DATA-STUDIO) Only compatible with TWIN-SURF BT</li>
+ 	<li><b>Roughness</b><b> setting standard, Ra = 2.97 µm </b>Part number 06960041
+<b></b></li>
+ 	<li><b>Extension 100 mm </b>Part number 06960096</li>
+ 	<li><b>Cable USB A-C </b>Part number 04760152</li>
+</ul>",additional-info,,,,yes,upon_release,,,60,133,,1,classic-editor,,1649776793,,,,field_683d85f0871aa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36663,variable,,"Mitutoyo Surftest SJ-210 Surface Roughness Tester (Copy)",'-1,0,visible,"The Mitutoyo SJ-210 Series 178, 178-561-02A Portable Surface Roughness tester combines high accuracy and measurement speed with numerous innovative features creating a new class leader in surface inspection. This model is has a Standard type Drive unit with 4mN detector measuring force. The SJ-210 can be operated easily using the buttons on the front of the unit and under the sliding cover. It can store up to 10 measurement conditions and one measured profile in the internal memory.","Mitutoyo SJ-210 Surface Roughness Tester Features:\n\n• Roughness parameters compatible with ISO, DIN, ANSI, &amp; JIS\n• 19 analysis parameters are provided, including the basic Ra, Rq, Rz &amp; Ry parameters\n• A micro-SD card supports high-volume portable data storage - up to 10,000 results can be stored\n• Customize function allows hiding of unnecessary parameters\n• GO/NO GO judgement on a desired parameter\n• Auto-calibration for simple gain-adjustment\n• SPC Output\n• Roughness specimen provided\n• Portable Surface Roughness Tester\n\nMitutoyo Model SJ-210  series\n178-561-12A\n178-561-11A\n178-563-11A\n178-563-12A\n178-565-11A\n178-565-12A",,,taxable,,1,,,0,0,10,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers",Mitutoyo,,https://willrich.com/wp-content/uploads/2014/07/Mitutoyo-SJ210-Surface-Roughness-Tester-1.jpg,,,,,,,,,283,Items,"178-561-02A Standard drive 4mN force, 178-561-01A Standard drive 0.75mN force, 178-563-02A Retractable drive unit type 4mN force, 178-563-01A Retractable drive unit type .75mN force, 178-565-02A Transverse drive unit type 4mN force, 178-565-01A Transverse drive unit type .75mN force",1,0,"Surface Rough. Contact Style",Skidded,1,1,Brands,Mitutoyo,1,1,,,,,,0,1935,4495,1063,1068,1995.00,4495,1063,1067,,technical-information_tab_custom_title,"Mitutoyo Model SJ-210, series 178-561-02A, 178-561-01A,  178-563-01A,  178-563-02A,  178-565-01A, 178-565-02A
+<ul>
+ 	<li>Zaxis Range 14200 Î¼m (-7900Î¼m ±6300Î¼m (-200Î¼m ±160Î¼m)</li>
+ 	<li>Detector Range: 14170Î¼in/8Î¼ïn (360Î¼m/0.02 Î¼m), 4000Î¼in/2 Î¼in (100Î¼m/100 Î¼m / 0.006 Î¼m), 1000Î¼in/08Î¼in , 925Î¼m/0.002Î¼m</li>
+ 	<li>Measuring Speed :  0.01, 0.02, 0.03 in/s (0.25mm/s, 0.5mm/s, 0.75mm/s) Returning 1 mm/s</li>
+ 	<li>Cut off length Î»c 0.003, 0.01, 0.03, 0.1"" (0.08 , 0.25 , 0.8 , 2.5mm)</li>
+ 	<li>Cut off length Î»s 100, 300Î¼in (2.5 , 8Î¼m)</li>
+ 	<li>Sampling length 0.003, 0.01, 0.03, .1 "" (0.08 , 0.25 , 0.8 , 2.5mm)</li>
+</ul>
+<a href=""https://willrich.com/wp-content/uploads/2014/07/QuickGuide_Surface-Roughness-Testers.pdf"">QuickGuide_Surface-Roughness-Testers</a>
+
+https://www.youtube.com/watch?time_continue=92&amp;v=X7jCTIwVs80",technical-information,,resources_tab_custom_title,"Download the SJ-210 product information using the links below:
+
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Surftest_SJ-210_310.pdf"">Surftest_SJ-210_310</a>
+
+<a href=""//www.youtube.com/watch?v=DYvz2XV6A1A"">Mitutoyo SJ-210 Youtube Video link</a>
+
+https://youtu.be/COaVnt90cIs
+
+&nbsp;
+
+&nbsp;",resources,,additional-info_tab_custom_title,"Download the specifications for the Mitutoyo Surftest SJ 210 accessories using below link:
+
+<a href=""//willrich.com/wp-content/uploads/2014/07/Mitutoyo-SJ210-Surface-Roughness-Tester-Accessories.pdf"">Mitutoyo SJ210 Surface Roughness Tester Accessories</a>
+
+Mitutoyo SJ-210 Accessories listed below. Call or email for prices: (Ph 866-945-5742 / <a href=""mailto:sales@willrich.com"">sales@willrich.com</a> )
+<ul>
+ 	<li>178-390</li>
+ 	<li>178-391</li>
+ 	<li>178-392</li>
+ 	<li>178-393</li>
+ 	<li>178-394</li>
+ 	<li>12AAA217</li>
+ 	<li>12AAA222</li>
+ 	<li>178-029 stand</li>
+ 	<li>12AAA221 magnetic stand adapter  (8MM DIA.) to connect SJ-210 to 178-029 stand</li>
+</ul>
+<a href=""https://willrich.com/wp-content/uploads/2014/07/Mitutoyo-SJ210-Surface-Roughness-Tester-Accessories-stand.jpg""><img class=""alignnone wp-image-17935"" src=""https://willrich.com/wp-content/uploads/2014/07/Mitutoyo-SJ210-Surface-Roughness-Tester-Accessories-stand.jpg"" alt=""mitutoyo sj-210"" width=""476"" height=""211"" /></a>",additional-info,"mitutoyo sj-210",49,"Mitutoyo SJ-210 Surface Roughness Tester",yes,upon_release,,"mitutoyo sj-210",60,,,,classic-editor,,1568982161,,,,,1935,3779,1063,1067,,,,,,default,,,"<iframe width=""967"" height=""544"" src=""https://www.youtube.com/embed/X7jCTIwVs80?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1552503201,"<iframe width=""1020"" height=""574"" src=""https://www.youtube.com/embed/X7jCTIwVs80?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1552503206,,,,,,,,,,,,,,,,,,,,,,,yes,"<iframe width=""963"" height=""542"" src=""https://www.youtube.com/embed/X7jCTIwVs80?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1552503184,"<iframe width=""966"" height=""543"" src=""https://www.youtube.com/embed/X7jCTIwVs80?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1553179372,"<iframe width=""962"" height=""541"" src=""https://www.youtube.com/embed/COaVnt90cIs?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1553179387,"<iframe width=""966"" height=""543"" src=""https://www.youtube.com/embed/COaVnt90cIs?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1553179398,"<iframe width=""1020"" height=""574"" src=""https://www.youtube.com/embed/COaVnt90cIs?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>",1553195275,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Mitutoyo SJ-210 Surface Roughness Tester",,,,,,,,,,,,,,,,,,,,,,,,,,
+37364,variable,,"Flexbar LiteSurf Surface Roughness Tester Complete System",1,0,visible,"LiteSurf Handheld Surfact Roughness Tester with Bluetooth Connection to Smartphone\n\nModel No. 15510 complete system includes: LiteSurf™ roughness tester, USB charger, USB type C cable, 8mm diameter tail piece for mounting on the stand, roughness specimen, transport case, user manual","Features:\n• Compact lightweight portable size. Easy-to-use, even in the toughest measuring conditions\n• Custom report generation utilizing standard studio app\n• Robust and reliable: light alloy machined with ABS plastics for production use\n• Quick and easy charging. Full charge provides 10 work hours of use",,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers",Flexbar,,https://willrich.com/wp-content/uploads/2022/09/flexbar.jpg,,,,,,,,,285,Brands,Flexbar,1,1,Item,"LiteSurf Surface Roughness Tester Complete System",1,0,,,,,,,,,,0,,,,,,,,,,technical-information_tab_custom_title,,technical-information,,resources_tab_custom_title,"<a href=""https://willrich.com/wp-content/uploads/2022/09/LiteSurf-V4.pdf"">LiteSurf V4</a>",resources,,additional-info_tab_custom_title,,additional-info,,,,yes,upon_release,,,90,133,,1,classic-editor,,1663862178,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40346,variable,,"Mahr MarSurf M 410 Item 6910290 or 6910291 surface roughness tester",1,0,visible,"MarSurf® M 410 Set\nPortable surface roughness measuring instrument featuring a large\n4.3"" high resolution color backlit display to view surface finish profiles\nand measured parameters. The skidless MD 26 drive unit with\nprecision datum can be seperated from the electronics to allow\nseparate operation in small spaces or mounting on a measuring\nstand. A rechargeable battery and ample memory for storing\nmeasurements and data allow truly wireless operation anywhere\nsurface measurement is required.\nThis set contains everything you need to get started including the\nM 410 base unit, MD 26 drive unit featuring the BFW 250 breakaway\nprobe system, battery charger, USB-A to Micro USB cable for\nseparating the drive unit and electronics, standard probe arm (with 2\nmicron, .0001"" diamond radius), carrying case for transport or storage,\nand operating instructions.\n\n6910290 M 410 set - measuring range 500 μm (±250 μm) with probe arm length 45 mm 1500 μm\n(±750 μm) with probe arm length 135 mm 2 μm probe supplied with set, 5 μm and 10 μm probes are optionally available\nDetails Storage capacity for min. 3900 profiles, 1500 PDF protocols and 500,000 results, expandable with microSD card up to 32 GB (increases the storage capacity by a factor of 320)","<b>The best among the “mobiles”</b>\n<ul>\n 	<li>Simple and intuitive operation: As easy as operating a smartphone</li>\n 	<li>Large, illuminated 4.3"" TFT touch display</li>\n 	<li>Assistant-guided tilt adjustment</li>\n 	<li>Unique probe arm management</li>\n 	<li>Separation of display and feed device</li>\n 	<li>55 parameters</li>\n 	<li>Magnetic probe arm holder</li>\n 	<li>Automatic cutoff selection: ensures the correct measurement results even for non-measurement technicians\n<b>Extended variety of interfaces</b>\n<ul>\n 	<li>Micro-USB interface for remote control via ASCII commands, e.g. via software for statistical process control</li>\n 	<li>USB-A interface - for connecting a USB Bluetooth adapter or a USB/Bluetooth printer, for example</li>\n 	<li>Transmission of measurement protocols and data either via Bluetooth or cable</li>\n 	<li>IATF 16949 compliant - secure traceability with MarConnect</li>\n</ul>\n</li>\n</ul>\nMarSurf M 410 6910290  Set roughness tester in transport case consisting of:\n\n- MarSurf M 41 0 evaluation unit\n- drive unit MarSurf MD 26 incl. probe system BFW 250\n- 1x probe arm 2 µm\nBFW A 10-45-2/90°\n- 1x probe arm protection\n- 1x connection cable USB-A to\nMicro-USS\n- 1x MarSurfM 410 docking station\n- wide range power supply with\n3 power adapters\n- allen key\n- user manual\n- case MarSurf M 410.",,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers","Mahr Federal",,https://willrich.com/wp-content/uploads/2023/11/m410.png,,,,,,,,,142,Brands,"Mahr Federal",1,1,ITEM,"M410, M 410 set",1,0,,,,,,,,,,0,,,,,,,,,,technical-information_tab_custom_title,"Dimensions in mm 198mm x 77mm x 97mm
+IP protection class IP40
+Measuring speed 0.1mm/s; 0.5mm/s; 1.0mm/s
+Positioning speed 3mm/s
+Measuring principle stylus method
+Button inductive free touch system
+Parameters Ra , Rq , Rz , Rz (JIS) , Rz (Ry (JIS) corresponding to Rz) , Rmax , Rp , Rp (ASME) , Rpm (ASME) , Rv , R3z , Rk , Rpk , Rvk , Mr1 , Mr2 , A1 , A2 , Vo , Rt , RPc , Rmr (tp (JIS, ASME) corresponding to Rmr) , RSm , RS , Rdq , RSk , Rku , Rdc , RHtp , Pdc , Pa , Pt , PMr , Wa , Wq , WSm , WSk , Wt , CR , CF , CL , R , Ar , Rx , W , AW (MOTIF) , Wx (MOTIF) , Wte (MOTIF) , NW (MOTIF) , NR (MOTIF) , NCRX (MOTIF) , CPM (MOTIF)
+Unit of measurement metric/inch
+Measuring range mm 500 µm (±250 µm) with a stylus arm length of 45 mm to 1500 µm (±750 µm) with a stylus arm length of 135 mm
+Filter according to ISO/JIS Gaussian filter according to DIN EN ISO 16610-21, robust Gaussian filter according to DIN EN ISO 16610-31, special filter according to DIN EN ISO 13565-1, ls filter according to DIN EN ISO 3274 (can be switched off)
+Cutoff Ic according to ISO/JIS 0.08 mm, 0.25 mm, 0.8 mm, 2.5 mm, automatic filter detection, variable
+Shortened cutoff according to ISO/JIS selectable
+Number n of individual measuring sections according to ISO/JIS selectable: 1 to 16
+Probe tip 2µm; 5 µm
+Measuring force (N) 0.00075
+Storage option at least 3900 profiles, at least 500,000 results, at least 1500 PDF protocols, expandable with microSD card up to 32 GB (increases storage capacity by a factor of 320)
+Languages: German, English, French, Italian, Spanish, Portuguese, Dutch, Swedish, Russian, Polish, Czech, Japanese, Chinese, Korean, Hungarian, Turkish, Romanian
+Miscellaneous Lock/code word protection, date/time
+Data interface USB A, MarConnect (RS-232), microSD slot for SD / SDHC cards up to 32 GB
+Rel. humidity 30% to 85%, non-condensing!
+Protection class IP40
+battery pack Li-ion battery, 3.7 V, nominal capacity 11.6 Wh, at least 500 measurements
+Wide range power supply 100 to 264V
+Dimensions (L x W x H) of the feed device in mm 194mm x 38mm x 72mm
+Weight of the feed device 1120g
+Dimensions (L x W x H) of the evaluation device in mm 162mm x 77mm x 35mm
+Weight of the evaluation device 300g",technical-information,Resources,resources_tab_custom_title,"<iframe title=""YouTube video player"" src=""https://www.youtube.com/embed/jO6mWuTifUY?si=i2VbE1tr5iyQS0hh"" width=""560"" height=""315"" frameborder=""0"" allowfullscreen=""allowfullscreen""></iframe>
+
+&nbsp;
+
+<a href=""https://willrich.com/wp-content/uploads/2018/01/MarSurf-3765690-FL-mobile-surface-analysis-EN-2025-02-03.pdf"">MarSurf--3765690--FL--mobile surface analysis--EN--2025-02-03</a>",resources,,additional-info_tab_custom_title,"Miscellaneous
+4102603 Data connection cable USB bi-directional
+DK-U1 4102603 DK-U1 Micromar 40 EWR (≥ 2018)
+Millimess 2000 W(i), 2001 W(i)
+Millimar C 1202
+MarSurf M310 USB USB, duplex 2 m
+
+6852403 Touch arm BFW 6852403
+6710803 Measuring stand 300 mm with cast iron base ST-D 6710803
+6710806 Measuring stand 300 mm with base plate ST-F 6710806
+6710807 Measuring stand 300 mm with base plate and T-slot ST-G 6710807
+6710401 Prism block PP 6710401
+6710604 Parallel vicePPS 6710604
+6710529 XY cross table CT 120
+4246819 Mini precision vices in a set of 109 hp
+6820420 Rough standard with test certificate, profile depth 10 µm PRN 10",additional-info,,,,yes,upon_release,,,90,133,,1,classic-editor,,,,,,field_683d85f0871aa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,no,,,,,,,,,,,,,,,,,,,,,,,,
+43465,variable,,"Mitutoyo Surface Roughness tester SJ-220 Series",1,0,visible,"Mitutoyo SJ-220 Series Surface Roughness tester\n\nThe SJ-220 series of surface roughness measuring instruments offers excellent portability and ease of use on-site, it now also provides touch screen functionality for intuitive operability. Equipped with a built-in battery, it can perform measurements even in environments where power is not available and can be used approximately 1000 times on a full charge. Cableless and paperless work is also made possible by using the Wireless Unit for Measuring\nInstrument U-WAVE-TIB.\nThis is a user-friendly device that provides compatibility and versatility to meet the diverse needs of manufacturing sites.\nMeasurements can be made on-site, so there is no need to transport large and heavy workpieces. Light and compact, the device is easy to carry and allows for simple one-touch measurement.\nThe device is equipped with a touch screen and a new user interface. You can perform operations like changing the display screen and adjusting the settings with your fingertip.\nThe screen size has been expanded to 2.8 inches, achieving high visibility while maintaining a compact device size to fit in one hand.\n\nIncreased measuring efficiency capable of displaying results and setting conditions via\nwireless communication when used with option accessory U-WAVE-TIB\n\nNote: you cannot use both the U-Wave TIB transmitter and the printer at the same time(Both use the same output port\n\nMitutoyo America Corporation is pleased to announce a special promotion for the SJ-220 Surftest effective only through September 30, 2025. This promotion includes five various packages with special pricing on the SJ-220 along with free eLearning courses and different accessories.\n\nSJ-220 Surftest packages in this promotion include:\n• SJ-220 4mN with free eLearning course\n• SJ-220 4mN with free calibration specimen and eLearning course\n• SJ-220 4mN with U-WAVE-TIB wireless unit and eLearning course\n• SJ-220 4mN with free Digimatic Height Gage, Height Gage adapter and eLearning course\n• SJ-220 4mN with free column stand, magnetic stand adapter and eLearning course","Intuitive operation through touch screen, switch, set, flick and swipe supported\n\nThe SJ-200 Surftest is now capable of bidirectional communication via a USB cable and Bluetooth® using the optional U-WAVE-TIB and the free dedicated smartphone SJ-App.\n\nThe SJ-200 Surftest is now capable of bidirectional communication via a USB cable and Bluetooth® using the optional U-WAVE-TIB and the free dedicated smartphone SJ-App.\n\nThis bidirectional capability allows users to import various data to a PC, while its optional Bluetooth® provides full remote access for measurements, live data feeds and more.\n\nFree dedicated PC SJ-220 software connects an SJ-220 to a PC to import data such as measurement conditions, parameter settings, calculation results and measurement data, as well as create and edit inspection reports. This makes your data managment much easier and more efficient.",,,taxable,,1,,,0,0,,,,,1,,,,"Surface Roughness Testers > Surface Roughness Testers, Surface Roughness Testers",,,https://willrich.com/wp-content/uploads/2025/02/sj220.jpg,,,,,,,,,51,Brands,Mitutoyo,1,1,Item,"Standard Drive 4mN, Standard Drive .75mN, Transverse tracing drive unit type 4 mN, Transverse tracing drive unit Type 0.75 mN, Retractable Drive Unit Type 0.75mN",1,0,,,,,,,,,,0,,,,,,,,,,technical-information_tab_custom_title,"Compatible with new standard ISO 21920.
+JIS B0601:1982 ISO 4287:1997 ASME B46.1
+JIS B 0601:1994 ISO 13565:1996 VDA2006
+JIS B 0601:2013 ISO 12085:1996 Switchable
+JIS B 0671:2002 ISO 21920:2021
+JIS B 0631:2000",technical-information,,resources_tab_custom_title,"<a href=""https://willrich.com/wp-content/uploads/2025/02/PRE-1610-Surftest-SJ-220_WEB.pdf"">PRE 1610 - Surftest SJ-220_WEB</a>
+
+&nbsp;
+
+&nbsp;
+
+https://youtu.be/yBi38Qr_AjA
+
+&nbsp;
+
+https://youtu.be/52iEGfSoQw8
+
+&nbsp;",resources,,additional-info_tab_custom_title,"Dedicated software app “SJ-App” for increased efficiency of measurement work
+
+<img class=""alignnone size-medium wp-image-43473"" src=""https://willrich.com/wp-content/uploads/2025/02/sj220-1-800x280.jpg"" alt="""" width=""800"" height=""280"" />",additional-info,,,,yes,upon_release,,,90,133,,1,,,,,,,field_683d85f0871aa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{{unknown}},"<iframe title=""Effortless Bidirectional Communication | SJ-220"" width=""687"" height=""386"" src=""https://www.youtube.com/embed/52iEGfSoQw8?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1744385141,"<iframe title=""Our Brand New Portable Surface Roughness Tester | SJ-220"" width=""672"" height=""378"" src=""https://www.youtube.com/embed/yBi38Qr_AjA?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1744385170,"<iframe title=""Our Brand New Portable Surface Roughness Tester | SJ-220"" width=""691"" height=""389"" src=""https://www.youtube.com/embed/yBi38Qr_AjA?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1744385187,"<iframe title=""Effortless Bidirectional Communication | SJ-220"" width=""691"" height=""389"" src=""https://www.youtube.com/embed/52iEGfSoQw8?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1744385187,"<iframe title=""Our Brand New Portable Surface Roughness Tester | SJ-220"" width=""1020"" height=""574"" src=""https://www.youtube.com/embed/yBi38Qr_AjA?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1744393162,"<iframe title=""Effortless Bidirectional Communication | SJ-220"" width=""1020"" height=""574"" src=""https://www.youtube.com/embed/52iEGfSoQw8?feature=oembed"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1744393162,"<iframe title=""Our Brand New Portable Surface Roughness Tester | SJ-220"" width=""703"" height=""395"" src=""https://www.youtube.com/embed/yBi38Qr_AjA?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1749821623,"<iframe title=""Effortless Bidirectional Communication | SJ-220"" width=""703"" height=""395"" src=""https://www.youtube.com/embed/52iEGfSoQw8?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1749821623,"<iframe title=""Our Brand New Portable Surface Roughness Tester | SJ-220"" width=""1018"" height=""573"" src=""https://www.youtube.com/embed/yBi38Qr_AjA?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1788753219,"<iframe title=""Effortless Bidirectional Communication | SJ-220"" width=""1018"" height=""573"" src=""https://www.youtube.com/embed/52iEGfSoQw8?feature=oembed&enablejsapi=1&origin=https://willrich.com"" frameborder=""0"" allow=""accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"" referrerpolicy=""strict-origin-when-cross-origin"" allowfullscreen></iframe>",1788753219,,
+725,variation,54-410-600-0,"Fowler X-PRO  Portable Surface Roughness Tester",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,,2401.6,,,,,,,id:719,,,,,,3,"Portable Surface Roughness",".0002"" radius stylus",,0,"Output (Select)","No output",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+723,variation,54-410-500-0,"Fowler X-PRO  Portable Surface Roughness Tester",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,,2401.6,,,,,,,id:719,,,,,,1,"Portable Surface Roughness",".0004"" radius stylus",,0,"Output (Select)","No output",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+726,variation,54-410-622-0,"Fowler X-PRO  Portable Surface Roughness Tester",1,0,visible,,,,,taxable,parent,1,,,0,0,5,,,,0,,,3245.83,,,,,,,id:719,,,,,,4,"Portable Surface Roughness",".0002"" radius stylus",,0,"Output (Select)","RS232 Output",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+724,variation,54-410-511-0,"Fowler X-PRO  Portable Surface Roughness Tester",1,0,visible,,,,,taxable,parent,1,,,0,0,5,,,,0,,,3416.71,,,,,,,id:719,,,,,,2,"Portable Surface Roughness",".0004"" radius stylus",,0,"Output (Select)","RS232 Output",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13419,variation,2191800,"Mahr Pocket Surf IV Portable Surface Roughness Tester - 10um probe, w/Test Cert",1,0,visible,,,,,taxable,parent,1,,,0,0,8,,,,0,,,2696.07,,,,,,,id:847,,,,,,1,"Surface Roughness Tester","10um probe\, w/Test Cert",,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13420,variation,2191802,"Mahr Pocket Surf IV Portable Surface Roughness Tester - 5Î¼m probe, w/Test Cert",1,0,visible,,,,,taxable,parent,1,,,0,0,8,,,,0,,,2696.07,,,,,,,id:847,,,,,,2,"Surface Roughness Tester","5Î¼m probe\, w/Test Cert",,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+884,variation,"Marsurf XR1","MarSurf XR 1 Surface Roughness Tester",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,1,,,,,,,,,,id:879,,,,,,0,"Call or email for price ph: 866-945-5742",,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+885,variation,"Marsurf XR1","MarSurf XR 1 Surface Roughness Tester",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,1,,,,,,,,,,id:879,,,,,,1,"Call or email for price ph: 866-945-5742",,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47036,variation,178-571-21A,"Mitutoyo SJ-310 Surface Roughness Tester - 178-571-21A Standard drive unit 2um tip, .75mN force",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,4725,,,,,,,id:933,,,,,,2,Products,"178-571-21A Standard drive unit 2um tip\, .75mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47037,variation,178-573-22A,"Mitutoyo SJ-310 Surface Roughness Tester - 178-573-22A Retractable drive unit 5um tip, 4mN force",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,5652,,,,,,,id:933,,,,,,3,Products,"178-573-22A Retractable drive unit 5um tip\, 4mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47038,variation,178-573-21A,"Mitutoyo SJ-310 Surface Roughness Tester - 178-573-21A Retractable drive unit 2um tip, .75mN force",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,5652,,,,,,,id:933,,,,,,4,Products,"178-573-21A Retractable drive unit 2um tip\, .75mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47039,variation,178-575-22A,"Mitutoyo SJ-310 Surface Roughness Tester - 178-575-22A Transverse tracing 5um tip, 4mN force",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,8145,,,,,,,id:933,,,,,,5,Products,"178-575-22A Transverse tracing 5um tip\, 4mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47040,variation,178-575-21A,"Mitutoyo SJ-310 Surface Roughness Tester - 178-575-21ATransverse tracing unit 2um tip, .75mN force",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,7992,,,,,,,id:933,,,,,,6,Products,"178-575-21ATransverse tracing unit 2um tip\, .75mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47035,variation,178-571-22A,"Mitutoyo SJ-310 Surface Roughness Tester - 178-571-22A Standard drive unit 5um tip, 4mN force",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,4725,,,,,,,id:933,,,,,,1,Products,"178-571-22A Standard drive unit 5um tip\, 4mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+958,variation,178-583-31A,"Mitutoyo SJ-410 Series Model SJ-411 SJ-412 Portable Surface Roughness Tester - 178-583-31A .75mN meas. force 2"" stroke",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,10795,,,,,,,id:951,,,,,,3,"Product Choice","178-583-31A .75mN meas. force 2"" stroke",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+959,variation,178-583-32A,"Mitutoyo SJ-410 Series Model SJ-411 SJ-412 Portable Surface Roughness Tester - 178-583-32A 4mM meas. force 2"" stroke",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,10795,,,,,,,id:951,,,,,,4,"Product Choice","178-583-32A 4mM meas. force 2"" stroke",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+956,variation,178-581-31A,"Mitutoyo SJ-410 Series Model SJ-411 SJ-412 Portable Surface Roughness Tester - 178-581-31A .75mN meas. force 1"" stroke",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,8815,,,,,,,id:951,,,,,,1,"Product Choice","178-581-31A .75mN meas. force 1"" stroke",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+957,variation,178-581-32A,"Mitutoyo SJ-410 Series Model SJ-411 SJ-412 Portable Surface Roughness Tester - 178-581-32A 4mM meas. force 1"" stroke",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,8815,,,,,,,id:951,,,,,,2,"Product Choice","178-581-32A 4mM meas. force 1"" stroke",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+976,variation,SRG-2200,"Phase II SRG-2000 Surface Roughness Tester Profilometer - SRG-2200 Surface Roughness Tester Profilometer",1,0,visible,,,,,taxable,parent,1,,,0,0,8,,,,0,,,1398.60,,,,,,,id:974,,,,,,0,Item,"SRG-2200 Surface Roughness Tester Profilometer",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+979,variation,SRG-4000,"Phase II SRG-4000 Surface Roughness Gage - SRG-4000 Surface Roughness Testers",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,1,,,1726.92,,,,,,,id:978,,,,,,1,Item,"SRG-4000 Surface Roughness Testers",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1000,variation,SR300,"Starrett SR300 Surface Roughness Tester - Starrett SR300 Surface Roughness Tester",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,,4239.00,,,,,,,id:999,,,,,,1,Item,"Starrett SR300 Surface Roughness Tester",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1007,variation,SR400,"Starrett SR400 Surface Roughness Tester - Starrett SR400 Surface Roughness unit",1,0,visible,,,,,taxable,parent,1,,,0,0,12,,,,0,,,5485.00,,,,,,,id:1006,,,,,,1,Item,"Starrett SR400 Surface Roughness unit",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1027,variation,6930013,"Brown & Sharpe Tesa Rugosurf 20 Profilometer - Rugosurf 20",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,2170.00,,,,,,,id:1021,,,,,,1,Item,"Rugosurf 20",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1339,variation,6930012,"TESA RUGOSURF 90G Surface Roughness Gauge - Surface Roughness Gage 90G",1,0,visible,,,,,taxable,parent,1,,,0,0,6,,,,0,,,7499,,,,,,,id:1334,,,,,,0,Item,"Surface Roughness Gage 90G",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14870,variation,SR160,"Starrett SR160 Surface Roughness Tester - SR160 Surface Roughness Tester",1,0,visible,,,,,taxable,parent,1,,,0,0,8,,,,0,,,2980,,,,,,,id:14869,,,,,,1,Item,"SR160 Surface Roughness Tester",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16393,variation,EMD-1500-311,"Mahr Federal Pocketsurf III - EMD-1500-311 Pocketsurf III",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,,2379.552,,,,,,,id:16391,,,,,,0,Item,"EMD-1500-311 Pocketsurf III",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16509,variation,SRG-4600,"Phase II SRG-4600 Handheld Surface Roughness Gauge w/External Stylus - SRG-4600 Surface roughness gage",1,0,visible,,,,,taxable,parent,1,,,0,0,8,,,,0,,,1942.92,,,,,,,id:16508,,,,,,1,Item,"SRG-4600 Surface roughness gage",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16891,variation,6910230,"Mahr PS10 Surface Roughness Tester - 2um Probe Tip",1,0,visible,,,,,taxable,parent,1,,,0,0,12,,,,0,,,3370,,,,,,,id:16887,,,,,,2,"Surface Roughness Tester","2um Probe Tip",,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16890,variation,6910232,"Mahr PS10 Surface Roughness Tester - 5um Probe Tip",1,0,visible,,,,,taxable,parent,1,,,0,0,12,,,,0,,,3370,,,,,,,id:16887,,,,,,1,"Surface Roughness Tester","5um Probe Tip",,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45497,variation,2152919,"Mahr MarSurf PS 10 C2 Surface Roughness Tester traverse drive - PS 10 5 μm probe 350 μm",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,3950,,,,,,,id:19326,,,,,,1,item,"PS 10 5 μm probe 350 μm",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19330,variation,6910235,"Mahr MarSurf PS 10 C2 Surface Roughness Tester traverse drive - PS10 2 μm probe",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,3950,,,,,,,id:19326,,,,,,2,item,"PS10 2 μm probe",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19338,variation,4910412P,"MarSurf M 400 C Surface Roughness Tester- Wired Drive and Controller - Surface Roughness Tester- Wired Drive and Controller",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,8725,9161.25,,,,,,,id:19336,,,,,,0,"M400 C","Surface Roughness Tester- Wired Drive and Controller",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29636,variation,6910264,"Mahr MarSurf M 310 Mobile Surface Roughness Measurement System - M310 C2 *2um)",1,0,visible,,,,,taxable,parent,1,,,0,0,8,,,,0,,4707,5230,,,,,,,id:29629,,,,,,6,Configurations,"M310 C2 *2um)",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29635,variation,6910266,"Mahr MarSurf M 310 Mobile Surface Roughness Measurement System - M310 w.out PHT Probe",1,0,visible,,,,,taxable,parent,1,,,0,0,8,,,,0,,4194,4660,,,,,,,id:29629,,,,,,5,Configurations,"M310 w.out PHT Probe",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29634,variation,6910268,"Mahr MarSurf M 310 Mobile Surface Roughness Measurement System - M310 w/ 5um probe & printer",1,0,visible,,,,,taxable,parent,1,,,0,0,8,,,,0,,5265,5850,,,,,,,id:29629,,,,,,4,Configurations,"M310 w/ 5um probe & printer",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29633,variation,6910267,"Mahr MarSurf M 310 Mobile Surface Roughness Measurement System - M310 w/2um probe & printer",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,3719.07,,,,,,,id:29629,,,,,,3,Configurations,"M310 w/2um probe & printer",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29632,variation,6910295,"Mahr MarSurf M 310 Mobile Surface Roughness Measurement System - M310 w/5um probe",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,,4395,,,,,,,id:29629,,,,,,2,Configurations,"M310 w/5um probe",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29631,variation,6910260,"Mahr MarSurf M 310 Mobile Surface Roughness Measurement System - M310 w/2um probe",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,,3487.5,,,,,,,id:29629,,,,,,1,Configurations,"M310 w/2um probe",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35414,variation,6930014,"Portable roughness gauge TESA TWIN-SURF - TESA TWIN-SURF",1,0,visible,,,,,taxable,parent,1,,,0,0,7,,,,0,,,3218.50,,,,,,,id:35408,,,,,,1,Item,"TESA TWIN-SURF",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35415,variation,6930015,"Portable roughness gauge TESA TWIN-SURF - TESA TWIN-SURF BT Bluetooth",1,0,visible,,,,,taxable,parent,1,,,0,0,7,,,,0,,,3281,,,,,,,id:35408,,,,,,2,Item,"TESA TWIN-SURF BT Bluetooth",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36669,variation,178-565-11A-1,"Mitutoyo Surftest SJ-210 Surface Roughness Tester (Copy) - 178-565-01A Transverse drive unit type .75mN force",'-1,0,visible,,,,,taxable,parent,1,,,0,0,6,,,,0,,,4165.20,,,,,,,id:36663,,,,,,5,Items,"178-565-01A Transverse drive unit type .75mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36664,variation,178-561-12A-1,"Mitutoyo Surftest SJ-210 Surface Roughness Tester (Copy) - 178-561-02A Standard drive 4mN force",'-1,0,visible,,,,,taxable,parent,1,,,0,0,12,,,,0,,,2162.70,,,,,,,id:36663,,,,,,0,Items,"178-561-02A Standard drive 4mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36665,variation,178-561-11A-1,"Mitutoyo Surftest SJ-210 Surface Roughness Tester (Copy) - 178-561-01A Standard drive 0.75mN force",'-1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,,2162.70,,,,,,,id:36663,,,,,,1,Items,"178-561-01A Standard drive 0.75mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36666,variation,178-563-12A-1,"Mitutoyo Surftest SJ-210 Surface Roughness Tester (Copy) - 178-563-02A Retractable drive unit type 4mN force",'-1,0,visible,,,,,taxable,parent,1,,,0,0,6,,,,0,,,2438.60,,,,,,,id:36663,,,,,,2,Items,"178-563-02A Retractable drive unit type 4mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36667,variation,178-563-11A-1,"Mitutoyo Surftest SJ-210 Surface Roughness Tester (Copy) - 178-563-01A Retractable drive unit type .75mN force",'-1,0,visible,,,,,taxable,parent,1,,,0,0,6,,,,0,,,2438.60,,,,,,,id:36663,,,,,,3,Items,"178-563-01A Retractable drive unit type .75mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+36668,variation,178-565-12A-1,"Mitutoyo Surftest SJ-210 Surface Roughness Tester (Copy) - 178-565-02A Transverse drive unit type 4mN force",'-1,0,visible,,,,,taxable,parent,1,,,0,0,6,,,,0,,,4165.20,,,,,,,id:36663,,,,,,4,Items,"178-565-02A Transverse drive unit type 4mN force",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+37367,variation,15510,"Flexbar LiteSurf Surface Roughness Tester Complete System - LiteSurf Surface Roughness Tester Complete System",1,0,visible,,,,,taxable,parent,1,,,0,0,7,,,,0,,,2695,,,,,,,id:37364,,,,,,1,Item,"LiteSurf Surface Roughness Tester Complete System",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,month,1,,month,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45498,variation,6910291,"Mahr MarSurf M 410 Item 6910290 or 6910291 surface roughness tester - Mahr Federal, M410",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,,9846,,,,,,,id:40346,,,,,,2,Brands,"Mahr Federal",,1,ITEM,M410,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40348,variation,6910290,"Mahr MarSurf M 410 Item 6910290 or 6910291 surface roughness tester - Mahr Federal, M 410 set",1,0,visible,,,,,taxable,parent,1,,,0,0,15,,,,0,,,9011.7,,,,,,,id:40346,,,,,,1,Brands,"Mahr Federal",,1,ITEM,"M 410 set",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45146,variation,178-742-13-,"Mitutoyo Surface Roughness tester SJ-220 Series - Standard Drive 4mN",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,2730,3440,,,,,,,id:43465,,,,,,1,Item,"Standard Drive 4mN",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45145,variation,178-746-13,"Mitutoyo Surface Roughness tester SJ-220 Series - Transverse tracing drive unit type 4 mN",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,5250,6220,,,,,,,id:43465,,,,,,3,Item,"Transverse tracing drive unit type 4 mN",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45144,variation,178-741-13,"Mitutoyo Surface Roughness tester SJ-220 Series - Standard Drive .75mN",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,2875,4090,,,,,,,id:43465,,,,,,2,Item,"Standard Drive .75mN",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+45143,variation,178-743-13,"Mitutoyo Surface Roughness tester SJ-220 Series - Retractable Drive Unit Type 0.75mN",1,0,visible,,,,,taxable,parent,1,,,0,0,,,,,0,,3395,4020,,,,,,,id:43465,,,,,,4,Item,"Retractable Drive Unit Type 0.75mN",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+43470,variation,178-745-13,"Mitutoyo Surface Roughness tester SJ-220 Series - Transverse tracing drive unit Type 0.75 mN",1,0,visible,,,,,taxable,parent,1,,,0,0,10,,,,0,,5250,6220,,,,,,,id:43465,,,,,,5,Item,"Transverse tracing drive unit Type 0.75 mN",,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
