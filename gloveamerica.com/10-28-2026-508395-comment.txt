@@ -1,0 +1,23 @@
+https://login.smartsites.com/projects/8237/tasks/508395
+
+As per comment #5, thank you for sending the SendGrid details from the client.
+
+For the site: https://gloveamerica.com/
+
+The value shared ("API Key ID: sHE6naTXQz-eT-N24CNJEw") is only the name/ID of the key, not the key itself, so we can't connect the site with it. We added it to the site's email settings and sent a test email, and SendGrid refused it. The site has been switched back to its previous email settings.
+Reference screenshot: https://drive.google.com/file/d/1r65IgXQZyNyxKyVAcaf7VSr8F2blS1Lm/view?usp=sharing
+
+The good news is that the site's current email plugin already supports SendGrid, so no extra purchase is needed, and once we have the real key the site can be connected right away.
+
+What we need from the client:
+
+1. Log in to the SendGrid account and go to Settings > API Keys.
+2. Click "Create API Key", name it (for example "Gloveamerica Website"), choose "Restricted Access", set "Mail Send" to "Full Access", and click "Create & View".
+3. Copy the key that SendGrid shows. It starts with "SG." and is a long string of about 69 characters. SendGrid shows it only once, so please copy it before closing the window.
+4. Share the key with us privately (for example in a direct message, not in this task), since it gives access to send emails from their account.
+
+Please also confirm which email address the site should send from (for example contact@gloveamerica.com), as SendGrid needs that address to be approved in their account.
+
+Once we have the key, we will connect it on the live site, send test emails, and place a test order to confirm that both the team (contact@gloveamerica.com and imsgloves@gmail.com) and the customers receive the order emails.
+
+Thanks!
