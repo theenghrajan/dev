@@ -1,0 +1,29 @@
+As per comment #1, the new category is ready on the branch subdomain for review.
+
+Re: Can you add a new category in the dropdown for products. LASER 3D SCANNERS
+...
+"LASER 3D SCANNERS" is added to the Products dropdown on the branch subdomain. Hover over Products to see it above LASER MICROMETERS.
+
+https://306-laser-3d-scanners.willrich.smartwebsitedesign.com/
+
+Reference screenshot: https://drive.google.com/file/d/1bIlC9WPKu3DiTaim3KDgSAviEZE-H9yj/view?usp=sharing
+
+The category page is here. It is empty on the branch because the 5 products are only on the live website:
+
+https://306-laser-3d-scanners.willrich.smartwebsitedesign.com/shop/laser-3d-scanners/
+
+Reference screenshot: https://drive.google.com/file/d/1OJ61cY90rtBjRY-QF2iTiRaeGHuT21l_/view?usp=sharing
+
+Once approved, we will add the category on the live website and assign it to these 5 products:
+
+- TrackScan Sharp optical 3D scanning system LONG DISTANCE AND LARGE VOLUME
+- M-Track Intelligent Robotic Path Planning and Guiding System
+- SIMSCAN GEN 2 & SIMSCAN-E 3D handheld laser scanner
+- NimbleTrack Gen 2 Wireless Optical 3D Scanning TRACKING system
+- Handheld Wireless Scanner KSCAN-E & KSCAN-X
+
+These products will also stay in the categories they are in now.
+
+Please review and let us know if we can push this live.
+
+Thanks!

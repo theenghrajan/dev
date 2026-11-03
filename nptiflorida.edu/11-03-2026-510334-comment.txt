@@ -1,0 +1,7 @@
+As per comment #1, we have reviewed the 4 new landing pages. The main site already uses the GTM container GTM-KB5B4ZZ4. The landing pages only have part of it, so it is not working on them yet. Before we proceed, please confirm the points below:
+
+1. Should we set up GTM-KB5B4ZZ4 on these landing pages as well, or do you want a separate GTM container for them?
+
+2. Please share the Google Ads conversion details (Conversion ID and Conversion Label) for each conversion you want to track.
+
+Thanks!
