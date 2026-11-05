@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss_live-location — Section Preview</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <section
+    id="ss-live-location"
+    class="ss-module-live-location bg-blue-08 pad-section"
+  >
+    <div class="container mx-auto px-4">
+      <div class="col-center-center-16 text-center">
+
+        <!-- acf: section_heading (text) -->
+        <h2 class="text-center">
+          Our In Person <span class="text-orange">Live Locations</span>
+        </h2>
+
+        <!-- acf: section_subtext (text) -->
+        <p class="text-center max-w-2xl mx-auto">
+          We're proud to serve students around the world with our comprehensive fitness certification programs.
+        </p>
+
+        <!-- Map with overlaid location cards -->
+        <!-- acf: map_embed (embed) — Google map Iframe location is (Tampa – 8411 Sunstate Street, Tampa, FL 33634) and (Orlando, Florida 32817
+(Inside International Plaza) -->
+        <div class="relative w-full rounded-xl overflow-hidden" style="height:560px;">
+<!--map_embed (embed) - Google Map instead of image with 2 pins locations with the locations (Tampa – 8411 Sunstate Street, Tampa, FL 33634) and (Orlando, Florida 32817
+(Inside International Plaza)-->
+          <img
+            src="https://www.figma.com/api/mcp/asset/3aa9b242-e896-4bd7-9d81-733d61d8cce1"
+            alt="Map showing NPTI Florida campus locations in Orlando and Tampa"
+            class="absolute inset-0 w-full h-full object-cover rounded-xl"
+          >
+
+          <!-- Tampa location card -->
+          <!-- acf: location_1 (group) -->
+          <div class="absolute hidden md:flex items-start gap-2 bg-white border border-black/10 rounded-lg px-4 py-3 shadow-card" style="left:20%;top:32%;">
+            <img
+              src="https://www.figma.com/api/mcp/asset/a61476ac-a9fe-4775-9aeb-f9fc1f739619"
+              alt=""
+              aria-hidden="true"
+              width="24"
+              height="24"
+              class="shrink-0 mt-0.5"
+            >
+            <p class="font-ui text-base text-navy leading-snug">
+              Tampa – 8411 Sunstate Street,<br>Tampa, FL 33634
+            </p>
+          </div>
+
+          <!-- Orlando location card -->
+          <!-- acf: location_2 (group) -->
+          <div class="absolute hidden md:flex items-start gap-2 bg-white border border-black/10 rounded-lg px-4 py-3 shadow-card" style="left:58%;top:29%;">
+            <img
+              src="https://www.figma.com/api/mcp/asset/a61476ac-a9fe-4775-9aeb-f9fc1f739619"
+              alt=""
+              aria-hidden="true"
+              width="24"
+              height="24"
+              class="shrink-0 mt-0.5"
+            >
+            <p class="font-ui text-base text-navy leading-snug">
+              Orlando, Florida 32817<br>(Inside International Plaza)
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Mobile fallback: address list below map -->
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 w-full md:hidden mt-4">
+
+          <div class="row-start-center gap-3 bg-white border border-black/10 rounded-lg p-4 shadow-card">
+            <img
+              src="https://www.figma.com/api/mcp/asset/a61476ac-a9fe-4775-9aeb-f9fc1f739619"
+              alt=""
+              aria-hidden="true"
+              width="24"
+              height="24"
+              class="shrink-0"
+            >
+            <p class="font-ui text-sm text-navy leading-snug">
+              Tampa – 8411 Sunstate Street, Tampa, FL 33634
+            </p>
+          </div>
+
+          <div class="row-start-center gap-3 bg-white border border-black/10 rounded-lg p-4 shadow-card">
+            <img
+              src="https://www.figma.com/api/mcp/asset/a61476ac-a9fe-4775-9aeb-f9fc1f739619"
+              alt=""
+              aria-hidden="true"
+              width="24"
+              height="24"
+              class="shrink-0"
+            >
+            <p class="font-ui text-sm text-navy leading-snug">
+              Orlando, Florida 32817 (Inside International Plaza)
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

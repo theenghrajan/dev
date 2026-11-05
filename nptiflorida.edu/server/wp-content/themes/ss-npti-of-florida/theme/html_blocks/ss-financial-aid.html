@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss_financial-aid — Section Preview</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <section
+    id="ss-financial-aid"
+    class="ss-module-financial-aid bg-white pad-section"
+  >
+    <div class="container mx-auto px-4">
+      <div class="col-center-center-16">
+
+        <!-- acf: section_heading (text) -->
+        <h2 class="text-center">
+          Financial Aid &amp; Admissions for <span class="text-orange">NPTI Students</span>
+        </h2>
+
+        <!-- Tab navigation -->
+        <!-- acf: tabs (repeater) -->
+        <div class="flex items-center rounded-pill border border-navy/25 p-1 w-full max-w-[755px]">
+          <!-- Tab 1: Admissions (active) -->
+          <button
+            class="tab-btn bg-blue text-white font-heading font-medium text-sm rounded-pill px-6 py-3 whitespace-nowrap border-0 cursor-pointer transition-fast"
+            data-tab="admissions"
+            aria-selected="true"
+          >
+            Admissions
+          </button>
+          <!-- Tab 2: Financial Aid -->
+          <button
+            class="tab-btn text-blue font-heading font-medium text-sm rounded-pill px-4 py-3 whitespace-nowrap bg-transparent border-0 cursor-pointer transition-fast hover:bg-blue/5"
+            data-tab="financial-aid"
+            aria-selected="false"
+          >
+            Financial Aid
+          </button>
+          <!-- Tab 3: How to Apply -->
+          <button
+            class="tab-btn text-blue font-heading font-medium text-sm rounded-pill px-4 py-3 whitespace-nowrap bg-transparent border-0 cursor-pointer transition-fast hover:bg-blue/5"
+            data-tab="how-to-apply"
+            aria-selected="false"
+          >
+            How to Apply for Federal Financial Aid
+          </button>
+        </div>
+
+        <!-- Tab panels -->
+        <div class="w-full">
+
+          <!-- Panel: Admissions (active) -->
+          <div class="tab-panel" data-panel="admissions">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:items-start">
+
+              <!-- Left: content -->
+              <div class="col-start-start-16">
+                <!-- acf: admissions_heading (text) -->
+                <h3 class="font-heading font-bold text-xl text-navy leading-snug">Admissions</h3>
+                <!-- acf: admissions_intro (textarea) -->
+                <p>Applicants for the Personal Fitness training program must meet the following requirements for consideration for admission.</p>
+
+                <!-- acf: admissions_requirements (repeater) -->
+                <div class="col-start-start-16 gap-3 w-full">
+
+                  <div class="flex items-start gap-2">
+                    <img src="https://www.figma.com/api/mcp/asset/0aa06ef0-10b7-4d9d-8c0c-3953cc7b2865" alt="" aria-hidden="true" class="w-8 h-8 shrink-0 mt-0.5">
+                    <p class="text-sm text-navy flex-1">Submit an Application For Admission with a $50.00 registration fee. The $50.00 registration fee is non-refundable.</p>
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <img src="https://www.figma.com/api/mcp/asset/0aa06ef0-10b7-4d9d-8c0c-3953cc7b2865" alt="" aria-hidden="true" class="w-8 h-8 shrink-0">
+                    <p class="text-sm text-navy flex-1">Be at least 18 years of age.</p>
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <img src="https://www.figma.com/api/mcp/asset/0aa06ef0-10b7-4d9d-8c0c-3953cc7b2865" alt="" aria-hidden="true" class="w-8 h-8 shrink-0">
+                    <p class="text-sm text-navy flex-1">Be a U.S. Citizen or have a green card.</p>
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <img src="https://www.figma.com/api/mcp/asset/0aa06ef0-10b7-4d9d-8c0c-3953cc7b2865" alt="" aria-hidden="true" class="w-8 h-8 shrink-0">
+                    <p class="text-sm text-navy flex-1">Provide a high school diploma or equivalent.</p>
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <img src="https://www.figma.com/api/mcp/asset/0aa06ef0-10b7-4d9d-8c0c-3953cc7b2865" alt="" aria-hidden="true" class="w-8 h-8 shrink-0">
+                    <p class="text-sm text-navy flex-1">Personal interview is required.</p>
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <img src="https://www.figma.com/api/mcp/asset/0aa06ef0-10b7-4d9d-8c0c-3953cc7b2865" alt="" aria-hidden="true" class="w-8 h-8 shrink-0">
+                    <p class="text-sm text-navy flex-1">Be of good character.</p>
+                  </div>
+
+                </div>
+
+                <!-- acf: admissions_disclaimer (textarea) -->
+                <p class="text-sm text-navy">Our school does not discriminate against any applicant on the basis of race, gender, age, or disability in accordance with federal and state guidelines.</p>
+
+                <!-- acf: admissions_cta_label (text) + admissions_cta_url (url) -->
+                <a href="#" class="btn-primary btn-primary:hover self-start">
+                  Apply Now
+                </a>
+              </div>
+
+              <!-- Right: image -->
+              <!-- acf: admissions_image (image) -->
+              <div class="rounded-lg overflow-hidden">
+                <img
+                  src="https://www.figma.com/api/mcp/asset/62ed6bc9-cb6a-46d4-9103-d95e71d73c3b"
+                  alt="Student training at NPTI Florida"
+                  class="w-full h-[500px] object-cover rounded-lg"
+                >
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Panel: Financial Aid (hidden) -->
+          <div class="tab-panel" data-panel="financial-aid" style="display:none;">
+            <!-- acf: financial_aid_content (flexible content) -->
+          </div>
+
+          <!-- Panel: How to Apply (hidden) -->
+          <div class="tab-panel" data-panel="how-to-apply" style="display:none;">
+            <!-- acf: how_to_apply_content (flexible content) -->
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="../../javascript/script.js"></script>
+  <script>
+    // Tab switching for ss-financial-aid
+    document.querySelectorAll('#ss-financial-aid .tab-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var tab = this.getAttribute('data-tab');
+        // Update buttons
+        document.querySelectorAll('#ss-financial-aid .tab-btn').forEach(function(b) {
+          b.classList.remove('bg-blue', 'text-white');
+          b.classList.add('text-blue', 'bg-transparent');
+          b.setAttribute('aria-selected', 'false');
+        });
+        this.classList.add('bg-blue', 'text-white');
+        this.classList.remove('text-blue', 'bg-transparent');
+        this.setAttribute('aria-selected', 'true');
+        // Update panels
+        document.querySelectorAll('#ss-financial-aid .tab-panel').forEach(function(p) {
+          p.style.display = p.getAttribute('data-panel') === tab ? '' : 'none';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

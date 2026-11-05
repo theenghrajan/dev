@@ -1,0 +1,147 @@
+.slick-list {
+    @apply
+    -mx-3
+    ;
+}
+
+.slide-item {
+    @apply
+    px-3
+    ;
+}
+
+/* .slick-arrow */
+.slick-arrow {
+    @apply
+    absolute
+    lg:top-1/2
+    lg:-translate-y-1/2
+    max-lg:bottom-0
+    z-[1]
+    inline-flex
+    justify-center
+    items-center
+    size-9
+    2xl:size-[2.625rem]
+    rounded-full
+    text-[0px]
+    border
+    border-transparent
+    bg-orange
+    text-white
+    cursor-pointer
+    transition-all
+    duration-300
+    max-lg:mx-1.5
+
+    before:inline-block
+    before:font-icomoon
+    before:text-[1rem]
+    before:-z-[1]
+
+    hover:[&:not(.slick-disabled)]:text-white
+    hover:[&:not(.slick-disabled)]:bg-blue
+    hover:[&:not(.slick-disabled)]:border-blue
+    hover:[&:not(.slick-disabled)]:shadow-[0_12px_40px_rgba(17,51,60,.16)]
+
+    [&.slick-disabled]:text-gray
+    [&.slick-disabled]:bg-smoke
+    [&.slick-disabled]:opacity-95
+    [&.slick-disabled]:!cursor-not-allowed
+    [&.slick-disabled]:pointer-events-none
+    ;
+}
+
+.slick-prev {
+    @apply
+    lg:-left-4
+    xl:-left-7
+    max-lg:left-auto
+    max-lg:right-1/2
+    before:content-['\e90a']
+    ;
+}
+
+.slick-next {
+    @apply
+    lg:-right-4
+    xl:-right-7
+    max-lg:right-auto
+    max-lg:left-1/2
+    before:content-['\e909']
+    ;
+}
+
+/* Start slick-dots style */
+.slick-dots {
+    @apply
+    list-none
+    space-y-0
+    m-0
+    pt-6
+    2xl:pt-8
+    px-4
+    flex
+    flex-wrap
+    justify-center
+    gap-2
+    text-[0px]
+
+    [&:has(>li:only-child)]:!pt-0
+    ;
+}
+
+.slick-dots button {
+    @apply
+    inline-block
+    size-2.5
+    bg-smoke
+    rounded-full
+    transition-all
+    duration-300
+
+    hover:bg-orange
+    ;
+}
+
+.slick-dots .slick-active button {
+    @apply
+    bg-blue
+    ;
+}
+
+.slick-dots > li:only-child {
+	@apply hidden;
+}
+
+
+/* Start slick arrow and dots hidden class */
+.arrows-none .slick-arrow {
+	@apply
+	!hidden;
+	;
+}
+
+.dots-none .slick-dots  {
+	@apply
+	!hidden;
+	;
+}
+/* End slick arrow and dots hidden class */
+
+/* CLS Fix */
+[class^="slider-col-"],
+[class*="slider-col-"] {
+	@apply
+		flex
+		invisible
+	;
+}
+
+[class^="slider-col-"].slick-slider,
+[class*="slider-col-"].slick-slider {	
+	@apply
+	block
+	visible
+	;
+}

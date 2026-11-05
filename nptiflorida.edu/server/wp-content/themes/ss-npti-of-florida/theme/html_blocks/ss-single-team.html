@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss_grid-journey — Section Preview</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <section
+    id="ss-single-team"
+    class="ss-module-grid-journey bg-white pad-section"
+  >
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-[520px_1fr] lg:items-start">
+
+        <!-- Left: Profile card -->
+        <!-- acf: profile_card (group) -->
+        <div class="bg-white border border-black/10 rounded-lg p-6 col-start-start-16">
+
+          <!-- acf: profile_photo (image) -->
+          <img
+            src="https://www.figma.com/api/mcp/asset/e670fb13-c744-41bf-b344-6740863ba796"
+            alt="Patrick Sherman — Owner, NPTI Florida"
+            class="w-full rounded-lg object-cover mb-4"
+            style="max-height:385px;"
+          >
+
+          <!-- Role badge + social icons row -->
+          <div class="flex justify-between items-center mb-4 gap-20">
+
+            <!-- acf: profile_role (text) -->
+            <span class="bg-blue/10 text-blue font-semibold text-sm rounded-pill px-4 py-1">
+              Owner/VA Educational Specialist
+            </span>
+
+            <!-- acf: social_links (repeater) -->
+            <div class="row-between-center gap-2">
+
+              <!-- Facebook -->
+              <a href="#" aria-label="Facebook" class="relative shrink-0 w-6 h-6 bg-navy rounded-full text-center flex justify-center items-center text-white hover:bg-orange hover:text-white">
+                <i class="icon-facebook text-[12px]"></i>
+
+              </a>
+
+              <!-- Instagram -->
+              <a href="#" aria-label="Instagram" class="relative shrink-0 w-6 h-6 bg-navy rounded-full text-center flex justify-center items-center text-white hover:bg-orange hover:text-white">
+                <i class="icon-instagram text-[12px]"></i>
+                </a>
+
+
+              <!-- YouTube -->
+              <a href="#" aria-label="YouTube" class="relative shrink-0 w-6 h-6 bg-navy rounded-full text-center flex justify-center items-center text-white hover:bg-orange hover:text-white">
+                <i class="icon-youtube text-[12px]"></i>
+              </a>
+
+              <!-- Twitter/X -->
+              <a href="#" aria-label="Twitter / X" class="relative shrink-0 w-6 h-6 bg-navy rounded-full text-center flex justify-center items-center text-white hover:bg-orange hover:text-white">
+                <i class="icon-twitter text-[12px]"></i>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- acf: profile_name (text) — first name orange -->
+          <h3 class="font-heading font-bold text-[1.875rem] leading-snug mb-2">
+            <span class="text-orange">Patrick</span> Sherman
+          </h3>
+
+          <!-- acf: profile_bio (textarea) -->
+          <p class="text-base text-navy">
+            Patrick Sherman is a dedicated fitness and wellness enthusiast with a passion for helping individuals achieve their fitness career and health goals. He has been helping staff large and small health clubs and fitness facilities with qualified educated Trainers for over 25 years.
+          </p>
+
+        </div>
+
+        <!-- Right: Bio content + accordions -->
+        <div class="col-start-start-16">
+
+          <!-- acf: bio_heading (text) -->
+          <h3 class="font-heading font-bold text-xl text-navy leading-snug">Professional Journey</h3>
+
+          <!-- acf: bio_paragraphs (wysiwyg) -->
+          <p>
+            With over 25 years of experience in the health and fitness industry, Patrick began his career in the US Navy at the age of seventeen, after serving Patrick worked as a defense contractor with the US and foreign military forces. His team was responsible for fleet readiness during Desert Storm and Desert Shield. Secret-Top Secret security clearances were held. Traveled extensively Worldwide and lived in nine countries for a 10-year period.
+          </p>
+          <p>
+            In 2000, Patrick took the bold step of opening NPTI Florida, a premier accredited training institution focused on providing high-quality personal training and nutrition education. Under his leadership, NPTI Florida has gained recognition for its comprehensive accredited training programs, which empower personal trainers to excel in their Fitness careers.
+          </p>
+
+          <!-- acf: accordion_items (repeater) — uses existing script.js accordion pattern -->
+          <div class="accordion col-start-start-16 w-full">
+
+            <!-- Item 1 — Philosophy and Approach -->
+            <div class="accordion-item bg-white border border-navy rounded-lg overflow-hidden w-full">
+              <button class="accordionBtn row-between-center w-full px-5 py-4 font-body text-base text-navy text-left bg-transparent border-0 cursor-pointer">
+                Philosophy and Approach
+                <i class="icon-chevron-right shrink-0 pointer-events-none" aria-hidden="true"></i>
+              </button>
+              <div class="accordionBody px-5 pb-4" style="display:none;">
+                <!-- acf: accordion_body (textarea) -->
+                <p class="text-base text-navy">Patrick's training philosophy centres on evidence-based programming, functional movement, and long-term client success over quick results.</p>
+              </div>
+            </div>
+
+            <!-- Item 2 — Veteran Involvement -->
+            <div class="accordion-item bg-white border border-navy rounded-lg overflow-hidden w-full">
+              <button class="accordionBtn row-between-center w-full px-5 py-4 font-body text-base text-navy text-left bg-transparent border-0 cursor-pointer">
+                Veteran Involvement
+                <i class="icon-chevron-right shrink-0 pointer-events-none" aria-hidden="true"></i>
+              </button>
+              <div class="accordionBody px-5 pb-4" style="display:none;">
+                <!-- acf: accordion_body (textarea) -->
+                <p class="text-base text-navy">As a veteran himself, Patrick is deeply committed to supporting transitioning service members. NPTI Florida proudly serves as a veteran-owned, operated, and staffed institution.</p>
+              </div>
+            </div>
+
+            <!-- Item 3 — Personal Life -->
+            <div class="accordion-item bg-white border border-navy rounded-lg overflow-hidden w-full">
+              <button class="accordionBtn row-between-center w-full px-5 py-4 font-body text-base text-navy text-left bg-transparent border-0 cursor-pointer">
+                Personal Life
+                <i class="icon-chevron-right shrink-0 pointer-events-none" aria-hidden="true"></i>
+              </button>
+              <div class="accordionBody px-5 pb-4" style="display:none;">
+                <!-- acf: accordion_body (textarea) -->
+                <p class="text-base text-navy">Outside of work, Patrick is passionate about fitness, travel, and mentoring the next generation of fitness professionals.</p>
+              </div>
+            </div>
+
+            <!-- Item 4 — Contact Information (open by default) -->
+            <div class="accordion-item itemActive bg-white border border-navy rounded-lg overflow-hidden w-full">
+              <button class="accordionBtn active row-between-center w-full px-5 py-4 font-body text-base text-navy text-left bg-transparent border-0 cursor-pointer">
+                Contact Information
+                <i class="icon-chevron-right shrink-0 pointer-events-none" aria-hidden="true"></i>
+              </button>
+              <div class="accordionBody px-5 pb-4">
+                <!-- acf: accordion_body (textarea) -->
+                <p class="text-base text-navy">For more information about NPTI Florida and its programs, you can reach Patrick Sherman at <a href="mailto:pat@nptifl.com">pat@nptifl.com</a>.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

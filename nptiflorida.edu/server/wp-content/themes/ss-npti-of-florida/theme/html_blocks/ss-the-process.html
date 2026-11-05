@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss-the-process — Section Preview</title>
+  <link rel="stylesheet" href="../../theme/style.css">
+</head>
+
+<body class="bg-white">
+
+  <section
+    id="ss-the-process"
+    class="ss-module-the-process bg-white py-10 md:py-16 lg:py-20"
+  >
+    <div class="container mx-auto px-4">
+
+      <!-- Heading -->
+      <!-- acf: section_heading (text) -->
+      <h2 class="font-heading font-bold text-3xl md:text-4xl text-navy text-center leading-tight mb-10 md:mb-12">
+        The <span class="text-orange">Process</span>
+      </h2>
+
+      <!-- Row 1: 3 step cards -->
+      <!-- acf: process_steps (repeater) -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10 md:mb-14">
+
+        <!-- Step 1: Enter Info -->
+        <div class="bg-white border border-navy/10 rounded p-6 flex flex-col gap-6">
+          <!-- Icon badge -->
+          <div class="w-12 h-12 rounded-pill bg-blue flex items-center justify-center flex-shrink-0">
+            <i class="icon-user"></i>
+          </div>
+          <div class="flex flex-col gap-2">
+            <!-- acf: step_label (text) -->
+            <p class="font-body font-bold text-md text-navy">Enter Info</p>
+            <!-- acf: step_description (textarea) -->
+            <p class="font-body font-normal text-md text-navy leading-relaxed">
+              Share basic details about your household income.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2: Calculate Aid -->
+        <div class="bg-white border border-navy/10 rounded p-6 flex flex-col gap-6">
+          <div class="w-12 h-12 rounded-pill bg-blue flex items-center justify-center flex-shrink-0">
+            <i class="icon-user"></i>
+          </div>
+          <div class="flex flex-col gap-2">
+            <p class="font-body font-bold text-md text-navy">Calculate Aid</p>
+            <p class="font-body font-normal text-md text-navy leading-relaxed">
+              We estimate the grants/scholarships you may qualify for.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3: See Net Price -->
+        <div class="bg-white border border-navy/10 rounded p-6 flex flex-col gap-6">
+          <div class="w-12 h-12 rounded-pill bg-blue flex items-center justify-center flex-shrink-0">
+            <i class="icon-user"></i>
+          </div>
+          <div class="flex flex-col gap-2">
+            <p class="font-body font-bold text-md text-navy">See Net Price</p>
+            <p class="font-body font-normal text-md text-navy leading-relaxed">
+              View your estimated out-of-pocket cost.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Row 2: Two-column info with vertical divider -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-10 md:mb-14 lg:divide-x lg:divide-navy/20">
+
+        <!-- Left: Additional Cost & Aid Information -->
+        <div class="flex flex-col gap-4">
+          <!-- acf: benefit_items (wysiwyg) -->
+          <h3>
+            Additional Cost &amp; <span class="text-orange">Aid Information</span>
+          </h3>
+          <p>
+            For a detailed breakdown of all costs, please contact our Admissions team.
+          </p>
+          <p>
+            We are proud to support our students with unique benefits:
+          </p>
+
+          <ul>
+            <li>
+              <p>
+                We have been training veterans to become Personal Trainers for 25+ years in Orlando/Tampa, FL.
+              </p>
+            </li>
+            <li>
+              <p>
+                We have a housing program available for all out-of-state students.
+              </p>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Right: Need Help? Contact Us -->
+        <div class="flex flex-col gap-4 lg:pl-12">
+
+          <!-- acf: contact_heading (text) -->
+          <h3 class="font-heading font-bold text-xl text-navy leading-snug">
+            Need Help? <span class="text-orange">Contact Us</span>
+          </h3>
+
+          <!-- acf: contact_description (textarea) -->
+          <p class="font-body font-normal text-md text-navy leading-relaxed">
+            If you have trouble using the calculator or have questions about financial aid, our team is here to help. Please see below the contact information for our admissions advisors who can walk you through every step.
+          </p>
+
+          <!-- acf: contact_cta_label (text) + acf: contact_cta_url (url) -->
+          <div>
+            <a
+              href="#"
+              class="inline-flex items-center justify-center bg-white hover:bg-orange/10 text-orange font-body font-bold text-sm uppercase rounded-4xl px-9 py-3 border-1.5 border-orange transition-colors"
+            >
+              See Program Info
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Row 3: Footer note -->
+      <!-- acf: footer_note (text) -->
+      <p class="font-body font-semibold text-md text-navy text-center leading-relaxed">
+        All students are encouraged to speak with our Financial Aid team to explore all funding options.
+      </p>
+
+    </div>
+  </section>
+
+</body>
+</html>

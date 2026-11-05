@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss_grid-training — Section Preview</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <section id="ss-grid-training" class="ss-module-grid-training bg-white pad-section">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-start">
+
+        <!-- Left column: heading + contact info -->
+        <div class="col-start-start-16">
+
+          <!-- acf: section_heading (text) -->
+          <h2>
+            Ready to Speak with One of
+            <span class="text-orange">Our Personal Training Certification Specialists?</span>
+          </h2>
+
+          <!-- acf: call_us_label (text) -->
+          <p class="font-semibold text-2xl text-navy leading-snug mt-6 mb-4">Call Us Today:</p>
+
+          <!-- acf: campus_contacts (repeater) -->
+          <div class="col-start-start-8 gap-4">
+
+            <!-- Orlando -->
+            <div class="col-start-start-8">
+              <!-- acf: campus_name (text) -->
+              <p class="font-semibold text-base text-navy leading-snug">Orlando:</p>
+              <!-- acf: campus_phone (text) -->
+              <a href="tel:4077720057"
+                class="row-start-center gap-2 no-underline text-navy text-base leading-snug transition-fast hover:text-orange">
+                <img src="https://www.figma.com/api/mcp/asset/d1421471-a236-4c4c-8e10-925ed4e72713" alt=""
+                  aria-hidden="true" width="24" height="24" class="shrink-0 w-5">
+                407-772-0057
+              </a>
+            </div>
+
+            <!-- Tampa -->
+            <div class="col-start-start-8">
+              <!-- acf: campus_name (text) -->
+              <p class="font-semibold text-base text-navy leading-snug">Tampa:</p>
+              <!-- acf: campus_phone (text) -->
+              <a href="tel:8133742017"
+                class="row-start-center gap-2 no-underline text-navy text-base leading-snug transition-fast hover:text-orange">
+                <img src="https://www.figma.com/api/mcp/asset/fbec7f7e-0aed-4b46-83ac-c7737ad33f64" alt=""
+                  aria-hidden="true" width="24" height="24" class="shrink-0 w-5">
+                813-374-2017
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right column: Get Started form card -->
+        <div class="bg-navy/10 rounded-xl p-8">
+
+          <!-- acf: form_heading (text) -->
+          <h3 class="mb-6">
+            Get <span class="text-orange">Started</span>
+          </h3>
+
+          <form class="col-start-start-16" action="#" method="post">
+
+            <!-- Full Name -->
+            <div class="w-full">
+              <label for="field-name" class="sr-only">Full Name</label>
+              <input id="field-name" type="text" name="full_name" placeholder="Full Name"
+                class="w-full bg-white/70 border border-white rounded-xl px-4 py-3 font-ui text-sm text-navy placeholder:text-navy/50 focus:outline-none focus:ring-2 focus:ring-blue/40">
+            </div>
+
+            <!-- Email + Phone (2-col) -->
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 w-full">
+              <div>
+                <label for="field-email" class="sr-only">Email Id</label>
+                <input id="field-email" type="email" name="email" placeholder="Email Id"
+                  class="w-full bg-white/70 border border-white rounded-xl px-4 py-3 font-ui text-sm text-navy placeholder:text-navy/50 focus:outline-none focus:ring-2 focus:ring-blue/40">
+              </div>
+              <div>
+                <label for="field-phone" class="sr-only">Phone number</label>
+                <input id="field-phone" type="tel" name="phone" placeholder="Phone number"
+                  class="w-full bg-white/70 border border-white rounded-xl px-4 py-3 font-ui text-sm text-navy placeholder:text-navy/50 focus:outline-none focus:ring-2 focus:ring-blue/40">
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="w-full">
+              <label for="field-message" class="sr-only">Message</label>
+              <textarea id="field-message" name="message" rows="3" placeholder="Enter your message here..."
+                class="w-full bg-white/70 border border-white rounded-xl px-4 py-3 font-ui text-sm text-navy placeholder:text-navy/50 focus:outline-none focus:ring-2 focus:ring-blue/40 resize-none"></textarea>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit"
+              class="w-full bg-orange text-white font-bold uppercase text-base rounded-pill py-4 transition-fast hover:bg-orange/90 border-0 cursor-pointer">
+              Submit Now
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

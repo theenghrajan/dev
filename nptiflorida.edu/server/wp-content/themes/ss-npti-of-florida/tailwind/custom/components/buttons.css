@@ -1,0 +1,35 @@
+/* .btn {
+    @apply
+    inline-flex
+    justify-center
+    items-center
+    min-w-[100px]
+    2xl:min-w-[120px]
+    py-2.5
+    2xl:py-3.5
+    px-5
+    2xl:px-8
+    text-[0.9375rem]
+    2xl:text-base
+    leading-tight
+    text-white
+    font-semibold
+    bg-brand-accent
+    rounded-[1.875rem]
+    cursor-pointer
+    transition-all
+    duration-100
+
+    hover:text-brand-accent
+    hover:bg-white
+    hover:border-brand-accent
+    hover:border-2
+    ;
+} */
+.btn {
+    @apply uppercase;
+}
+
+.btn-outlined:hover {
+    @apply bg-blue text-white border-blue;
+}

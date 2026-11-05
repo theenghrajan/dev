@@ -1,0 +1,451 @@
+/* Header Styles */
+@layer components {
+    .site-header {
+        @apply
+        fixed
+        z-[99]
+        top-0
+        left-0
+        right-0
+        w-full
+        transition-all
+        duration-300
+        
+        [&.stickyHeader]:shadow-[0_0_15px_rgba(0,0,0,.5)]
+        ;
+    }
+
+    .site-header-top {
+        @apply
+        relative 
+        z-[1] 
+        flex 
+        justify-between 
+        items-center 
+        gap-6 
+        py-3 
+
+        after:content-[''] 
+        after:absolute 
+        after:inset-[0_-9999px_0_-9999px] 
+        after:-z-[1] 
+        after:bg-navy 
+
+        [&_ul]:list-none 
+        [&_ul]:m-0 
+        [&_ul]:space-y-0
+        ;
+    }
+
+    .site-nav {
+        @apply
+        flex
+        justify-between
+        items-center
+        gap-6
+        py-4
+
+        [&_ul]:list-none
+        [&_ul]:m-0
+        [&_ul]:!space-y-0
+        ;
+    }
+
+    .site-header .navbar-brand {
+        @apply
+        flex-none
+        mr-2
+        sm:mr-6
+        inline-block
+        max-w-[12.5rem]
+        sm:max-w-[13.75rem]
+        xl:max-w-[15.5rem]
+        leading-none       
+        transition-all
+        duration-300
+
+        [&_figure]:mb-0
+        ;
+    }
+
+    .site-header .navbar-nav {
+		@apply 
+        xl:flex 
+        xl:flex-wrap 
+        xl:w-full
+        xl:gap-x-6
+        gap-y-2
+        space-y-0
+        justify-between
+        max-w-[1040px]
+        ;
+	}
+
+    #desktop-nav {
+        @apply hidden xl:flex
+    }
+
+    #mobile-nav {
+        @apply flex-col;
+    }
+
+    .site-header .navbar-nav li::marker {
+		@apply text-[0px]
+        ;
+	}
+
+    .site-header .navbar-nav li a::before {
+		@apply content-[''] w-[5px] h-[5px] bg-white/20 absolute top-2 max-xl:top-[23px] left-[-18px] max-xl:-left-[10px] rounded-full
+        ;
+	}
+
+	.site-header .navbar-nav .nav-link {
+		@apply      
+        relative  
+        font-body
+        font-semibold
+        text-[0.9375rem]
+        2xl:text-[1rem]
+        leading-normal
+        text-white
+        block
+        xl:w-auto
+        w-full
+        xl:border-b-0
+        border-b
+        border-b-white/30
+        p-[0.875rem]
+        xl:p-0
+        no-underline
+        hover:text-orange
+        ;
+	}
+
+    .site-header .current-menu-item .nav-link{
+		@apply
+        font-medium
+        text-orange
+        xl:after:w-full
+        ;
+	}
+
+    .site-header .navbar-nav>.menu-item-has-children:hover {
+        @apply
+        [>&>.caret]:text-orange
+        [&>.nav-link]:text-orange
+        [&>.nav-link:after]:w-full        
+        ;
+    }
+
+	/* navbar collapse */
+	.site-header .navbar-collapse {
+		@apply
+        gap-4
+        xl:gap-8
+        w-full        
+
+        /* xl:flex          */
+        xl:items-center 
+        xl:justify-center
+      
+        max-xl:w-full      
+        max-xl:h-auto        
+        max-xl:fixed 
+        max-xl:-left-[17.5rem] 
+        max-xl:top-0 
+        max-xl:bottom-0 
+        max-xl:max-w-[15.5rem]
+        max-xl:py-10
+        max-xl:transition-all 
+        max-xl:duration-300
+        max-xl:backdrop-blur-sm
+        max-xl:text-white
+        max-xl:bg-navy/90
+        max-xl:shadow-[0_0_25px_rgba(0,0,0,.2)] 
+        max-xl:z-[10000]
+        max-xl:overflow-y-auto 
+        ;
+	}
+
+    .site-header .navbar-collapse ul {
+        @apply
+        space-y-0
+        ;
+    }
+
+	.site-header .navbar-collapse.show {
+		@apply 
+        max-xl:left-0
+        ;
+	}
+
+	.site-header .menu-item-has-children {
+		@apply 
+        relative
+        ;
+	}
+
+	.site-header .menu-item-has-children .nav-link {
+		@apply
+        pr-11 
+        xl:pr-5
+        ;
+	}
+
+    .site-header .current-menu-item > .caret {
+        @apply
+        !text-white
+        ;
+    }
+
+    .site-header .current-menu-item>.dropdown-item {
+        @apply
+        font-semibold
+        xl:font-medium
+        text-white
+        !bg-orange
+        ;
+    }
+
+    .site-header .navbar-nav>.menu-item-has-children>.caret {
+        @apply
+        xl:pointer-events-none
+        ;
+    }
+
+	.site-header .menu-item-has-children .caret {
+		@apply 
+        absolute
+        max-xl:top-5  
+        top-2
+        max-xl:right-4
+        right-1
+        grid 
+        place-items-center      
+        xl:size-auto
+        text-[0.75rem] 
+        text-white
+        transition
+        duration-[5ms] 
+        ;
+	}
+
+	/* Dropdown-menu */
+     .site-header .menu-item .dropdown-menu {
+		@apply 
+        leading-[1.4]
+        xl:absolute 
+        xl:top-[110%] 
+        xl:-left-4 
+        xl:min-w-[320px]
+        xl:text-[1rem]
+        xl:invisible 
+        xl:opacity-0 
+        xl:transition 
+        max-xl:hidden
+        max-xl:pl-0
+        ;
+	} 
+   
+    .site-header .menu-item .dropdown-menu .menu-item:hover>.dropdown-item,
+	.site-header .menu-item .dropdown-menu .menu-item:focus>.dropdown-item {
+		@apply 
+        xl:bg-orange
+        xl:text-white
+        no-underline
+        ;
+	}
+
+    .site-header .menu-item-has-children:hover>.dropdown-menu {
+		@apply 
+        xl:opacity-100 
+        xl:visible 
+        xl:top-full;
+	}
+
+    .site-header .menu-item .dropdown-menu .menu-item-has-children:hover .dropdown-menu {
+		@apply 
+        xl:top-2
+        md:left-[-16px]
+        ;
+	}
+
+    .site-header .menu-item .dropdown-menu .menu-item-has-children .dropdown-item {
+		@apply 
+        !pr-10;   
+	} 
+
+    .site-header .menu-item .dropdown-menu .menu-item .dropdown-item {
+		@apply 
+        block 
+        text-[0.875rem]
+        xl:text-[0.9375rem]
+        bg-smoke
+        px-4
+        py-3
+        border-b
+        border-b-blue
+
+        hover:bg-orange
+        hover:text-white
+        ;
+	}
+
+    .site-header .menu-item .dropdown-menu .menu-item .dropdown-item::before{
+        @apply hidden;
+    }
+
+    .site-header .menu-item .dropdown-menu .menu-item .dropdown-menu .dropdown-item {
+        @apply
+        max-xl:pl-4
+        ;
+    }
+
+    .site-header .menu-item .dropdown-menu .menu-item:last-child .dropdown-item {
+        @apply
+        border-b
+        ;
+    }
+
+    .site-header .menu-item .dropdown-menu .menu-item-has-children:hover  .caret {
+        @apply
+        xl:text-white
+        ;
+    }
+
+    .site-header .menu-item .dropdown-menu .caret {
+		@apply 
+        top-5
+        right-2
+        max-xl:right-2.5 
+        xl:-rotate-90 
+        text-black
+        transition-all
+        duration-300
+        ;
+	}
+
+    .site-header .menu-item .dropdown-menu .dropdown-menu {
+		@apply 
+        xl:left-[100.5%] 
+        xl:right-auto
+        xl:top-[5px];
+	}
+
+    .site-header .menu-item .dropdown-menu .dropdown-menu:nth-last-child(-n+3) {
+        @apply
+        xl:!left-full 
+        xl:!right-auto
+        xl:pl-0
+        ;
+    }
+
+	/* Hamburger Menu Icon */
+	.site-header .navbar-toggler {
+        @apply 
+        block 
+        xl:hidden 
+        relative 
+        w-11 
+        h-[2.375rem] 
+        p-2 
+        rounded-md 
+        bg-blue
+        transition-all
+        duration-300 
+        ease-in-out
+        ;
+    }
+    
+    .site-header .navbar-toggler span {
+        @apply 
+        block 
+        h-[0.1875rem] 
+        bg-white 
+        transition-all 
+        ease-in-out 
+        rounded-full
+        ;
+    }
+    
+    .site-header .navbar-toggler span:nth-child(2) {
+        @apply 
+        my-[0.3125rem] 
+        w-[calc(100%-8px)] 
+        transition-all 
+        duration-300 
+        ease-in-out;
+    }
+    
+    .site-header .navbar-toggler span:nth-child(3) {
+        @apply 
+        w-[calc(100%-15px)] 
+        transition-all 
+        duration-300 
+        ease-in-out
+        ;
+    }
+    
+    .site-header .navbar-toggler.collapsed span:first-child {
+        @apply 
+        translate-y-[9px] 
+        rotate-45 
+        w-full 
+        transition-all 
+        duration-300 
+        ease-in-out 
+        delay-300
+        ;
+    }
+    
+    .site-header .navbar-toggler.collapsed span:nth-child(2) {
+        @apply 
+        w-0 
+        opacity-0 
+        invisible 
+        transition-all 
+        duration-300 
+        ease-in-out
+        ;
+    }
+    
+    .site-header .navbar-toggler.collapsed span:last-child {
+        @apply 
+        -translate-y-[7px] 
+        rotate-[130deg] 
+        w-full 
+        transition-all 
+        duration-300 
+        ease-in-out 
+        delay-300
+        ;
+    }
+
+    .ss-breadcrumb span {
+        @apply
+        text-white
+        text-md
+        font-body
+        font-normal
+        ;
+    }
+
+    .ss-breadcrumb a {
+        @apply
+        font-semibold
+        no-underline
+        hover:text-white
+        transition-all
+        duration-300
+        ;
+    }
+
+    #breadcrumbs > span {
+        @apply flex flex-wrap items-center gap-2 text-white;
+    }
+
+    .breadcrumb-separator {
+        @apply leading-none;
+    }
+    
+}

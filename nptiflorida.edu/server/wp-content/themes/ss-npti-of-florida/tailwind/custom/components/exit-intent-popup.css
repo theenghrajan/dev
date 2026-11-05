@@ -1,0 +1,31 @@
+/* Exit-Intent Popup */
+@layer components {
+
+	/* ---------------- Gravity Form overrides (form id 9, scoped) ---------------- */
+	.ss-exit-popup-gform .gform_wrapper .gform_fields {
+		@apply gap-y-2.5;
+	}
+
+	.ss-exit-popup-gform .gform_wrapper .gfield {
+		@apply relative mb-0;
+	}
+
+	.ss-exit-popup-gform .gform_wrapper .gform-field-label,
+	.ss-exit-popup-gform .gform_wrapper .gfield_label {
+		@apply absolute top-1/2 -translate-y-1/2 left-3.5 mb-0 font-normal text-[0.75rem] leading-[normal] text-navy/30 pointer-events-none;
+	}
+
+	.ss-exit-popup-gform .gform_wrapper input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]) {
+		@apply h-11 px-3.5 text-xs text-navy border-navy/20;
+	}
+
+	.ss-exit-popup-gform input[type="submit"] {
+		font-size: 15px;
+	}
+
+	/* Compact confirmation message — replaces the site-wide blue confirmation box */
+	.ss-exit-popup-gform .gform_confirmation_message {
+		@apply inline-block w-full bg-transparent text-navy border-0 p-0 text-sm font-semibold leading-6 text-left rounded-none;
+	}
+}
+/* End Exit-Intent Popup */

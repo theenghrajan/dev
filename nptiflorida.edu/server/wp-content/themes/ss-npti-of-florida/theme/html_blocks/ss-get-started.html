@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss-get-started — Section Preview</title>
+  <link rel="stylesheet" href="../../theme/style.css">
+</head>
+
+<body class="bg-white">
+
+  <section
+    id="ss-get-started"
+    class="ss-module-get-started bg-white py-10 md:py-16 lg:py-20"
+  >
+    <div class="container mx-auto px-4">
+
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
+
+        <!-- Left col: Get Started form -->
+        <div class="bg-navy/10 rounded-lg p-8 flex flex-col gap-6">
+
+          <!-- acf: form_heading (text) -->
+          <h2 class="font-heading font-bold text-2xl md:text-4xl text-navy leading-tight">
+            Get <span class="text-orange">Started</span>
+          </h2>
+
+          <!-- acf: gravity_form_id (number) — replace ID as needed -->
+          <!-- [gravityforms id="1" title="false" description="false" ajax="true"] -->
+          <div class="ss-gform-wrapper">
+            <?php echo do_shortcode('[gravityforms id="1" title="false" description="false" ajax="true"]'); ?>
+          </div>
+
+          <!--
+            HTML preview placeholder (remove in PHP template):
+            The Gravity Forms shortcode above renders:
+              - Full Name (text)
+              - Email Id (email) + Phone number (tel) — two columns
+              - Select Location (select: Orlando / Tampa)
+              - Message (textarea)
+              - Submit Now button (styled orange pill via GF theme CSS)
+          -->
+          <div class="ss-gform-preview flex flex-col gap-4">
+
+            <div class="flex flex-col gap-1">
+              <input
+                type="text"
+                placeholder="Full Name"
+                class="w-full bg-white/70 border border-white rounded px-4 py-2.5 font-body font-normal text-sm text-navy placeholder:text-navy/50 focus:outline-none focus:ring-2 focus:ring-orange/40"
+              >
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div class="flex flex-col gap-1">
+                <input
+                  type="email"
+                  placeholder="Email Id"
+                  class="w-full bg-white/70 border border-white rounded px-4 py-2.5 font-body font-normal text-sm text-navy placeholder:text-navy/50 focus:outline-none focus:ring-2 focus:ring-orange/40"
+                >
+              </div>
+              <div class="flex flex-col gap-1">
+                <input
+                  type="tel"
+                  placeholder="Phone number"
+                  class="w-full bg-white/70 border border-white rounded px-4 py-2.5 font-body font-normal text-sm text-navy placeholder:text-navy/50 focus:outline-none focus:ring-2 focus:ring-orange/40"
+                >
+              </div>
+            </div>
+
+            <div class="relative flex flex-col gap-1">
+              <select
+                class="w-full appearance-none bg-white/70 border border-white rounded px-4 py-2.5 font-body font-normal text-sm text-navy/50 focus:outline-none focus:ring-2 focus:ring-orange/40"
+              >
+                <option value="" disabled selected>Select Location</option>
+                <option value="orlando">Orlando</option>
+                <option value="tampa">Tampa</option>
+              </select>
+              <img
+                src="https://www.figma.com/api/mcp/asset/3ab56c86-fd19-460d-ab4f-73db580fc9af"
+                alt=""
+                class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5"
+                aria-hidden="true"
+              >
+            </div>
+
+            <div class="flex flex-col gap-1">
+              <textarea
+                placeholder="Enter your message here..."
+                rows="5"
+                class="w-full bg-white/70 border border-white rounded px-4 py-3 font-body font-normal text-sm text-navy placeholder:text-navy/50 focus:outline-none focus:ring-2 focus:ring-orange/40 resize-none"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="w-full inline-flex items-center justify-center bg-orange hover:bg-orange/90 text-white font-body font-bold text-sm uppercase rounded-4xl px-9 py-2.5 transition-colors"
+            >
+              Submit Now
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Right col: NPTI Locations -->
+        <div class="flex flex-col gap-4">
+
+          <!-- acf: locations_heading (text) -->
+          <h2 class="font-heading font-bold text-xl md:text-2xl text-navy leading-tight">
+            Visit Our <span class="text-orange">NPTI Locations</span>
+          </h2>
+
+          <!-- acf: locations (repeater) -->
+
+          <!-- Location card: Orlando -->
+          <div class="bg-light-blue rounded p-8 flex flex-col gap-6 sm:flex-row sm:gap-8">
+
+            <!-- Address -->
+            <div class="flex flex-col gap-3 sm:flex-1">
+              <div class="flex items-center gap-2">
+                <img
+                  src="https://www.figma.com/api/mcp/asset/857b62dc-95b3-417c-b9ab-22d82528f521"
+                  alt=""
+                  class="w-8 h-8 flex-shrink-0"
+                  aria-hidden="true"
+                >
+                <h3 class="font-heading font-bold text-lg text-navy">Orlando</h3>
+              </div>
+              <address class="not-italic flex flex-col gap-3 pl-4 font-body font-normal text-md text-navy leading-relaxed">
+                <span>3451 Technological Ave</span>
+                <span>Suite #3</span>
+                <span>Orlando, Florida 32817</span>
+                <span>(Inside International Plaza)</span>
+              </address>
+            </div>
+
+            <!-- Contact -->
+            <div class="flex flex-col gap-3 sm:flex-1">
+              <div class="flex items-center gap-2">
+                <img
+                  src="https://www.figma.com/api/mcp/asset/1fb27c18-6061-44f9-a9f7-db154a16c1be"
+                  alt=""
+                  class="w-8 h-8 flex-shrink-0"
+                  aria-hidden="true"
+                >
+                <h4 class="font-heading font-bold text-lg text-navy">Contact Information</h4>
+              </div>
+              <ul class="flex flex-col gap-2">
+                <li class="flex items-center gap-3">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/0f343a53-d61a-4032-920f-f1d40b1bc328"
+                    alt="Phone"
+                    class="w-10 h-10 flex-shrink-0"
+                  >
+                  <a href="tel:4077720057" class="font-body font-normal text-md text-navy hover:text-orange transition-colors">
+                    (407) 772-0057
+                  </a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/39045909-4e16-4bce-8f08-8f78cea79b10"
+                    alt="Fax"
+                    class="w-10 h-10 flex-shrink-0"
+                  >
+                  <span class="font-body font-normal text-md text-navy">407-845-1460</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/c7bdf3a2-1c39-46cd-ba8a-02a4e7c62b73"
+                    alt="Email"
+                    class="w-10 h-10 flex-shrink-0"
+                  >
+                  <a href="mailto:admission@nptifl.com" class="font-body font-normal text-md text-navy hover:text-orange transition-colors">
+                    admission@nptifl.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Location card: Tampa -->
+          <div class="bg-light-blue rounded p-8 flex flex-col gap-6 sm:flex-row sm:gap-8">
+
+            <!-- Address -->
+            <div class="flex flex-col gap-3 sm:flex-1">
+              <div class="flex items-center gap-2">
+                <img
+                  src="https://www.figma.com/api/mcp/asset/857b62dc-95b3-417c-b9ab-22d82528f521"
+                  alt=""
+                  class="w-8 h-8 flex-shrink-0"
+                  aria-hidden="true"
+                >
+                <h3 class="font-heading font-bold text-lg text-navy">Tampa</h3>
+              </div>
+              <address class="not-italic flex flex-col gap-3 pl-4 font-body font-normal text-md text-navy leading-relaxed">
+                <span>8411 Sunstate Street</span>
+                <span>Tampa, FL 33634</span>
+              </address>
+            </div>
+
+            <!-- Contact -->
+            <div class="flex flex-col gap-3 sm:flex-1">
+              <div class="flex items-center gap-2">
+                <img
+                  src="https://www.figma.com/api/mcp/asset/1fb27c18-6061-44f9-a9f7-db154a16c1be"
+                  alt=""
+                  class="w-8 h-8 flex-shrink-0"
+                  aria-hidden="true"
+                >
+                <h4 class="font-heading font-bold text-lg text-navy">Contact Information</h4>
+              </div>
+              <ul class="flex flex-col gap-2">
+                <li class="flex items-center gap-3">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/0f343a53-d61a-4032-920f-f1d40b1bc328"
+                    alt="Phone"
+                    class="w-10 h-10 flex-shrink-0"
+                  >
+                  <a href="tel:8133742017" class="font-body font-normal text-md text-navy hover:text-orange transition-colors">
+                    (813) 374-2017
+                  </a>
+                </li>
+                <li class="flex items-center gap-3">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/c7bdf3a2-1c39-46cd-ba8a-02a4e7c62b73"
+                    alt="Email"
+                    class="w-10 h-10 flex-shrink-0"
+                  >
+                  <a href="mailto:tampa@nptifl.com" class="font-body font-normal text-md text-navy hover:text-orange transition-colors">
+                    tampa@nptifl.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

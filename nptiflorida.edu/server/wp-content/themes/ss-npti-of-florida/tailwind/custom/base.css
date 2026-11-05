@@ -1,0 +1,320 @@
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ * NPTI — Base Layer
+ * @layer base
+ *
+ * Defines:
+ *   1. CSS custom properties (RGB channels for color/opacity modifier support)
+ *   2. HTML element base styles
+ *   3. Typography defaults
+ *   4. Focus / accessibility resets
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+
+@tailwind base;
+
+@layer base {
+
+  /* ── 1. CSS Custom Properties ─────────────────────────────────────────── */
+  /*
+   * Colors are stored as raw RGB channels (no rgb() wrapper) so Tailwind's
+   * opacity modifier works: e.g. bg-navy/80 → rgb(23 42 54 / 0.8)
+   */
+  :root {
+    /* Primary brand */
+    --color-white:       255 255 255;
+    --color-navy:        23  42  54;
+    --color-blue:        4   76  171;
+    --color-orange:      255 102 0;
+    --color-yellow:      255 214 0;
+
+    /* Supporting */
+    --color-light-blue:  235 241 248;
+    --color-steel:       100 116 135;
+    --color-gray-md:     136 146 151;
+    --color-gray:        166 166 166;
+    --color-gray-lt:     171 171 171;
+    --color-silver:      217 217 217;
+    --color-smoke:       232 234 235;
+    --color-near-black:  34  34  34;
+    --color-black:       0   0   0;
+
+    /* Extended */
+    --color-peach:       253 220 199;
+    --color-dark-blue:   28  58  169;
+    --color-google-blue: 66  133 244;
+
+    /* Semantic */
+    --color-green:       76  175 80;
+    --color-red:         233 27  27;
+    --color-amber:       251 193 50;
+    --color-salmon:      250 148 131;
+
+    /* Spacing */
+    --btn-padding-y: 10px;
+    --btn-padding-x: 36px;
+
+    /* Shadows */
+    --shadow-subtle: 0 1px 4px rgb(23 42 54 / 0.08);
+    --shadow-card:   0 2px 24px rgb(23 42 54 / 0.04);
+    --shadow-float:  0 12px 24px rgb(0 0 0 / 0.10);
+    --shadow-hero:   0 80.6px 105.7px rgb(51 51 51 / 0.10);
+
+    /* Transitions */
+    --transition-fast:    120ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-default: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow:    400ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Dark mode overrides (if needed in future) */
+  .dark {
+    --color-navy: 235 241 248;   /* invert light/dark surfaces */
+    --color-white: 23 42 54;
+  }
+
+  /* ── 2. Box sizing & Root ─────────────────────────────────────────────── */
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* ── 3. Body ──────────────────────────────────────────────────────────── */
+  body {
+    @apply
+    min-w-[320px]
+		m-0
+      bg-white
+      text-navy
+      text-sm
+      font-body           /* 18px — Segoe UI body default */
+      font-normal
+      leading-relaxed
+      overflow-x-hidden
+		antialiased;
+  }
+
+  /* ── 4. Headings — Bitter serif ───────────────────────────────────────── */
+
+  h1, h2, h3, h4, h5, h6{
+    @apply mb-2;
+  }
+
+  h1 {
+    @apply font-heading text-3xl lg:text-5xl font-bold text-navy leading-snug;
+    /* 48px / Bitter / 700 */
+  }
+  h2 {
+    @apply font-heading text-[30px] lg:text-2xl  font-bold text-navy leading-snug;
+    /* 40px / Bitter / 700 */
+  }
+  h3 {
+    @apply font-heading text-lg lg:text-xl font-bold text-navy leading-snug;
+    /* 24px / Bitter / 700 */
+  }
+  h4 {
+    @apply font-heading text-lg font-bold text-navy leading-snug;
+    /* 20px / Bitter / 700 */
+  }
+  h5 {
+    @apply font-body text-md font-semibold text-navy;
+    /* 18px / Segoe UI / 600 */
+  }
+  h6 {
+    @apply font-body text-sm font-semibold text-navy;
+    /* 16px / Segoe UI / 600 */
+  }
+
+  /* ── 5. Body text ─────────────────────────────────────────────────────── */
+  p {
+    @apply text-md font-body font-normal leading-relaxed text-navy mb-2;
+  }
+
+  /* Lead paragraph */
+  p.lead {
+    @apply text-lg font-body font-normal leading-relaxed text-steel;
+    /* 20px */
+  }
+
+  /* Small / caption */
+  small,
+  .text-caption {
+    @apply text-xs font-ui font-normal text-steel;
+    /* 14px / Roboto */
+  }
+
+  /* ── 6. Links ─────────────────────────────────────────────────────────── */
+  a {
+    @apply text-orange font-semibold underline-offset-2 transition-colors transition-all;
+    transition-duration: var(--transition-fast);
+  }
+  a:hover {
+    @apply text-orange/70;
+  }
+
+  /* ── 7. Lists ─────────────────────────────────────────────────────────── */
+  ul,
+  ol {
+    @apply pl-6 space-y-1;
+  }
+  ul {
+    @apply list-disc;
+  }
+  ol {
+    @apply list-decimal;
+  }
+  li {
+    @apply text-md font-body leading-relaxed;
+  }
+
+  /* ── 8. Horizontal rule ───────────────────────────────────────────────── */
+  hr {
+    @apply border-0 border-t border-smoke my-8;
+  }
+
+  /* ── 9. Images & Media ────────────────────────────────────────────────── */
+  img,
+  video,
+  svg {
+    @apply max-w-full;
+    display: block;
+  }
+
+  img{
+    @apply 
+		w-auto
+		h-auto 
+		max-w-full 
+		align-middle
+		;
+  }
+
+  
+	.site-wrapper {
+		@apply 
+		relative 
+		overflow-hidden 
+		my-0 
+		mx-auto 
+		flex 
+		items-stretch 
+		flex-col 
+		min-h-full
+		;
+	}
+
+	.site-content {
+		@apply 
+		grow
+		;
+	}
+
+	.site-header,
+	.site-content,
+	.site-footer {
+		@apply
+		shrink-0
+		;
+	}
+
+  /* ── 10. Tables ───────────────────────────────────────────────────────── */
+  table {
+    @apply w-full border-collapse text-sm;
+  }
+  thead {
+    @apply bg-light-blue;
+  }
+  th {
+    @apply px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-steel;
+  }
+  td {
+    @apply px-4 py-3 text-md font-body text-navy border-t border-smoke;
+  }
+  tr:hover td {
+    @apply bg-light-blue/50;
+  }
+
+  /* ── 11. Code & Pre ───────────────────────────────────────────────────── */
+  code {
+    @apply font-mono text-sm bg-light-blue text-navy px-1.5 py-0.5 rounded-sm;
+  }
+  pre {
+    @apply font-mono text-sm bg-navy text-white/80 p-6 rounded-xl overflow-x-auto;
+  }
+  pre code {
+    @apply bg-transparent text-white/80 p-0;
+  }
+
+  /* ── 12. Form elements ────────────────────────────────────────────────── */
+  label {
+    @apply block text-sm font-ui font-semibold text-navy mb-1.5;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="search"],
+  input[type="password"],
+  input[type="url"],
+  textarea,
+  select {
+    @apply
+      w-full
+      px-3 py-3
+      bg-white
+      border border-navy
+      rounded                  /* 8px */
+      text-sm font-body font-normal text-navy
+      placeholder:text-gray
+      transition-colors
+      outline-none;
+    transition-duration: var(--transition-fast);
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    @apply border-blue ring-2 ring-blue/20;
+  }
+
+  input:disabled,
+  textarea:disabled,
+  select:disabled {
+    @apply bg-smoke text-gray cursor-not-allowed border-silver;
+  }
+
+  /* ── 13. Focus ring (accessibility) ──────────────────────────────────── */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-blue;
+  }
+
+  /* ── 14. Selection ────────────────────────────────────────────────────── */
+  ::selection {
+    background-color: rgb(var(--color-orange) / 0.2);
+    color: rgb(var(--color-navy));
+  }
+
+  /* ── 15. Scrollbar (Webkit) ───────────────────────────────────────────── */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-smoke;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-steel/40 rounded-pill;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-steel/60;
+  }
+
+}

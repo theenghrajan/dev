@@ -1,0 +1,33 @@
+Will Cooley
+
+As per comment #4,
+
+For the site: https://nptiflorida.edu/
+
+We have added the GTM container GTM-KB5B4ZZ4 to the 4 landing pages below, and it is now loading on all of them:
+1. https://nptiflorida.edu/personal-trainer-certification-florida/
+2. https://nptiflorida.edu/personal-trainer-certification-orlando/
+3. https://nptiflorida.edu/personal-trainer-certification-tampa/
+4. https://nptiflorida.edu/veteran-personal-trainer-certification/
+
+Reference screenshots: 
+https://drive.google.com/file/d/1zAHCqE24u2UGx4ivNdl8TYX7Yvs3ZEqu/view?usp=sharing
+https://drive.google.com/file/d/1yvcCBi8oAcsKHtGSaeag-MIqlUEsv-vA/view?usp=sharing
+https://drive.google.com/file/d/135hnAJ6fVorJKT0iFNH2At1zwttYNhMs/view?usp=sharing
+https://drive.google.com/file/d/1CN10lYjAUMRZOwpSZB2n4aOX7KqQDeYC/view?usp=sharing
+
+Please note an important change in how these 4 landing pages are updated:
+
+1. These landing pages were set up so that their content is copied automatically from SmartSites Share (share.smartsites.com) onto the website. This copy ran again every time someone worked in the WordPress dashboard (for example, when clearing the site cache) and replaced the pages with the SmartSites Share version. Since that version does not include the GTM code, the GTM code kept getting removed.
+
+2. To keep GTM on the pages, we have turned off this automatic copy. The 4 landing pages are now managed directly on the website.
+Reference screenshot: https://drive.google.com/file/d/1rsb3sltpiWgtX8DXI01_sCd3r_DT0Ilq/view?usp=sharing
+
+3. What this means going forward:
+- Any changes made to these 4 pages in SmartSites Share will no longer show on the website.
+- If you need any text, design or form changes on these pages, please let us know and we will update them on the website directly.
+- If you would rather keep managing these pages in SmartSites Share, please let us know. We can turn the automatic copy back on, but the GTM code needs to be added to all 4 pages in SmartSites Share first, otherwise GTM will be removed from the website again.
+
+Once you have the conversion action(s) ready in Google Ads, please share them with us and we will set up the conversion tracking.
+
+Thanks!

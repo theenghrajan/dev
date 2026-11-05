@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss-faq — Section Preview</title>
+  <link rel="stylesheet" href="../../theme/style.css">
+</head>
+
+<body class="bg-white">
+
+  <section
+    id="ss-faq"
+    class="ss-module-faq bg-white py-10 md:py-16 lg:py-20"
+  >
+    <div class="container mx-auto px-4">
+
+      <!-- acf: section_heading (text) -->
+      <h2 class="font-heading font-bold text-3xl md:text-4xl text-navy text-center leading-tight mb-10 md:mb-12">
+        NPTI Florida: <span class="text-orange">The FAQ</span>
+      </h2>
+
+      <!-- acf: faq_items (repeater) -->
+      <ol class="flex flex-col gap-3 list-none p-0 m-0">
+
+        <!-- Item 1 — open by default -->
+        <li class="ss-faq-item is-open bg-white border border-navy/10 rounded px-6 py-4 flex flex-col gap-4 cursor-pointer">
+          <div class="flex items-center justify-between gap-4">
+            <!-- acf: question (text) -->
+            <span class="font-body font-semibold text-lg text-navy leading-snug">
+              1. What is HYFLEX learning?
+            </span>
+            <img
+              src="https://www.figma.com/api/mcp/asset/ac05aea3-49fb-4ac1-88c1-6ed4e59b63e4"
+              alt="Collapse"
+              class="ss-faq-icon w-6 h-6 flex-shrink-0"
+              data-open-src="https://www.figma.com/api/mcp/asset/ac05aea3-49fb-4ac1-88c1-6ed4e59b63e4"
+              data-closed-src="https://www.figma.com/api/mcp/asset/8df70646-a778-49bb-96e8-992d8dfe8b56"
+            >
+          </div>
+          <!-- acf: answer (textarea) -->
+          <div class="ss-faq-body">
+            <p class="font-body font-normal text-md text-navy leading-relaxed">
+              HyFlex (Hybrid-Flexible) learning is an educational model combining in-person and online instruction, giving students the choice to attend class face-to-face, synchronously online (live), or asynchronously (recorded/on-demand) for each session, ensuring equal access and learning opportunities regardless of chosen mode. It differs from standard hybrid models by offering daily student choice, adapting to needs like health issues, scheduling conflicts, or location, and requiring instructors to facilitate high-quality experiences in all formats.
+            </p>
+          </div>
+        </li>
+
+        <!-- Item 2 -->
+        <li class="ss-faq-item bg-white border border-navy/10 rounded px-6 py-4 flex flex-col gap-4 cursor-pointer">
+          <div class="flex items-center justify-between gap-4">
+            <span class="font-body font-semibold text-lg text-navy leading-snug">
+              2. Does NPTI Accept Veteran Benefits?
+            </span>
+            <img
+              src="https://www.figma.com/api/mcp/asset/8df70646-a778-49bb-96e8-992d8dfe8b56"
+              alt="Expand"
+              class="ss-faq-icon w-6 h-6 flex-shrink-0"
+              data-open-src="https://www.figma.com/api/mcp/asset/ac05aea3-49fb-4ac1-88c1-6ed4e59b63e4"
+              data-closed-src="https://www.figma.com/api/mcp/asset/8df70646-a778-49bb-96e8-992d8dfe8b56"
+            >
+          </div>
+          <div class="ss-faq-body" style="display:none;">
+            <p class="font-body font-normal text-md text-navy leading-relaxed">
+              Yes, NPTI Florida accepts veteran benefits. We work with veterans to navigate available education benefits including GI Bill® and other VA programs. Contact our admissions team for details on how to apply your benefits toward your personal training certification program.
+            </p>
+          </div>
+        </li>
+
+      </ol>
+
+    </div>
+  </section>
+
+  <script src="../../theme/js/script.min.js"></script>
+
+</body>
+</html>

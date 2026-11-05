@@ -1,0 +1,939 @@
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ * NPTI — Components Layer
+ * @layer components
+ *
+ * Defines reusable, multi-class component patterns derived directly from the
+ * design token audit. Each component maps to patterns observed across all
+ * 31 Figma JSON files.
+ *
+ * Contents:
+ *   1.  Layout — containers & section wrappers
+ *   2.  Buttons
+ *   3.  Badges & chips
+ *   4.  Cards
+ *   5.  Navigation
+ *   6.  Hero sections
+ *   7.  Typography helpers
+ *   8.  Form groups
+ *   9.  Dividers & separators
+ *   10. Overlays & backdrops
+ *   11. Grid systems
+ *   12. Media / image wrappers
+ *   13. Testimonials
+ *   14. Stat / callout blocks
+ *   15. Alert / notification
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+
+@tailwind components;
+
+@layer components {
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     1. LAYOUT
+  ══════════════════════════════════════════════════════════════════════════ */
+.page-title,
+.entry-title {
+	@apply max-w-content mx-auto mb-6 text-3xl text-navy;
+}
+  .page-content > *,
+.entry-content > * {
+	/* Content width from the `theme.json` file */
+	@apply max-w-content mx-auto;
+}
+
+.entry-content > .alignwide {
+	/* Wide width from the `theme.json` file */
+	@apply max-w-wide;
+}
+
+.entry-content > .alignfull {
+	@apply max-w-none;
+}
+
+.entry-content > .alignleft {
+	@apply float-left mr-8;
+}
+
+.entry-content > .alignright {
+	@apply float-right ml-8;
+}
+
+  /* Max-width content wrapper */
+  .container-site {
+    @apply w-full max-w-content mx-auto px-6 lg:px-8;
+  }
+
+  /* Full-width section with standard vertical rhythm */
+  .section {
+    @apply w-full py-16 lg:py-24;
+  }
+  .section-sm {
+    @apply w-full py-8 lg:py-12;
+  }
+  .section-lg {
+    @apply w-full py-24 lg:py-32;
+  }
+
+  /* Dark navy section */
+  .section-dark {
+    @apply section bg-navy text-white;
+  }
+
+  /* Light blue tint section */
+  .section-light {
+    @apply section bg-light-blue;
+  }
+
+  /* White section */
+  .section-white {
+    @apply section bg-white;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     2. BUTTONS
+     Anatomy: radius-pill · padding 10px/36px · font-body/16px/600
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Base shared styles */
+  .btn {
+    @apply
+      inline-flex items-center justify-center gap-2
+      rounded-pill
+      font-body text-sm font-semibold
+      leading-none
+      no-underline
+      cursor-pointer
+      select-none
+      transition-all
+      lg:pt-[18px]
+      lg:pb-[18px]
+      lg:px-8
+      pt-3.5
+      pb-3.5
+      px-5;
+      transition-duration: var(--transition-fast);
+  }
+
+  /* Primary — orange CTA (most used) */
+  .btn-primary {
+    @apply btn bg-orange text-white border border-orange hover:bg-blue hover:border-blue hover:shadow-float hover:text-white active:border-transparent;
+  }
+
+  /* Secondary — ghost with orange border */
+  .btn-secondary {
+    @apply btn bg-white text-orange border-1.5 border-orange hover:bg-orange hover:text-white hover:shadow-float hover:transition-all;
+  }
+
+  /* Navy — solid dark background */
+  .btn-navy {
+    @apply btn bg-navy text-white border border-navy;
+  }
+  .btn-navy:hover {
+    @apply bg-navy/90 shadow-float;
+  }
+
+  /* Blue — brand blue */
+  .btn-blue {
+    @apply btn bg-blue text-white border border-blue;
+  }
+  .btn-blue:hover {
+    @apply bg-blue/90 shadow-float;
+  }
+
+  /* Ghost — transparent, white border (for dark backgrounds) */
+  .btn-ghost {
+    @apply btn bg-transparent text-white border border-white/50;
+  }
+  .btn-ghost:hover {
+    @apply bg-white/10 border-white/80;
+  }
+
+  /* Ghost blue — transparent, blue border */
+  .btn-ghost-blue {
+    @apply btn bg-transparent text-blue border border-blue;
+  }
+  .btn-ghost-blue:hover {
+    @apply bg-blue/10;
+  }
+
+  /* Size modifiers */
+  .btn-sm {
+    @apply text-xs;
+    padding: 8px 20px;
+  }
+  .btn-lg {
+    @apply text-md;
+    padding: 14px 48px;
+  }
+
+  /* Icon-only button */
+  .btn-icon {
+    @apply btn p-2.5 rounded;
+  }
+
+  /* Disabled state */
+  .btn:disabled,
+  .btn[aria-disabled="true"] {
+    @apply opacity-40 cursor-not-allowed pointer-events-none;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     3. BADGES & CHIPS
+     Anatomy: radius-pill · font-body/14px/600 · 1px border
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  .badge {
+    @apply
+      inline-flex items-center gap-1.5
+      rounded-pill
+      px-3 py-1
+      text-xs font-body font-semibold
+      leading-none
+      whitespace-nowrap;
+  }
+
+  /* Color variants */
+  .badge-blue    { @apply badge bg-blue/[0.08]  text-blue   border border-blue/20; }
+  .badge-orange  { @apply badge bg-orange/[0.08] text-orange border border-orange/20; }
+  .badge-navy    { @apply badge bg-navy          text-white  border border-navy; }
+  .badge-success { @apply badge bg-success-muted text-success border border-success/20; }
+  .badge-error   { @apply badge bg-error-muted   text-error  border border-error/20; }
+  .badge-warning { @apply badge bg-yellow/20     text-navy   border border-warning/30; }
+  .badge-notice  { @apply badge bg-notice/20     text-navy   border border-notice/30; }
+  .badge-light   { @apply badge bg-light-blue    text-steel  border border-smoke; }
+  .badge-amber   { @apply badge bg-warning/20    text-navy   border border-warning/40; }
+
+  /* Micro badge (8px label) */
+  .badge-micro {
+    @apply badge text-xs-micro tracking-wide uppercase;
+    padding: 2px 8px;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     4. CARDS
+     Core radius: 12px (radius-xl) · shadow-card · layout: column/gap-16
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Base card */
+  .card {
+    @apply
+      flex flex-col gap-4
+      bg-white
+      rounded-xl        /* 12px */
+      shadow-card
+      overflow-hidden;
+  }
+
+  .card-body {
+    @apply flex flex-col gap-4 p-6;
+  }
+
+  .card-header {
+    @apply flex items-center justify-between gap-2 pb-3 border-b border-smoke;
+  }
+
+  .card-footer {
+    @apply flex items-center gap-2 pt-3 border-t border-smoke mt-auto;
+  }
+
+  /* Card title / content type-scale */
+  .card-title {
+    @apply font-heading text-xl font-bold text-navy leading-snug;
+    /* 24px / Bitter / 700 */
+  }
+  .card-subtitle {
+    @apply font-heading text-lg font-bold text-navy;
+    /* 20px / Bitter / 700 */
+  }
+  .card-text {
+    @apply font-body text-md font-normal text-steel leading-relaxed;
+  }
+
+  /* Dark card */
+  .card-dark {
+    @apply card bg-navy;
+  }
+  .card-dark .card-title  { @apply text-white; }
+  .card-dark .card-text   { @apply text-white/60; }
+  .card-dark .card-header { @apply border-white/10; }
+  .card-dark .card-footer { @apply border-white/10; }
+
+  /* Tint card */
+  .card-tint {
+    @apply card bg-light-blue shadow-none;
+  }
+
+  /* Floating card — higher elevation */
+  .card-float {
+    @apply card shadow-float;
+  }
+
+  /* Bordered card — no shadow, has border */
+  .card-bordered {
+    @apply card shadow-none border border-smoke;
+  }
+
+  /* Horizontal card */
+  .card-horizontal {
+    @apply card flex-row;
+  }
+  .card-horizontal .card-media {
+    @apply w-1/3 flex-shrink-0;
+  }
+  .card-horizontal .card-body {
+    @apply flex-1;
+  }
+
+  /* Card media (image wrapper) */
+  .card-media {
+    @apply w-full overflow-hidden;
+  }
+  .card-media img {
+    @apply w-full h-full object-cover;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     5. NAVIGATION
+     Site-header: present in all 31 files
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Top nav wrapper */
+  .site-header {
+    @apply
+      /* fixed */
+      inset-x-0 top-0
+      z-sticky
+      bg-navy
+      border-b border-white/10
+      shadow-subtle;
+  }
+
+  .site-header-inner {
+    @apply container-site flex items-center justify-between gap-8 h-16 lg:h-20;
+  }
+
+  /* Logo */
+  .nav-logo {
+    @apply font-heading text-xl font-bold text-white no-underline flex-shrink-0;
+  }
+
+  /* Nav list */
+  .nav-list {
+    @apply hidden md:flex items-center gap-6 list-none p-0 m-0;
+  }
+
+  .nav-link {
+    @apply
+      font-ui text-md font-semibold     /* 18px Roboto 600 */
+      text-white
+      no-underline
+      transition-colors;
+    transition-duration: var(--transition-fast);
+  }
+  .nav-link:hover,
+  .nav-link[aria-current="page"] {
+    @apply text-white;
+  }
+
+  /* Nav CTA button */
+  .nav-cta {
+    @apply btn-primary btn-sm;
+  }
+
+  /* Mobile hamburger */
+  .nav-toggle {
+    @apply flex md:hidden flex-col gap-1.5 p-2 cursor-pointer;
+  }
+  .nav-toggle span {
+    @apply block w-6 h-0.5 bg-white rounded-pill transition-all;
+    transition-duration: var(--transition-fast);
+  }
+
+  /* Mobile menu */
+  .nav-mobile {
+    @apply
+      hidden md:hidden
+      fixed inset-x-0 top-16
+      bg-navy
+      border-t border-white/10
+      p-6
+      flex-col gap-4
+      z-sticky;
+  }
+  .nav-mobile.is-open {
+    @apply flex;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     6. HERO SECTION
+     hero-banner: present in all 31 files
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  .hero {
+    @apply
+      relative
+      w-full
+      min-h-hero
+      flex items-center
+      bg-navy
+      overflow-hidden
+      pt-16 lg:pt-20;  /* offset for fixed header */
+  }
+
+  .hero-inner {
+    @apply container-site relative z-raised py-16 lg:py-24;
+  }
+
+  /* Background image overlay (over a background-image) */
+  .hero-overlay {
+    @apply absolute inset-0 bg-overlay-navy;
+  }
+
+  /* Hero content stack: column/gap-24 */
+  .hero-content {
+    @apply flex flex-col gap-6 max-w-prose;
+  }
+
+  /* Hero eyebrow label */
+  .hero-eyebrow {
+    @apply badge-orange;
+  }
+
+  /* Hero title: Bitter 56px / 70px */
+  .hero-title {
+    @apply font-heading text-4xl lg:text-5xl font-bold text-white leading-tight;
+    /* 56px → 70px */
+  }
+  .hero-title span {
+    @apply text-orange;
+  }
+
+  /* Hero body */
+  .hero-body {
+    @apply font-body text-md lg:text-lg font-normal text-white/70 leading-relaxed;
+  }
+
+  /* Hero CTA row: row/gap-8/start/center */
+  .hero-actions {
+    @apply flex flex-wrap items-center gap-2 mt-2;
+  }
+
+  /* Hero stat strip */
+  .hero-stats {
+    @apply flex flex-wrap gap-8 mt-8 pt-8 border-t border-white/20;
+  }
+  .hero-stat-value {
+    @apply font-heading text-xl font-bold text-white;
+  }
+  .hero-stat-label {
+    @apply font-ui text-xs font-semibold text-white/50 uppercase tracking-wide mt-0.5;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     7. TYPOGRAPHY HELPERS
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Section heading group: used across all page sections */
+  .section-heading {
+    @apply flex flex-col gap-3 mb-10 lg:mb-14;
+  }
+  .section-heading.centered {
+    @apply items-center text-center;
+  }
+
+  .section-eyebrow {
+    @apply font-ui text-xs font-semibold uppercase tracking-wider text-orange;
+    /* 14px Roboto 600 */
+  }
+
+  .section-title {
+    @apply font-heading text-2xl lg:text-2xl font-bold text-navy leading-tight;
+    /* 40px Bitter 700 */
+  }
+  .section-title-on-dark {
+    @apply section-title text-white;
+  }
+
+  .section-subtitle {
+    @apply font-body text-md lg:text-lg font-normal text-steel leading-relaxed max-w-prose;
+    /* 18–20px Segoe UI 400 */
+  }
+  .section-subtitle-on-dark {
+    @apply section-subtitle text-white/70;
+  }
+
+  /* Display / feature number */
+  .display-number {
+    @apply font-heading text-3xl lg:text-4xl font-bold text-navy;
+    /* 48–56px Bitter 700 */
+  }
+
+  /* Overline / label above heading */
+  .overline {
+    @apply font-ui text-xs font-semibold uppercase tracking-wider text-steel;
+  }
+
+  /* Rich text content (long-form body copy) */
+  .prose-npti {
+    @apply max-w-prose;
+  }
+  .prose-npti p {
+    @apply text-md font-body font-normal text-steel leading-relaxed mb-4;
+  }
+  .prose-npti h2 {
+    @apply font-heading text-xl font-bold text-navy mt-8 mb-4;
+  }
+  .prose-npti h3 {
+    @apply font-heading text-lg font-bold text-navy mt-6 mb-3;
+  }
+  .prose-npti ul,
+  .prose-npti ol {
+    @apply text-steel text-md mb-4;
+  }
+  .prose-npti strong {
+    @apply font-semibold text-navy;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     8. FORM GROUPS
+     Layout: column/gap-10/pad 12,16 (observed in all 31 files)
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Form wrapper */
+  .form {
+    @apply flex flex-col gap-3;
+  }
+
+  /* Field group: column/gap-10 */
+  .form-group {
+    @apply flex flex-col;
+    gap: 10px;
+  }
+
+  /* Field row: row/gap-8 */
+  .form-row {
+    @apply flex flex-col sm:flex-row gap-2 sm:gap-3;
+  }
+
+  .form-label {
+    @apply block text-sm font-ui font-semibold text-navy;
+  }
+
+  .form-input {
+    @apply
+      w-full
+      bg-white
+      border border-navy
+      rounded      /* 8px */
+      text-sm font-body font-normal text-navy
+      placeholder:text-gray
+      outline-none
+      transition-colors;
+    padding: 12px 16px;  /* pad: 12 16 12 16 from layout token */
+    transition-duration: var(--transition-fast);
+  }
+  .form-input:focus {
+    @apply border-blue ring-2 ring-blue/20;
+  }
+  .form-input:disabled {
+    @apply bg-smoke text-gray cursor-not-allowed border-silver;
+  }
+  .form-input.error {
+    @apply border-error ring-2 ring-error/20;
+  }
+
+  .form-hint {
+    @apply text-xs font-ui font-normal text-steel;
+  }
+  .form-error-msg {
+    @apply text-xs font-ui font-semibold text-error;
+  }
+
+  .form-section {
+    @apply flex flex-col gap-4 p-6 bg-white rounded-xl shadow-card;
+  }
+
+  /* Checkbox & radio */
+  .form-check {
+    @apply flex items-center gap-2 cursor-pointer;
+  }
+  .form-check input {
+    @apply w-4 h-4 text-blue border-gray rounded-sm cursor-pointer accent-blue;
+  }
+  .form-check-label {
+    @apply text-sm font-body font-normal text-navy cursor-pointer;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     9. DIVIDERS & SEPARATORS
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  .divider {
+    @apply w-full border-0 border-t border-smoke my-6;
+  }
+  .divider-light {
+    @apply divider border-white/20;
+  }
+  .divider-accent {
+    @apply divider border-orange;
+    border-width: 1.5px;
+  }
+
+  /* Vertical divider for flex rows */
+  .divider-v {
+    @apply w-px bg-smoke self-stretch;
+  }
+  .divider-v-light {
+    @apply divider-v bg-white/20;
+  }
+
+  /* Section break with label */
+  .divider-labeled {
+    @apply flex items-center gap-3 my-6;
+  }
+  .divider-labeled::before,
+  .divider-labeled::after {
+    content: '';
+    @apply flex-1 border-t border-smoke;
+  }
+  .divider-labeled span {
+    @apply text-xs font-ui font-semibold text-gray uppercase tracking-wide px-2;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     10. OVERLAYS & BACKDROPS
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  .overlay-navy {
+    @apply absolute inset-0 bg-navy/80;   /* rgba(23,42,54,0.8) */
+  }
+  .overlay-dark {
+    @apply absolute inset-0 bg-black/60;  /* rgba(0,0,0,0.6) */
+  }
+  .overlay-dark-mid {
+    @apply absolute inset-0 bg-black/40;  /* rgba(0,0,0,0.4) */
+  }
+  .overlay-dark-50 {
+    @apply absolute inset-0 bg-black/50;  /* rgba(51,51,51,0.5) */
+  }
+
+  /* Glass panel */
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-sm border border-white/80 rounded-xl;
+  }
+  .glass-panel-light {
+    @apply bg-white/20 backdrop-blur-sm rounded-xl;
+  }
+
+  /* Modal backdrop */
+  .modal-backdrop {
+    @apply fixed inset-0 bg-black/60 z-overlay flex items-center justify-center p-4;
+  }
+  .modal {
+    @apply bg-white rounded-xl shadow-float w-full max-w-prose p-8 z-modal;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     11. GRID SYSTEMS
+     From layout tokens: row/gap-32 = three-column, row/gap-16 = split panels
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Three-column feature grid (row/gap-32) */
+  .grid-3 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8;
+  }
+
+  /* Two-column split */
+  .grid-2 {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6;
+  }
+
+  /* Four-column */
+  .grid-4 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4;
+  }
+
+  /* Auto-fill card grid */
+  .grid-auto {
+    @apply grid gap-6;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  /* Training grid (grid-training: appears in 29/31 files) */
+  .grid-training {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8;
+  }
+
+  /* Split content — image left, text right (row/gap-16/start/center) */
+  .split-panel {
+    @apply grid grid-cols-1 lg:grid-cols-2 items-center gap-4 lg:gap-6;
+  }
+  .split-panel.reverse {
+    @apply lg:[&>*:first-child]:order-last;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     12. MEDIA / IMAGE WRAPPERS
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Responsive image with aspect ratio */
+  .media-hero {
+    @apply w-full overflow-hidden rounded-xl;
+    aspect-ratio: 16 / 7;
+  }
+  .media-card {
+    @apply w-full overflow-hidden rounded-t-xl;
+    aspect-ratio: 16 / 9;
+  }
+  .media-thumb {
+    @apply w-full overflow-hidden rounded-xl;
+    aspect-ratio: 4 / 3;
+  }
+  .media-square {
+    @apply w-full overflow-hidden rounded-xl;
+    aspect-ratio: 1 / 1;
+  }
+  .media-hero img,
+  .media-card img,
+  .media-thumb img,
+  .media-square img {
+    @apply w-full h-full object-cover;
+  }
+
+  /* Logo/avatar circle */
+  .avatar {
+    @apply flex-shrink-0 overflow-hidden bg-light-blue;
+    border-radius: 9999px;
+  }
+  .avatar-sm  { @apply avatar w-8 h-8; }
+  .avatar-md  { @apply avatar w-12 h-12; }
+  .avatar-lg  { @apply avatar w-16 h-16; }
+  .avatar-xl  { @apply avatar w-24 h-24; }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     13. TESTIMONIALS
+     student-testimonials: in 4 files
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  .testimonial {
+    @apply
+      card
+      p-8
+      bg-white/70           /* glass-like panel */
+      backdrop-blur-sm
+      border border-white/80;
+  }
+
+  .testimonial-quote {
+    @apply font-body text-md lg:text-lg font-normal text-navy leading-relaxed italic mb-6;
+  }
+
+  .testimonial-author {
+    @apply flex items-center gap-3;
+  }
+  .testimonial-name {
+    @apply font-heading text-md font-bold text-navy;
+  }
+  .testimonial-role {
+    @apply font-ui text-xs font-normal text-steel;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     14. STAT / CALLOUT BLOCKS
+     Data callouts use Roboto 20–24px bold
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Stat strip — horizontal row of key metrics */
+  .stat-strip {
+    @apply flex flex-wrap gap-8 lg:gap-12 items-start;
+  }
+
+  .stat-item {
+    @apply flex flex-col gap-1;
+  }
+  .stat-value {
+    @apply font-ui text-lg lg:text-xl font-bold text-navy;
+    /* 20–24px Roboto 700 */
+  }
+  .stat-label {
+    @apply font-ui text-xs font-semibold text-steel uppercase tracking-wide;
+  }
+
+  /* Stat on dark bg */
+  .stat-item-light .stat-value { @apply text-white; }
+  .stat-item-light .stat-label { @apply text-white/50; }
+
+  /* Feature callout card */
+  .callout {
+    @apply
+      flex flex-col gap-3
+      p-6
+      bg-blue/[0.08]
+      rounded-xl
+      border border-blue/20;
+  }
+  .callout-icon {
+    @apply w-10 h-10 flex items-center justify-center rounded bg-blue text-white flex-shrink-0;
+  }
+  .callout-title {
+    @apply font-heading text-lg font-bold text-navy;
+  }
+  .callout-body {
+    @apply font-body text-sm font-normal text-steel leading-relaxed;
+  }
+
+  /* Icon feature — icon + text row/gap-8/start/center */
+  .feature-item {
+    @apply flex items-center gap-2;
+  }
+  .feature-item-stack {
+    @apply flex flex-col gap-2;
+  }
+  .feature-icon {
+    @apply w-8 h-8 flex items-center justify-center rounded bg-light-blue text-blue flex-shrink-0;
+  }
+  .feature-icon-lg {
+    @apply w-12 h-12 flex items-center justify-center rounded-xl bg-orange text-white flex-shrink-0;
+  }
+  .feature-title {
+    @apply font-body text-sm font-semibold text-navy;
+  }
+  .feature-body {
+    @apply font-body text-xs font-normal text-steel leading-relaxed;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     15. ALERTS & NOTIFICATIONS
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  .alert {
+    @apply flex items-start gap-3 p-4 rounded-xl border text-sm font-body;
+  }
+  .alert-info    { @apply alert bg-blue/[0.08]   border-blue/20   text-navy; }
+  .alert-success { @apply alert bg-success-muted  border-success/20 text-navy; }
+  .alert-error   { @apply alert bg-error-muted    border-error/20   text-navy; }
+  .alert-warning { @apply alert bg-yellow/20      border-warning/30 text-navy; }
+  .alert-notice  { @apply alert bg-notice/20      border-notice/30  text-navy; }
+
+  .alert-icon {
+    @apply w-5 h-5 flex-shrink-0 mt-0.5;
+  }
+  .alert-title {
+    @apply font-semibold text-navy mb-0.5;
+  }
+  .alert-body {
+    @apply font-normal text-steel;
+  }
+
+  /* Toast notification */
+  .toast {
+    @apply
+      fixed bottom-6 right-6
+      z-toast
+      flex items-center gap-3
+      bg-navy text-white
+      rounded-xl
+      shadow-float
+      px-5 py-4
+      text-sm font-body font-semibold
+      max-w-xs
+      animate-slide-in-right;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     MODULE: ss-certification-accre
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Program card row — used 3× in the relationship repeater */
+  .ss-certification-accre__card {
+    @apply flex flex-col sm:flex-row gap-5 items-center bg-white border border-silver rounded-xl px-3 py-3;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     MODULE: ss-personal-trainer
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Role card — used 6× (3 left + 3 right) in the roles columns */
+  .ss-personal-trainer__role-card {
+    @apply bg-white border-l-4 border-orange rounded-lg shadow-float p-4 mb-3;
+  }
+
+  /*
+  List Items Inside wysiwyg editors
+  */
+
+  .ss-list-items ul{
+    @apply list-none flex flex-col gap-3 2xl:gap-4 pl-0;
+  }
+
+  .ss-list-items ul li{
+    @apply relative pl-8 2xl:pl-9;
+  }
+
+  .ss-list-items ul li::before {
+  content: "\e92e"; /* copy the unicode from your icon font */
+  font-family: "icomoon"; /* match the font-family name exactly */
+  @apply absolute top-1 left-0 text-[1.375rem] 2xl:text-[1.5rem] leading-none text-blue;
+}
+
+  .ss-list-items ul li strong{
+    @apply font-semibold;
+  }
+
+  .ss-list-items ul li p{
+    @apply font-body text-md text-navy leading-relaxed;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     MODULE: ss-the-process
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Step card — used 3× in the process_steps repeater */
+  .ss-the-process__step-card {
+    @apply bg-white border border-navy/10 rounded p-6 flex flex-col gap-6;
+  }
+
+  /* Icon badge — used 3× in the process_steps repeater */
+  .ss-the-process__step-icon {
+    @apply w-12 h-12 rounded-pill bg-blue flex items-center justify-center flex-shrink-0;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     MODULE: ss-choose-location
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Program card — used 3× in Orlando repeater */
+  .ss-choose-location__program-card {
+    @apply bg-white border border-navy/10 rounded-2xl p-4 flex flex-col gap-4 items-center;
+  }
+
+  /* Apply Now button — used 4× across both location repeaters */
+  .ss-choose-location__apply-btn {
+    @apply inline-flex items-center justify-center w-full bg-orange hover:bg-orange/90 text-white font-body font-bold text-sm uppercase rounded-4xl px-8 py-3 transition-colors text-center;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     MODULE: ss-contributors
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Contributor card — used 3+ times in the users grid */
+  .ss-contributors__card {
+    @apply bg-light-blue border border-blue/10 rounded-2xl shadow-subtle p-6 flex flex-col items-center gap-6 text-center;
+  }
+
+  /* ══════════════════════════════════════════════════════════════════════════
+     MODULE: ss-veteran-owned-business
+  ══════════════════════════════════════════════════════════════════════════ */
+
+  /* Resource link card base — used 3× in the resource_links repeater.
+     Featured variant appends: border border-orange (PHP-controlled) */
+  .ss-veteran-owned-business__resource-card {
+    @apply flex items-center gap-5 bg-white rounded-3xl px-8 py-5 shadow-card transition-shadow hover:shadow-float;
+  }
+
+
+
+
+}

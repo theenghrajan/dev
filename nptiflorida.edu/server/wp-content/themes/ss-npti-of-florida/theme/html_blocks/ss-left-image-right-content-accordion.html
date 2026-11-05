@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss-left-image-right-content-accordion — Section Preview</title>
+  <link rel="stylesheet" href="../../theme/style.css">
+</head>
+
+<body class="bg-white">
+
+  <section
+    id="ss-left-image-right-content-accordion"
+    class="ss-module-left-image-right-content-accordion bg-light-blue py-10 md:py-16 lg:py-20"
+  >
+    <div class="container mx-auto px-4">
+
+      <div class="flex flex-col gap-8 lg:flex-row lg:items-start lg:gap-12">
+
+        <!-- Left: tall image -->
+        <!-- acf: section_image (image — url, alt, width, height) -->
+        <div class="w-full lg:w-1/2 overflow-hidden rounded flex-shrink-0">
+          <img
+            src="https://www.figma.com/api/mcp/asset/82b48bca-56be-4c85-9b4b-568dfd8786be"
+            alt="Two athletes celebrating with a high five during a workout session"
+            class="w-full h-full object-cover"
+            width="660"
+            height="724"
+            style="min-height: 320px;"
+          >
+        </div>
+
+        <!-- Right: heading + accordion -->
+        <div class="flex flex-col gap-6 w-full lg:w-1/2">
+
+          <!-- acf: section_heading (text) -->
+          <h2 class="font-heading font-bold text-xl leading-snug text-navy">
+            Why Choose National Personal Training Institute of Florida?
+          </h2>
+
+          <!-- acf: accordion_items (repeater) -->
+          <div class="ss-accordion flex flex-col gap-3">
+
+            <!-- Item 1: Curriculum — expanded by default -->
+            <!-- acf: item_title (text), item_body (textarea) -->
+            <div class="ss-accordion-item accordion-item itemActive bg-white rounded px-4 py-3">
+              <button
+                type="button"
+                class="ss-accordion-btn accordionBtn active flex items-center justify-between w-full text-left gap-2"
+                aria-expanded="true"
+              >
+                <span class="flex items-center gap-2">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/3bcec88f-fa4f-414e-94d9-8eda4ffac4b3"
+                    alt=""
+                    class="w-8 h-8 flex-shrink-0"
+                    aria-hidden="true"
+                  >
+                  <span class="font-ui font-semibold text-md text-navy leading-relaxed">Curriculum</span>
+                </span>
+                <img
+                  src="https://www.figma.com/api/mcp/asset/c36aa969-d063-4f45-b9f4-88bbce2e42df"
+                  alt=""
+                  class="ss-accordion-chevron w-6 h-6 flex-shrink-0 rotate-180 transition-transform"
+                  aria-hidden="true"
+                >
+              </button>
+              <div class="ss-accordion-body accordionBody mt-3">
+                <p class="font-body font-normal text-md text-navy leading-relaxed">
+                  Our personal trainer curriculum delivers a well-rounded education in fitness training. The curriculum is founded on science and philosophy. This makes sure that you are able to give value to your clients. It also offers knowledge and practical experience in business management, marketing, and communication.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 2: Prerequisites and Eligibility Requirements — collapsed -->
+            <!-- acf: item_title (text), item_body (textarea) -->
+            <div class="ss-accordion-item accordion-item bg-white rounded px-4 py-3">
+              <button
+                type="button"
+                class="ss-accordion-btn accordionBtn flex items-center justify-between w-full text-left gap-2"
+                aria-expanded="false"
+              >
+                <span class="flex items-center gap-2">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/3bcec88f-fa4f-414e-94d9-8eda4ffac4b3"
+                    alt=""
+                    class="w-8 h-8 flex-shrink-0"
+                    aria-hidden="true"
+                  >
+                  <span class="font-ui font-semibold text-md text-navy leading-relaxed">Prerequisites and Eligibility Requirements</span>
+                </span>
+                <img
+                  src="https://www.figma.com/api/mcp/asset/c36aa969-d063-4f45-b9f4-88bbce2e42df"
+                  alt=""
+                  class="ss-accordion-chevron w-6 h-6 flex-shrink-0 transition-transform"
+                  aria-hidden="true"
+                >
+              </button>
+              <div class="ss-accordion-body accordionBody mt-3" style="display:none;">
+                <!-- acf: item_body (textarea) -->
+              </div>
+            </div>
+
+            <!-- Item 3: Testing — collapsed -->
+            <!-- acf: item_title (text), item_body (textarea) -->
+            <div class="ss-accordion-item accordion-item bg-white rounded px-4 py-3">
+              <button
+                type="button"
+                class="ss-accordion-btn accordionBtn flex items-center justify-between w-full text-left gap-2"
+                aria-expanded="false"
+              >
+                <span class="flex items-center gap-2">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/3bcec88f-fa4f-414e-94d9-8eda4ffac4b3"
+                    alt=""
+                    class="w-8 h-8 flex-shrink-0"
+                    aria-hidden="true"
+                  >
+                  <span class="font-ui font-semibold text-md text-navy leading-relaxed">Testing</span>
+                </span>
+                <img
+                  src="https://www.figma.com/api/mcp/asset/c36aa969-d063-4f45-b9f4-88bbce2e42df"
+                  alt=""
+                  class="ss-accordion-chevron w-6 h-6 flex-shrink-0 transition-transform"
+                  aria-hidden="true"
+                >
+              </button>
+              <div class="ss-accordion-body accordionBody mt-3" style="display:none;">
+                <!-- acf: item_body (textarea) -->
+              </div>
+            </div>
+
+            <!-- Item 4: Graduation — collapsed -->
+            <!-- acf: item_title (text), item_body (textarea) -->
+            <div class="ss-accordion-item accordion-item bg-white rounded px-4 py-3">
+              <button
+                type="button"
+                class="ss-accordion-btn accordionBtn flex items-center justify-between w-full text-left gap-2"
+                aria-expanded="false"
+              >
+                <span class="flex items-center gap-2">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/3bcec88f-fa4f-414e-94d9-8eda4ffac4b3"
+                    alt=""
+                    class="w-8 h-8 flex-shrink-0"
+                    aria-hidden="true"
+                  >
+                  <span class="font-ui font-semibold text-md text-navy leading-relaxed">Graduation</span>
+                </span>
+                <img
+                  src="https://www.figma.com/api/mcp/asset/c36aa969-d063-4f45-b9f4-88bbce2e42df"
+                  alt=""
+                  class="ss-accordion-chevron w-6 h-6 flex-shrink-0 transition-transform"
+                  aria-hidden="true"
+                >
+              </button>
+              <div class="ss-accordion-body accordionBody mt-3" style="display:none;">
+                <!-- acf: item_body (textarea) -->
+              </div>
+            </div>
+
+            <!-- Item 5: Continuing Education and Career Resources — collapsed -->
+            <!-- acf: item_title (text), item_body (textarea) -->
+            <div class="ss-accordion-item accordion-item bg-white rounded px-4 py-3">
+              <button
+                type="button"
+                class="ss-accordion-btn accordionBtn flex items-center justify-between w-full text-left gap-2"
+                aria-expanded="false"
+              >
+                <span class="flex items-center gap-2">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/3bcec88f-fa4f-414e-94d9-8eda4ffac4b3"
+                    alt=""
+                    class="w-8 h-8 flex-shrink-0"
+                    aria-hidden="true"
+                  >
+                  <span class="font-ui font-semibold text-md text-navy leading-relaxed">Continuing Education and Career Resources</span>
+                </span>
+                <img
+                  src="https://www.figma.com/api/mcp/asset/c36aa969-d063-4f45-b9f4-88bbce2e42df"
+                  alt=""
+                  class="ss-accordion-chevron w-6 h-6 flex-shrink-0 transition-transform"
+                  aria-hidden="true"
+                >
+              </button>
+              <div class="ss-accordion-body accordionBody mt-3" style="display:none;">
+                <!-- acf: item_body (textarea) -->
+              </div>
+            </div>
+
+            <!-- Item 6: Financial Aid Assistance — collapsed -->
+            <!-- acf: item_title (text), item_body (textarea) -->
+            <div class="ss-accordion-item accordion-item bg-white rounded px-4 py-3">
+              <button
+                type="button"
+                class="ss-accordion-btn accordionBtn flex items-center justify-between w-full text-left gap-2"
+                aria-expanded="false"
+              >
+                <span class="flex items-center gap-2">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/3bcec88f-fa4f-414e-94d9-8eda4ffac4b3"
+                    alt=""
+                    class="w-8 h-8 flex-shrink-0"
+                    aria-hidden="true"
+                  >
+                  <span class="font-ui font-semibold text-md text-navy leading-relaxed">Financial Aid Assistance</span>
+                </span>
+                <img
+                  src="https://www.figma.com/api/mcp/asset/c36aa969-d063-4f45-b9f4-88bbce2e42df"
+                  alt=""
+                  class="ss-accordion-chevron w-6 h-6 flex-shrink-0 transition-transform"
+                  aria-hidden="true"
+                >
+              </button>
+              <div class="ss-accordion-body accordionBody mt-3" style="display:none;">
+                <!-- acf: item_body (textarea) -->
+              </div>
+            </div>
+
+            <!-- Item 7: Accreditation — collapsed -->
+            <!-- acf: item_title (text), item_body (textarea) -->
+            <div class="ss-accordion-item accordion-item bg-white rounded px-4 py-3">
+              <button
+                type="button"
+                class="ss-accordion-btn accordionBtn flex items-center justify-between w-full text-left gap-2"
+                aria-expanded="false"
+              >
+                <span class="flex items-center gap-2">
+                  <img
+                    src="https://www.figma.com/api/mcp/asset/3bcec88f-fa4f-414e-94d9-8eda4ffac4b3"
+                    alt=""
+                    class="w-8 h-8 flex-shrink-0"
+                    aria-hidden="true"
+                  >
+                  <span class="font-ui font-semibold text-md text-navy leading-relaxed">Accreditation</span>
+                </span>
+                <img
+                  src="https://www.figma.com/api/mcp/asset/c36aa969-d063-4f45-b9f4-88bbce2e42df"
+                  alt=""
+                  class="ss-accordion-chevron w-6 h-6 flex-shrink-0 transition-transform"
+                  aria-hidden="true"
+                >
+              </button>
+              <div class="ss-accordion-body accordionBody mt-3" style="display:none;">
+                <!-- acf: item_body (textarea) -->
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    // ss-left-image-right-content-accordion — vanilla JS for HTML preview
+    (function () {
+      document.querySelectorAll('.ss-accordion').forEach(function (group) {
+        group.querySelectorAll('.ss-accordion-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var item = this.closest('.ss-accordion-item');
+            var body = item.querySelector('.ss-accordion-body');
+            var chevron = item.querySelector('.ss-accordion-chevron');
+            var isOpen = this.getAttribute('aria-expanded') === 'true';
+
+            // Collapse all items in this group
+            group.querySelectorAll('.ss-accordion-item').forEach(function (i) {
+              var b = i.querySelector('.ss-accordion-body');
+              var c = i.querySelector('.ss-accordion-chevron');
+              var trigger = i.querySelector('.ss-accordion-btn');
+              if (b) b.style.display = 'none';
+              if (c) c.classList.remove('rotate-180');
+              if (trigger) trigger.setAttribute('aria-expanded', 'false');
+            });
+
+            // Expand clicked item if it was closed
+            if (!isOpen) {
+              body.style.display = '';
+              chevron.classList.add('rotate-180');
+              btn.setAttribute('aria-expanded', 'true');
+            }
+          });
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>

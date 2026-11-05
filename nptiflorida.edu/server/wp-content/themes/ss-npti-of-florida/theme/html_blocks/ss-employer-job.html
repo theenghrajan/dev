@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss-employer-job — Section Preview</title>
+  <link rel="stylesheet" href="../../theme/style.css">
+</head>
+
+<body class="bg-white">
+
+  <section
+    id="ss-employer-job"
+    class="ss-module-employer-job relative overflow-hidden min-h-[280px] md:min-h-[380px] flex items-center"
+  >
+
+    <!-- Background image + gradient overlay -->
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+      <!-- acf: background_image (image) -->
+      <img
+        src="https://www.figma.com/api/mcp/asset/1f5e01fd-5cad-43fe-b116-4176e3270ac2"
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover object-right"
+      >
+      <!-- Dark navy gradient: strong on left, fades to transparent right -->
+      <div class="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/70 to-transparent"></div>
+    </div>
+
+    <!-- Content — left-aligned -->
+    <div class="relative z-10 container mx-auto px-4 py-12 md:py-16">
+
+      <div class="flex flex-col gap-6 w-full md:w-7/12 lg:w-1/2">
+
+        <div class="flex flex-col gap-3">
+
+          <!-- acf: section_heading (text) -->
+          <h2 class="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
+            For Employers: Submit a Job Listing
+          </h2>
+
+          <!-- acf: section_description (textarea) -->
+          <p class="font-body font-normal text-md text-white/90 leading-relaxed">
+            Are you looking for qualified, NPTI-certified personal trainers? We partner with fitness facilities to connect them with our top graduates.
+          </p>
+
+          <!-- acf: contact_instruction (text) -->
+          <p class="font-body font-normal text-md text-white/90 leading-relaxed">
+            Email your job listing details to:
+            <a
+              href="mailto:admission@nptifl.com?subject=Job%20Listing%20Submission"
+              class="font-semibold text-orange hover:text-orange/80 transition-colors"
+            >admission@nptifl.com</a>
+            with the subject "Job Listing Submission"
+          </p>
+
+        </div>
+
+        <!-- acf: cta_label (text) + acf: cta_url (url) -->
+        <div>
+          <a
+            href="mailto:admission@nptifl.com?subject=Job%20Listing%20Submission"
+            class="inline-flex items-center justify-center bg-white hover:bg-orange/10 text-orange font-body font-bold text-sm uppercase rounded-4xl px-9 py-3 border-1.5 border-orange transition-colors"
+          >
+            Hire a Graduate (Email Us)
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss-location-map — Section Preview</title>
+  <link rel="stylesheet" href="../../theme/style.css">
+</head>
+
+<body class="bg-white">
+
+  <section
+    id="ss-location-map"
+    class="ss-module-location-map relative w-full overflow-hidden rounded"
+    style="height: 520px;"
+  >
+
+    <!-- Google Maps embed -->
+    <!-- acf: map_embed_url (url) or map_address (text) -->
+    <iframe
+      src="https://maps.google.com/maps?q=International+Plaza+Orlando+Florida+32817&output=embed"
+      width="100%"
+      height="100%"
+      style="border:0; display:block;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="NPTI Florida location map"
+      class="absolute inset-0 w-full h-full"
+    ></iframe>
+
+    <!-- Address overlay card -->
+    <!-- acf: map_address_label (text) -->
+    <div
+      class="absolute top-5 left-3 bg-white border border-navy/10 rounded shadow-card px-4 py-3 max-w-[288px] pointer-events-none"
+      aria-label="Location address"
+    >
+      <div class="flex items-start gap-2">
+        <img
+          src="https://www.figma.com/api/mcp/asset/c0e7b6b2-73c6-478c-ba75-0f3c454c28f7"
+          alt=""
+          class="w-5 h-5 mt-0.5 flex-shrink-0"
+          aria-hidden="true"
+        >
+        <div>
+          <p class="font-ui font-normal text-md text-navy leading-snug">Orlando, Florida 32817</p>
+          <p class="font-ui font-normal text-md text-navy leading-snug">(Inside International Plaza)</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+/* ------- default-block starts ------- */
+.default-block {
+    @apply
+    text-black
+    ;
+}
+
+.default-block blockquote {
+	@apply
+	sm:mb-8
+	2xl:mb-12
+	[&_p:last-of-type]:mb-0;
+}
+
+.default-block p + p {
+	@apply
+	2xl:mt-5
+	;
+}
+
+.default-block ul,
+.default-block ol {
+    @apply
+    space-y-4
+	marker:[&_li]:text-[inherit]
+    ;
+}
+
+.default-block ul,
+.default-block ol,
+.default-block p {
+	@apply
+	[&_a]:text-[inherit]
+    [&_a]:underline
+    hover:[&_a]:text-blue
+	;
+}
+
+.default-block p + h1,
+.default-block p + h2,
+.default-block p + h3,
+.default-block p + h4,
+.default-block p + h5,
+.default-block p + h6,
+.default-block blockquote + h1,
+.default-block blockquote + h2,
+.default-block blockquote + h3,
+.default-block blockquote + h4,
+.default-block blockquote + h5,
+.default-block blockquote + h6 {
+	@apply 
+    mt-5
+    ;
+}
+
+.default-block p + .wp-block-buttons,
+.default-block .wp-block-buttons + p {
+	@apply mt-6 lg:mt-8 2xl:mt-10;
+}
+
+.default-block .wp-block-image {
+	@apply my-6
+	text-center
+	sm:my-8
+	lg:my-10;
+}
+
+.default-block .wp-block-image img {
+	@apply
+	mx-auto
+	;
+}
+
+.default-block .wp-block-column {
+	@apply px-4 
+	[&:nth-child(2n)]:ml-0;
+}
+
+.default-block .wp-block-column .wp-block-image {
+	@apply mt-0
+	max-sm:mt-2
+	md:mb-6;
+}
+
+.default-block .wp-block-columns {
+	@apply -mx-4
+	mb-4
+	!items-center
+	max-sm:block
+	md:my-8
+	lg:my-12
+	2xl:my-16;
+}
+
+.default-block .wp-block-columns .wp-block-gallery,
+.default-block .wp-block-columns .blocks-gallery-item {
+	@apply m-0
+	p-0;
+}
+
+.default-block .wp-block-columns .wp-block-gallery {
+	@apply list-none;
+}
+
+.default-block .wp-block-columns .blocks-gallery-item {
+	@apply before:hidden;
+}
+
+.default-block .wp-block-button__link {
+	@apply
+    btn
+    ;   
+}
+
+.comment-reply-title {
+	@apply
+	flex
+	flex-wrap
+	items-center
+	gap-2
+	;
+}
+
+/* ------- search-result-article ------- */
+.search-result-article {
+	@apply mb-4 border
+	border-solid
+	border-blue
+	py-6
+	sm:py-8
+	px-4 
+	transition 
+	hover:bg-blue/10
+	sm:mb-8
+	sm:p-6
+	empty:[&>*]:hidden
+	;
+}
+
+.search-result-article p a {
+	@apply ml-1;
+}
+
+.entry-footer > *,
+.entry-meta > * {
+	@apply
+	pr-2
+	mr-2
+	border-r
+	border-r-steel/80
+	last:pr-0
+	last:mr-0
+	last:border-0
+	;
+}
+
+/* pagination */
+.pagination .nav-links {
+    @apply
+    flex
+    justify-center
+    flex-wrap
+    gap-y-3
+    ;
+}
+
+.pagination .page-numbers {
+    @apply
+	no-underline
+    grid
+	place-items-center
+	text-[1rem]
+	text-black-near
+	bg-silver
+    size-8
+    border
+    border-transparent
+	rounded-full
+    leading-none
+    mx-1
+	transition-all
+	duration-300
+    hover:no-underline
+    hover:text-white
+    hover:bg-orange
+    [&.current]:pointer-events-none
+    [&.current]:bg-orange
+    [&.current]:text-white
+    ;
+}
+

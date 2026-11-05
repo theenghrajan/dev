@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ss-hyflex-table — Section Preview</title>
+  <link rel="stylesheet" href="../../theme/style.css">
+</head>
+
+<body class="bg-white">
+
+  <section
+    id="ss-hyflex-table"
+    class="ss-module-hyflex-table py-10 md:py-16 lg:py-20"
+  >
+    <div class="container mx-auto px-4">
+
+      <!-- Responsive scroll wrapper -->
+      <div class="overflow-x-auto">
+
+        <!-- acf: table_rows (repeater) -->
+        <table class="w-full border-collapse border border-black/10 rounded-sm overflow-hidden text-left">
+
+          <!-- ── Header ──────────────────────────────────────────────────── -->
+          <thead>
+            <tr class="bg-navy">
+              <th class="font-heading font-bold text-md text-white text-center py-4 px-4 border-r border-white/10 w-28">
+                Course #
+              </th>
+              <th class="font-heading font-bold text-md text-white text-center py-4 px-4 border-r border-white/10">
+                Course Title and Description
+              </th>
+              <th class="font-heading font-bold text-md text-white text-center py-4 px-4 border-r border-white/10 w-28">
+                Theory Hours
+              </th>
+              <th class="font-heading font-bold text-md text-white text-center py-4 px-4 border-r border-white/10 w-40">
+                Practicum/<br>Lab Hours
+              </th>
+              <th class="font-heading font-bold text-md text-white text-center py-4 px-4 border-r border-white/10 w-28">
+                Total Hours
+              </th>
+              <th class="font-heading font-bold text-md text-white text-center py-4 px-4 border-r border-white/10 w-16">
+                Online
+              </th>
+              <th class="font-heading font-bold text-md text-white text-center py-4 px-4 w-36">
+                Hyflex/<br>In Person
+              </th>
+            </tr>
+          </thead>
+
+          <!-- ── Body ───────────────────────────────────────────────────── -->
+          <tbody>
+
+            <!-- acf: course_number, course_title, course_description, theory_hours, practicum_hours, total_hours, online, hyflex -->
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF101</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Legal Guidelines &amp; Business Management</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents legal issues, business concerns, and summarizes the legal responsibilities of a personal trainer. Students learn the scope of practice of personal training. Student learns the steps behind starting their own personal training business.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF102</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Health Screening &amp; Fitness Evaluations</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Teaches the student to use client&#x2019;s health history to create a safe and effective training program.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF103</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Cardio Fitness Training</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents various training methods and cardio respiratory activities that can be used to meet specific needs.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF104</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Muscular Strength &amp; Endurance</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents the benefits of strength training and methods of incorporating various types of training equipment.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF105</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Strength Training Program Design</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents ways to create and modify a strength-training program that will meet the psychological and physical needs of the client.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF106</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Communication &amp; Teaching</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents the methods of establishing and maintaining a helping relationship with clients, resulting in positive lifestyle changes. Includes teaching techniques.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF107</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Flexibility &amp; Stretching</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents the science and research behind flexibility training methods that will help to attain fitness goals and decrease the risk of injury.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF109</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Human Anatomy &amp; Physiology</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents the structure and function of ten major systems within the human body; cardiovascular, respiratory, nervous, skeletal, muscular, endocrine, integumentary, digestive, excretory, reproductive, and biomechanics and kinesiology of the body as it pertains to exercise.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF110</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Nutrition</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents information on the basic nutrients and nutritional needs of physically active adults. Includes the standards of practice, energy &amp; body composition, and daily energy needs.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF111</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Musculoskeletal Injuries, Emergency Procedures &amp; Injury Rehab</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents how to develop programs for clients with pre-existing musculoskeletal injuries, and also how to deal with other injuries and common medical emergencies.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF112</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Personal Training Advertising &amp; Marketing</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents advertising and marketing concerns of the Personal Trainer&#x2019;s business. Includes how to utilize social media marketing tools.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF113</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Adherence &amp; Motivation</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Presents the factors that influence exercise adherence, and the methods for keeping clients motivated.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF114</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Core Training &amp; Stabilization</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Core training, core musculature and the importance of training the stabilization systems.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF115</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Resistance Training Systems</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Progressive adaptations from resistance training with reference to stabilization, muscular endurance, hypertrophy, strength &amp; power.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF116</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Biomechanics</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Muscular force, length-tension relationships, force-velocity curve, and force-couple relationships.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF117</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Special Health Concerns</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Students learn client health concerns and the resulting modifications required from basic exercises and exercise programs.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF118</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Supplementation</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Dietary supplements, supplementation guidelines, dietary reference intake values and guidelines.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF119</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">CPR/AED &amp; First Aid</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Students are certified in CPR &amp; First Aid by a Red Cross certified technician.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF120</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Special Populations</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Physiologic and training considerations for individuals with specific health concerns. This includes but is not limited to obesity, coronary heart disease, asthma, pregnancy, osteoporosis, cancer and diabetes.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF121</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Final Review &amp; Test (Theory)</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Final exam to test the student on all aspects of training, Anatomy, Physiology and Nutrition.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF121</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Final Review &amp; Test (Practical)</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">Final practical exam where the student must perform 5 tests so that the students are capable of evaluating and testing clients in a fitness center.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+            <tr class="border-b border-black/10 bg-blue/[0.02]">
+              <td class="font-body font-normal text-md text-navy py-3 px-4 border-r border-black/10 align-top">PF121</td>
+              <td class="py-3 px-4 border-r border-black/10 align-top">
+                <p class="font-heading font-bold text-md text-navy leading-snug mb-2">Practical Application</p>
+                <p class="font-body font-normal text-md text-navy leading-relaxed">The experience and application part of the training is designed to evaluate, design, and implement a complete workout for a fellow student or client. Documentation of weight, body fat, strength results and workout changes must be presented to the instructor on a weekly basis.</p>
+              </td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">18</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-3 px-4 border-r border-black/10 align-top">118</td>
+              <td class="border-r border-black/10 align-top"></td>
+              <td class="align-top"></td>
+            </tr>
+
+          </tbody>
+
+          <!-- ── Footer / Totals row ─────────────────────────────────────── -->
+          <tfoot>
+            <tr class="bg-blue/[0.02] border-t border-black/10">
+              <td class="font-heading font-bold text-md text-navy py-4 px-4 border-r border-black/10">Total Hours</td>
+              <td class="border-r border-black/10 py-4 px-4"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-4 px-4 border-r border-black/10">382</td>
+              <td class="font-body font-normal text-md text-navy text-center py-4 px-4 border-r border-black/10">218</td>
+              <td class="font-body font-normal text-md text-navy text-center py-4 px-4 border-r border-black/10">600</td>
+              <td class="border-r border-black/10 py-4 px-4"></td>
+              <td class="font-body font-normal text-md text-navy text-center py-4 px-4">100</td>
+            </tr>
+          </tfoot>
+
+        </table>
+
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
