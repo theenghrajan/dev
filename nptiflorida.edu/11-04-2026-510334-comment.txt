@@ -1,0 +1,9 @@
+Will Cooley
+
+As per comment #4,
+
+For the site: https://nptiflorida.edu/
+
+We have started adding the GTM container GTM-KB5B4ZZ4 to the 4 landing pages. We are running into a site caching issue that is stopping the GTM code from showing on the pages. We are working on it and have set the due date to Thursday, November 5th to finish and review it. We will update you once GTM is working on all 4 landing pages.
+
+Thanks!
