@@ -1,0 +1,13 @@
+As per comment #3,
+
+Re: Can you move it under the image like the example page.
+...
+The "Email to Colleague" link is now placed directly below the product image, like the example page. This applies to all product pages.
+
+https://307-updating-share-icons-on-pr.willrich.smartwebsitedesign.com/product/rok-it-spherical-bore-plug-gages/
+
+Reference screenshot: https://drive.google.com/file/d/1_e1iel7K51kMBBBasJYa9HAl8-C4_rZq/view?usp=sharing
+
+Please review and let us know if we can push this live.
+
+Thanks!
