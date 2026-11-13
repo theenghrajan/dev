@@ -1,0 +1,24 @@
+https://login.smartsites.com/projects/4556/tasks/511734
+
+As per comment #7, before we start on the updates, we need a confirmation from the Inbound Marketing team on the Point of Purchase Displays page.
+
+For the site: https://www.theglobaldisplaysolution.com/
+
+Re: 2. "As suggested in task #497969, add the following product categories to the page"
+...
+The 5 categories (Candy Racks, Wire Merchandising Racks, Willow Basket Displays, Barrel Displays and Dump Bins) are currently listed under the Display Racks & Store Fixtures category, and they are the only items on that page.
+URL: https://www.theglobaldisplaysolution.com/display-racks-store-fixtures/
+Reference screenshot: https://drive.google.com/file/d/1CfF27kIPPrUo_YKoAHdShHtcX-m7fulw/view?usp=sharing
+
+We can add them to the Point of Purchase Displays page in one of two ways. The Point of Purchase Displays page will look the same with either option:
+URL: https://www.theglobaldisplaysolution.com/point-of-purchase-displays/
+Reference screenshot: https://drive.google.com/file/d/1mEPBqSwSw1jKmdIiouGUQDE0e2d7XVRR/view?usp=sharing
+
+Option A (recommended): Add the 5 categories to the Point of Purchase Displays page as linked tiles. They will also stay on the Display Racks & Store Fixtures page, so nothing changes there.
+
+Option B: Move the 5 categories from Display Racks & Store Fixtures to Point of Purchase Displays. The Display Racks & Store Fixtures page will then be empty and show "There are no products listed under this category."
+Reference screenshot: https://drive.google.com/file/d/1_9t11yz-SNsnmhb_441Y4Yafjf4SY1Hr/view?usp=sharing
+
+Please let us know which option you would like us to go with. If Option B, please also confirm what should happen to the Display Racks & Store Fixtures page.
+
+Thanks!

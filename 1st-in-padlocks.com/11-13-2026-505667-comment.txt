@@ -1,0 +1,42 @@
+https://login.smartsites.com/projects/4050/tasks/505667
+
+As per comment #10, we have worked through the action plan sheet from comment #9.
+
+For the site: https://1st-in-padlocks.com/
+
+1. Product vendors (rows 1-2)
+The vendor of "Master Lock A5300 Solid Body Shrouded Padlock" and "Master Lock American Lock APT2001 & Master 297 Cylinder" is now American Lock, so both products now show in the American Lock collection.
+Reference screenshot: https://drive.google.com/file/d/1T1Ugo9KqZ0hRLDkEoDx60wQQEo1xVkIO/view?usp=sharing
+
+2. Duplicate collections retired (row 3)
+The 6 duplicate collections (abus, all-product-abus, american-lock-safety-padlocks, all-products, trimax-1, all-products-paclock-trimax) have been renamed and hidden from the online store, so they are no longer in the sitemap.
+Reference screenshots: 
+https://drive.google.com/file/d/1msv_lJIptEbUzXHRQvZGWCQwdYnm_9R2/view?usp=sharing
+https://drive.google.com/file/d/1I4YItmM6R6uXGgQrsMAeoa5mUqWUaZW6/view?usp=sharing
+
+3. 301 redirects (rows 4-10)
+Each old collection URL now redirects to the main collection for that brand:
+/collections/abus -> /collections/abus-locks
+/collections/all-product-abus -> /collections/abus-locks
+/collections/all-product-abus/ABUS-Lock-Products -> /collections/abus-locks
+/collections/american-lock-safety-padlocks -> /collections/american-lock
+/collections/all-products -> /collections/master-lock
+/collections/trimax-1 -> /collections/trimax
+/collections/all-products-paclock-trimax -> /collections/paclock
+Reference screenshot: https://drive.google.com/file/d/1xgJyNDEhEHzkftWrFBUPR49j_mFZkp1M/view?usp=sharing
+
+4. Desktop and mobile menus (rows 11-19)
+All brand links in both menus (ABUS, American Lock, Master Lock, TriMax, PacLock, SentrySafe, Transport Security, Gate Keeper) and Discount Locks now point to the same clean collection URL, with no tag path at the end.
+Reference screenshot: https://drive.google.com/file/d/1XvrHnnRjSEjBcTxHdAuudVa0R9sJItve/view?usp=sharing
+
+5. Theme updates (rows 21-22) - ready for review
+The "ABUS" brand label on product cards and product pages now links to /collections/abus-locks, and the American Lock links on the homepage logo strip and the collections page now go to /collections/american-lock. We checked all other pages and blog posts and found no other links to the old collections.
+These changes are on a draft copy of the theme, not on the live theme yet. Please review here:
+https://1st-in-padlocks.myshopify.com?preview_theme_id=193610842411
+Reference screenshots: 
+https://drive.google.com/file/d/12xvTNAtc_iUedqYcGt6_ePDuC_YuTFiz/view?usp=sharing
+https://drive.google.com/file/d/1KI0Yxg5yIOI4ZPVJ9Gf5vuRjfe8ajD-b/view?usp=sharing
+
+Please let us know once approved, and we will publish the theme changes to the live site.
+
+Thanks!

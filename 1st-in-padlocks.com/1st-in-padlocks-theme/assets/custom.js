@@ -4,9 +4,23 @@
  * We also offer some hooks so you can plug your own logic. For instance, if you want to be notified when the variant
  * changes on product page, you can attach a listener to the document:
  *
- * document.addEventListener('variant:changed', function(event) {
- *   var variant = event.detail.variant; // Gives you access to the whole variant details
- * });
+ * document.addEventListener('variantChange', function(event) {
+// Assuming 'koalaBundlesWidget' is the ID or class of the widget
+const widget = document.querySelector('.koalaBundlesWidget');
+
+if (widget) {
+// Fetch the updated discount details for the selected variant
+const selectedVariantId = event.detail.variantId; // Replace with the actual variant ID from your theme
+fetch(`/path-to-fetch-discount-details?variantId=${selectedVariantId}`)
+.then(response => response.json())
+.then(data => {
+// Update the widget with the new discount details
+widget.innerHTML = data.discountHTML; // Replace 'discountHTML' with the actual key from the response
+})
+.catch(error => console.error('Error updating Koala Bundles widget:', error));
+}
+});
+
  *
  * You can also add a listener whenever a product is added to the cart:
  *

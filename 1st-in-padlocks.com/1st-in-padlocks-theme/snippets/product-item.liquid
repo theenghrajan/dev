@@ -160,6 +160,7 @@
       {%- capture vendor -%}
         {%- if settings.show_vendor -%}
           {%- assign vendor_handle = product.vendor | handle -%}
+          {%- if vendor_handle == 'abus' -%}{%- assign vendor_handle = 'abus-locks' -%}{%- endif -%}{%- comment -%} SS #175: /abus retired {%- endcomment -%}
           {%- assign collection_for_vendor = collections[vendor_handle] -%}
 
           {%- unless collection_for_vendor.empty? -%}

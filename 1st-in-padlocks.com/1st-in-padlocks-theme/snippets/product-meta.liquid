@@ -17,7 +17,7 @@
       </li>
 
       <li class="social-media__item social-media__item--twitter">
-        <a href="https://twitter.com/share?{% if twitter_text != blank %}text={{twitter_text}}&{% endif %}url={{ share_url }}" target="_blank" rel="noopener" aria-label="{{ 'general.social.twitter_tweet' | t }}">{%- render 'icon', icon: 'twitter' -%}</a>
+        <a href="https://x.com/share?text=A1105%20SAFETY%20PADLOCKS&url=https://1st-in-padlocks.com/products/a1105-safety-padlock" target="_blank" rel="noopener" aria-label="{{ 'general.social.twitter_tweet' | t }}">{%- render 'icon', icon: 'twitter' -%}</a>
       </li>
 
       <li class="social-media__item">
@@ -74,6 +74,7 @@
     <div class="product-meta__reference">
       {%- if block.settings.show_vendor -%}
         {%- assign vendor_handle = product.vendor | handle -%}
+        {%- if vendor_handle == 'abus' -%}{%- assign vendor_handle = 'abus-locks' -%}{%- endif -%}{%- comment -%} SS #175: /abus retired {%- endcomment -%}
         {%- assign collection_for_vendor = collections[vendor_handle] -%}
 
         {%- unless collection_for_vendor.empty? -%}

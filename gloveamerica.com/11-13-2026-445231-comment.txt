@@ -1,0 +1,16 @@
+As per comment #10, the brand (SureCare) and the SKU in each price offer are ready on the dev site (see comment #11), for your review. Nothing is live yet.
+
+Dev URL: https://ppo42-schema.gloveamerica.smartwebsitedesign.com/product/nitrile-deluxe-black-7-mil/
+
+Here is the brand and SKU in the product code on two sample pages:
+Nitrile gloves page: https://drive.google.com/file/d/1BWfr5vfP1jM2GBSXTcwfgrzEr525u9io/view?usp=sharing
+Glove dispenser page: https://drive.google.com/file/d/106LGkRmK1r6XsaLsFa-hX28UCj3ikcJ8/view?usp=sharing
+
+Before we push it live, please confirm:
+
+1. Brand: is "SureCare" correct for every product? The glove dispenser photo shows a "Bowman" label, so dispensers (and maybe the fog-resistant wipes) may need a different brand.
+2. Part number (MPN): your first comment asked for it, and the product code doesn't show it today. We can add it now using the SKU already on each page (e.g. NPFT26X0), since it doesn't need anything from the client. Should we include it?
+
+The barcodes (GTIN) and separate prices for each size and pack will follow once Andrea sends them.
+
+Thanks!

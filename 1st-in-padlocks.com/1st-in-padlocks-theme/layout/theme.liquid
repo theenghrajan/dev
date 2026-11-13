@@ -70,10 +70,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
     {{ content_for_header }}
-    {%- render 'bold-pr' -%}
-    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
     {% render 'microdata-schema' %}
+
+    {% if request.page_type == "search" %}
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
 
     <script>
       // This allows to expose several variables to the global scope, to be used in scripts

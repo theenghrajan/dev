@@ -1,0 +1,20 @@
+Tiffany Reyes Inbound Marketing Team
+As per comment #20,
+
+Here is the list of old URLs and the proposed new URLs for the 35 products marked "Please proceed" in comment #21:
+[SHEET LINK]
+
+What changes in each URL:
+- The size at the start is removed (for example, 24-x-24-bamboo-table-top.html becomes bamboo-table-top.html).
+- The extra number Magento added to copied products is removed (for example, -2648 at the end).
+- 4 resin table tops would end up with the same URL, so each one keeps its own SKU number at the end to tell them apart.
+
+Each old URL will be 301 redirected to its new URL. All other URLs on the sheet stay as they are.
+
+One question: the "textured dark brown sintered stone table top ... 7-8-thickness" URL has no top size in it (7/8 is the thickness), so we have left it unchanged. Please let us know if you want anything changed there.
+
+We will not change anything on the live site until the client approves this list.
+
+Please review and let us know.
+
+Thank you.
