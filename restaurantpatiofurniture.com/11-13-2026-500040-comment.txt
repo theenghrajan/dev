@@ -1,20 +1,21 @@
-Tiffany Reyes Inbound Marketing Team
-As per comment #20,
 
-Here is the list of old URLs and the proposed new URLs for the 35 products marked "Please proceed" in comment #21:
-[SHEET LINK]
+As per comment #21,
 
-What changes in each URL:
-- The size at the start is removed (for example, 24-x-24-bamboo-table-top.html becomes bamboo-table-top.html).
-- The extra number Magento added to copied products is removed (for example, -2648 at the end).
-- 4 resin table tops would end up with the same URL, so each one keeps its own SKU number at the end to tell them apart.
+For the site: https://www.restaurantpatiofurniture.com/
 
-Each old URL will be 301 redirected to its new URL. All other URLs on the sheet stay as they are.
+Re: 1. We have updated the sheet by determining the Top size only and leave the the rest.
+...
+Noted. We will only update the 35 URLs marked "Page with Top size dropdown" and leave all the other URLs as they are.
 
-One question: the "textured dark brown sintered stone table top ... 7-8-thickness" URL has no top size in it (7/8 is the thickness), so we have left it unchanged. Please let us know if you want anything changed there.
+One of these, the "textured dark brown sintered stone table top ... 7-8-thickness" URL, has no top size in it (7-8 is the thickness), so we would leave it unchanged. Please let us know if you want anything changed there.
+Reference screenshot: https://drive.google.com/file/d/1gkckbbfEmKZxw8SdXgu3INmL1tv5-zuA/view?usp=sharing
 
-We will not change anything on the live site until the client approves this list.
+Re: 2. For the pages as we've marked duplicate, we agree to leave them as are.
+...
+Noted. We will leave the duplicate URLs as they are.
+
+We will hold off on any changes on the live site until we get the go-ahead.
 
 Please review and let us know.
 
-Thank you.
+Thanks!

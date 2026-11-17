@@ -1,0 +1,15 @@
+As per comment #6,
+
+For the site: https://willrich.com/
+
+Re: Please do on live
+...
+The "Email to Colleague" link is now live on all product pages. It sits directly below the product image in the Willrich red, and the old Facebook and email share circles are removed. Clicking it opens the visitor's email program with the product name and page link already filled in.
+
+https://willrich.com/product/rok-it-spherical-bore-plug-gages/
+
+Reference screenshot: https://drive.google.com/file/d/199xhq62JDnxDpvTpA4gs-RyF22wfP2bA/view?usp=sharing
+
+Please review and let us know.
+
+Thanks!
