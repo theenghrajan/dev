@@ -1,0 +1,16 @@
+As per comment #5,
+
+For the site: https://www.hollywoodgoldexchange.com/
+
+Re: 1. Should we fix the 832-579-0780 link?
+...
+Done. On the Contact Us page, the "Phone 323-645-7828" link in the Contact Information box now dials 323-645-7828 instead of 832-579-0780. All phone links on the page now dial 323-645-7828.
+https://www.hollywoodgoldexchange.com/contact-us/
+Reference screenshot: https://drive.google.com/file/d/1tY0mdXRFeWgmu4G-eDFNdJPFcYlQM5fR/view?usp=sharing
+
+Re: 2. Should we add a quote form back to /sell-to-us/? If so, please let us know where on the page it should go.
+...
+We suggest placing the "Sell to us" quote form (First Name, Last Name, Phone, E-mail, description of items, Submit) directly under the "How It Works" section, since step 1 there is "Get a Free Quote". Task https://login.smartsites.com/projects/7463/tasks/511641 also adds new sections right after "How It Works", so the form would sit just above them. Please confirm this spot or let us know where you would like it, and we will add it.
+Reference screenshot: https://drive.google.com/file/d/1uNojXqkTUAi6sA593gSTI9N_edt0Dj07/view?usp=sharing
+
+Thanks!
