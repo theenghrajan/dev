@@ -1,0 +1,9 @@
+As per the task description, we are ready to add the UL Product Listing to the Related Files section on the Standing Seam, Nail Strip and 1.75" Snap Lock Panel product pages on the dev site.
+
+https://metalmastershopn.smartwebsitedesign.com/
+
+However, we don't see the UL Product Listing (R40618) PDF attached to the task. Could you please share the PDF here?
+
+Once we have it, we'll add the link "UL Roofing Systems – Product Listing (R40618)" as the last link (after NOAs & Florida Approvals) on these 3 pages only, and share the dev links for your review.
+
+Thanks!

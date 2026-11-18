@@ -1,0 +1,27 @@
+As per comment #6,
+
+For the site: https://www.hollywoodgoldexchange.com/
+
+Re: update content only
+...
+We have added the new homepage content from the Content Team's document to a draft copy of the homepage. The live homepage has not been changed yet.
+
+Draft page (you need to be logged in to WordPress to view it): https://www.hollywoodgoldexchange.com/?page_id=20235&preview=true
+
+1. The main heading at the top now reads "Buy Gold, Silver, Platinum & Palladium From A Trusted Los Angeles Dealer".
+Reference screenshot: https://drive.google.com/file/d/19GI-GJ9DgGIGhUcvn76LNIhiATEgZeN-/view?usp=sharing
+
+2. A new "Your Trusted Gold Dealer in Los Angeles" section is added right after "Shop Gold, Silver & Platinum Online".
+Reference screenshot: https://drive.google.com/file/d/1rG_TlWFa7bLLTwO4am0ZO3Oz5D193z7e/view?usp=sharing
+
+3. The reviews heading now reads "What Our Customers Are Saying", and a new line linking to the Contact Us page is added under the reviews.
+Reference screenshot: https://drive.google.com/file/d/1GDbcMdD1JDzJJm4XgOblO1Q6HrsB9Cbb/view?usp=sharing
+
+4. 5 new questions are added at the top of the FAQ section.
+Reference screenshot: https://drive.google.com/file/d/1lDRdGxFUi49PcQjbetBOmf1-Ad5vATft/view?usp=sharing
+
+5. The page's meta description is updated to the one in the document.
+
+Please review the draft and let us know if we can update the live homepage with these changes.
+
+Thanks!

@@ -1,0 +1,18 @@
+As per comment #6, I have added the content from the Content Team's Final doc to a draft copy of the Sell To Us page for your review. The live page has not been changed yet.
+
+For the site: https://www.hollywoodgoldexchange.com/sell-to-us/
+
+Changes on the draft:
+1. Added a sentence to the intro, linking to our step-by-step guide to selling gold in Los Angeles.
+2. Added three new sections after How It Works: "How Your Gold and Silver Are Priced", "Getting Paid for Your Gold" and "What Sellers Say About Us".
+Reference screenshot: https://drive.google.com/file/d/1jM6CZNlm_nTllinPHNJmhlhASvjklXEz/view?usp=sharing
+3. Added two new FAQs: "Where do I get the most money for gold?" and "How much money will I get if I sell my gold?". The FAQ now has 9 questions, and the FAQ schema was updated to match.
+4. Added a "Ready to Sell?" section at the end of the page.
+Reference screenshot: https://drive.google.com/file/d/1rfhSThVuVa-_ZCxU3_lVzDrJL8Mp0jqc/view?usp=sharing
+
+Once you approve, I will move this to the live page and also:
+- Update the page title to "Sell Gold in Los Angeles | Hollywood Gold & Silver Exchange" and the meta description from the Final doc.
+
+Please review and let me know if it's good to go live.
+
+Thanks!
