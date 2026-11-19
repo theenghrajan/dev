@@ -1,0 +1,28 @@
+https://login.smartsites.com/projects/4050/tasks/505667
+
+As per comment #13, the theme updates are now live.
+
+For the site: https://1st-in-padlocks.com/
+
+1. Theme updates (rows 21-22) - live
+The "ABUS" brand label on product pages and related product cards now links to /collections/abus-locks, and the American Lock logo on the homepage and the American Lock card on the collections page now go to /collections/american-lock.
+Reference screenshots:
+https://drive.google.com/file/d/1nI7uZ4srkKVz16Z2UQ7LogMvIaN5ADFv/view?usp=sharing
+https://drive.google.com/file/d/1CGvVcKDaIfaMa26dsA__jTKP3MBBrQrr/view?usp=sharing
+
+2. Two follow-up questions (not in the action sheet, so nothing has been changed yet):
+
+a) The product "Master Lock A5300 Solid Body Shrouded Padlock" now has American Lock as its brand, and its description and image are also American Lock, but the title still starts with "Master Lock". Should we rename it, for example to "American Lock A5300 Solid Body Shrouded Padlock"?
+Product: https://1st-in-padlocks.com/products/a5300-solid-body-shrouded-padlock
+
+b) 5 older redirects from the previous website were set up to point to the old American Lock collection, not the main one:
+/american-lock-m-6.html
+/american-lock-m-6.html?page=4&sort=products_sort_order
+/american-lock-c-138.html
+/en-ca/collections/american-lock-safety-padlocks
+These 4 still work, but take two redirects to reach /collections/american-lock.
+/american-lock-safety-padlocks-c-149.html
+This one currently ends on a "page not found" page.
+Should we point all 5 straight to /collections/american-lock?
+
+Thanks!
