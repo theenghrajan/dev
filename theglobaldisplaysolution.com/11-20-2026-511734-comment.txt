@@ -1,0 +1,33 @@
+Christen Bevis
+
+As per comment #12,
+
+For the site: https://www.theglobaldisplaysolution.com/
+
+Re: "Would it be possible to display the individual product tiles directly instead of the product category tiles?"
+...
+We checked the page and all 17 products from the Inbound Marketing team's list (comment #11) are showing as a normal product grid with filters and sorting, and the "There are no products listed under this category" message is gone.
+URL: https://www.theglobaldisplaysolution.com/point-of-purchase-displays/
+Reference screenshot: https://drive.google.com/file/d/1fMAz4TGs6h8_u3PgGzAYgqTBbfLyFUH_/view?usp=sharing
+
+The products also stay in their current categories (Candy Racks, Wire Merchandising Racks, Willow Basket Displays, Barrel Displays and Dump Bins), so those pages and the Display Racks & Store Fixtures page are unchanged. Product page links have not changed.
+
+While checking, we noticed a few things on these products:
+
+1. Two 48" Candy Rack products show the correct names on the page, but their page titles (shown in the browser tab and in Google results) say "Candy Racks | Wire Retail Merchandiser | 36" | Black", the same as the 36" product:
+https://www.theglobaldisplaysolution.com/candy-racks-wire-retail-merchandiser-48-black-1/
+Reference screenshot: https://drive.google.com/file/d/1x43y_6fa0geTFKhUsEi9tzMtoDrfzz29/view?usp=sharing
+https://www.theglobaldisplaysolution.com/candy-racks-wire-retail-merchandiser-48-black/
+Reference screenshot: https://drive.google.com/file/d/1ZheK9q53ZfTVS5rozYFzisp4uajhHHZy/view?usp=sharing
+
+2. The "Custom Stain & Stencil (One color)" barrel product has the page title "50 Gal. Half Barrel Display | 3 Shelves | Custom Stain", the same as the Custom Stain product:
+https://www.theglobaldisplaysolution.com/50-gal-half-barrel-display-3-shelves-custom-stain-stencil-one-color/
+Reference screenshot: https://drive.google.com/file/d/1Qp_9YB_ctLsGM7I-BHCXS4dp84gaAJrQ/view?usp=sharing
+
+3. This product's name says "Back Order: Ships November 20, 2026", which is today:
+https://www.theglobaldisplaysolution.com/4-shelf-candy-snack-under-counter-display-rack-34-w-black-back-order-ships-november-20-2026/
+Reference screenshot: https://drive.google.com/file/d/1wzArjtVpAFTatrL1zboY0kBEZcbLQ9c7/view?usp=sharing
+
+Please let us know if you would like any of the above updated, and share the new page titles and product name to use.
+
+Thanks!

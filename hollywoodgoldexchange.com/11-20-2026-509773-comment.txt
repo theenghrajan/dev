@@ -1,0 +1,24 @@
+As per comment #10, the approved changes are now live on the Sell To Us page.
+
+For the site: https://www.hollywoodgoldexchange.com/sell-to-us/
+
+1. Added the new intro sentence and the three new sections after How It Works: "How Your Gold and Silver Are Priced", "Getting Paid for Your Gold" and "What Sellers Say About Us".
+Reference screenshot: https://drive.google.com/file/d/1BIXFu8GVQCWF8hb_egwc2lnnm3IcN5pe/view?usp=sharing
+
+2. Added the two new FAQs (9 in total, with the FAQ schema updated to match) and the "Ready to Sell?" section at the end of the page.
+Reference screenshot: https://drive.google.com/file/d/1B9lGU-yPst5IKPvGE0W34KD6dMK8ny_B/view?usp=sharing
+
+3. Updated the page title to "Sell Gold in Los Angeles | Hollywood Gold & Silver Exchange" and the meta description from the Final doc.
+Reference screenshot: https://drive.google.com/file/d/1NvuwpS4cUDmxDT5igB5dmQ3M6cojywFj/view?usp=sharing
+
+4. As per recommendation 1 in comment #2, linked the words "Selling gold" in the "What to Expect When Selling Gold in Los Angeles" article to the Sell To Us page.
+For the page: https://www.hollywoodgoldexchange.com/what-to-expect-when-selling-gold-in-los-angeles/
+Reference screenshot: https://drive.google.com/file/d/1DVMWNzInfgpgLdv2WZCza_fWMyTXbc7a/view?usp=sharing
+
+5. Requested indexing for both pages in Google Search Console, so Google picks up the updated content sooner.
+Reference screenshot: https://drive.google.com/file/d/1gpkoW7CGwTSgjntRfc5NJdB5YAYOCqje/view?usp=sharing
+Reference screenshot: https://drive.google.com/file/d/1pjsnQzFsJ4iiSAACXKYWkP6pNC9S3Oa1/view?usp=sharing
+
+Please review.
+
+Thanks!

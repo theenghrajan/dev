@@ -1,0 +1,40 @@
+Diane Ynojosa
+As per comment #5,
+
+The changes are ready for your review on the dev site. The live site has not been changed yet.
+For the site: https://182-2-payment-method-page.hollywoodgold.smartwebsitedesign.com/payment-methods/
+
+Re: 1. 24/48 hours: change it to 24 hours. For both Bank Wire and Check, the customer has to send the payment within 24 hours and send the client a confirmation that it was sent.
+...
+Bank Wire and Check Payment now say the payment must be sent within 24 hours, the customer must send a confirmation that it was sent, the order is on hold until then, and if no confirmation comes in within 24 hours the order is canceled and the deposit is non-refundable.
+Reference screenshot: https://drive.google.com/file/d/1d1oij6SvM-44RwVe6t1Ep9I4J8O_SFTQ/view?usp=sharing
+
+Re: 2. Credit card fee amount: the deposit is $500 or $1,000, depending on the order amount.
+...
+Both sections now say a credit card deposit of $500 or $1,000, depending on the order amount, is held when the order is placed. No cutoff amount is shown yet.
+Reference screenshot: https://drive.google.com/file/d/1d1oij6SvM-44RwVe6t1Ep9I4J8O_SFTQ/view?usp=sharing
+
+Re: 3. "Checks are approved for orders up to $2,000,000" under Bank Wire: bank wires are fine for any amount, so please remove that line from the Bank Wire section.
+...
+Removed from Bank Wire. Check Payment still says "Checks are approved for orders up to $500,000" until the client confirms the check limit.
+Reference screenshot: https://drive.google.com/file/d/1d1oij6SvM-44RwVe6t1Ep9I4J8O_SFTQ/view?usp=sharing
+
+Re: 4. Footer payment logos: remove PayPal and Discover.
+...
+The footer now shows only Visa, MasterCard and American Express.
+Reference screenshot: https://drive.google.com/file/d/1Xz0l5s708_s5A_1NN5XhbgmeeE25mWFO/view?usp=sharing
+
+Once you confirm the wording, we will apply the same changes on the live site.
+
+We still need from the client:
+1. The order amount where the deposit changes from $500 to $1,000.
+2. The check limit.
+
+Two other pages still mention things the client asked to change. Please check with the client whether we should update them:
+1. The Shipping & Return Policy page mentions PayPal refunds in two places.
+https://www.hollywoodgoldexchange.com/shipping-return-policy/
+
+2. The Terms and Conditions say payments are accepted by credit card, debit card or bank wire, without checks.
+https://www.hollywoodgoldexchange.com/terms-and-conditions/
+
+Thanks!
